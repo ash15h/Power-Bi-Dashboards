@@ -238,7 +238,6 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
 
 <h3>Objective:</h3>
 To analyze Indian cricketers' match statistics, performance metrics, and historical data to identify key trends, top performers, and strategic insights for improving team performance.
-![image]()
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
@@ -251,9 +250,8 @@ To analyze Indian cricketers' match statistics, performance metrics, and histori
 <strong><p>Test Captain's stats</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/feea334a-184a-4284-aa60-2c7767d10723" style="width: 80%; height: auto; margin-bottom: 20px;">
 <strong><p>Test Player's stats</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/e69a60e3-dcde-4595-b7d2-d98dc5b29ba1" style="width: 80%; height: auto;">
 </div>
-
 
 <h3>Data Preparation:</h3>
 <ul>
