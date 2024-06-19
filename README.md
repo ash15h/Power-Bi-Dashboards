@@ -185,7 +185,7 @@ To analyse the data related to electoral bonds in India, focusing on the total d
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Finance Analysis</h1>
+<h1>Credit Catd Analysis</h1>
 
 <h3>Objective:</h3>
 To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
