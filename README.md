@@ -1,4 +1,4 @@
-<h1>Credit Catd Analysis</h1>
+<h1>Credit Card Analysis</h1>
 
 <h3>Objective:</h3>
 To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
