@@ -4,7 +4,7 @@
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f3939f99-b974-4c1a-8d38-8058ed6dc129" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/a231fbcc-0406-43ef-aff8-d4fb437fe10a" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/241b9365-3fc1-4722-9015-39293c0e77cc" style="width: 80%; height: auto;">
 </div>
 
@@ -105,3 +105,4 @@
 <li>Support for High-risk Jobs: Provide financial advice for customers in high-risk jobs to help manage loans better.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
