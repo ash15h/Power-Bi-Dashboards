@@ -241,10 +241,15 @@ To analyze Indian cricketers' match statistics, performance metrics, and histori
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <strong><p>Summary Page:</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <strong><p>Test Captain's stats</p>
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/eb23be63-041e-45c3-9c9d-f2a28a07979c" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <strong><p>Test Player's stats</p>
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/4d9222ad-0c56-4de7-a783-b233dd24954a" style="width: 80%; height: auto; margin-bottom: 20px;">
+<strong><p>ODI Captain's stats</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
+<strong><p>ODI Player's stats</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
 </div>
 
