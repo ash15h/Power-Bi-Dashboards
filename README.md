@@ -1,9 +1,12 @@
 <h1>Bank Churn Analysis </h1>
+
 <h3>Objective:</h3> To analyze and predict customer churn by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.
+
 <h3>Dashboard:</h3>
+**Dashboard:**
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f3939f99-b974-4c1a-8d38-8058ed6dc129" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/241b9365-3fc1-4722-9015-39293c0e77cc" style="width: 100%; height: auto;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f3939f99-b974-4c1a-8d38-8058ed6dc129" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/241b9365-3fc1-4722-9015-39293c0e77cc" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
