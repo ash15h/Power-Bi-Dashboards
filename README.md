@@ -1,3 +1,101 @@
+<h1>Credit Catd Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/27f4bd3d-a7a1-436d-bdfe-78ec8df13164" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
+  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
+</ul>
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
+  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
+  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
+  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
+  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
+  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
+  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
+  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
+  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
+  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
+  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
+  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
+  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
+  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
+  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
+  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+<h1>Finance Analysis</h1>
+
+<h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/ab2f905e-d1d7-47ef-8664-a14fdbff20e6" style="width: 80%; height: auto; margin-bottom: 20px;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Got rid of columns not needed for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values.</li>
+  <li>Removed Duplicates: Cleaned up duplicate entries.</li>
+  <li>Used DAX Measure: Calculated sales, gross profits, net profits, operational profit, PBIT, and EBITDA using DAX measures.</li>
+  <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
+</ul>
+
+<h3>Key Explorations</h3>
+<ul>
+  <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
+  <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
+  <li>Yearly Profit Trends: Analyzed profit trends from 2018 to 2020 across different countries.</li>
+  <li>Country-specific Performance: Looked at financial performance for each country, noting significant differences.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Gross Profit: Exceeded the goal by 34.59%, achieving €5.34M against a goal of €3.97M. This indicates strong sales performance and effective cost management overall.</li>
+  <li>Operational Profit: Slightly above the goal by 3.15%, reaching €1.52M against a goal of €1.48M, showing operational efficiencies are in place but there's room for improvement.</li>
+  <li>PBIT: Exceeded the goal by 4.7%, achieving €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
+  <li>Net Profit: Slightly below the goal by 1.01%, reaching €1.29M against a goal of €1.30M, indicating effective overall financial management after accounting for all expenses.</li>
+  <li>EBITDA: Exceeded the goal by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings performance before accounting for interest, taxes, depreciation, and amortization.</li>
+  <li>Sales Trends: Total sales to date amounted to €171,086,642, showing robust sales performance contributing significantly to gross profit.</li>
+  <li>Country-specific Performance: Noticed financial loss in Australia. Sales revenue in Australia increased from 2018 to 2020, but the operational profit and net profit goals were not met. Despite strong sales, the financial losses highlight specific issues that need addressing to improve profitability in Australia.</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+  <li>Enhance Operational Efficiency: Keep improving processes to boost operational profit and hit net profit targets.</li>
+  <li>Focus on Cost Management: Maintain strong cost management to ensure gross profit stays above targets.</li>
+  <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
+  <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
+  <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>Bank Churn Analysis </h1>
 
 <h3>Objective:</h3> To analyze and predict customer churn by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.
@@ -133,103 +231,6 @@ To analyse the data related to electoral bonds in India, focusing on the total d
 <h3>Recommendations:</h3>
 <ul>
   <li>Public Awareness: Increase public awareness about electoral bonds and their impact on political funding and elections</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Finance Analysis</h1>
-
-<h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/ab2f905e-d1d7-47ef-8664-a14fdbff20e6" style="width: 80%; height: auto; margin-bottom: 20px;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-  <li>Removed Unnecessary Columns: Got rid of columns not needed for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values.</li>
-  <li>Removed Duplicates: Cleaned up duplicate entries.</li>
-  <li>Used DAX Measure: Calculated sales, gross profits, net profits, operational profit, PBIT, and EBITDA using DAX measures.</li>
-  <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
-</ul>
-
-<h3>Key Explorations</h3>
-<ul>
-  <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
-  <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
-  <li>Yearly Profit Trends: Analyzed profit trends from 2018 to 2020 across different countries.</li>
-  <li>Country-specific Performance: Looked at financial performance for each country, noting significant differences.</li>
-</ul>
-
-<h3>Insights:</h3>
-<ul>
-  <li>Gross Profit: Exceeded the goal by 34.59%, achieving €5.34M against a goal of €3.97M. This indicates strong sales performance and effective cost management overall.</li>
-  <li>Operational Profit: Slightly above the goal by 3.15%, reaching €1.52M against a goal of €1.48M, showing operational efficiencies are in place but there's room for improvement.</li>
-  <li>PBIT: Exceeded the goal by 4.7%, achieving €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
-  <li>Net Profit: Slightly below the goal by 1.01%, reaching €1.29M against a goal of €1.30M, indicating effective overall financial management after accounting for all expenses.</li>
-  <li>EBITDA: Exceeded the goal by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings performance before accounting for interest, taxes, depreciation, and amortization.</li>
-  <li>Sales Trends: Total sales to date amounted to €171,086,642, showing robust sales performance contributing significantly to gross profit.</li>
-  <li>Country-specific Performance: Noticed financial loss in Australia. Sales revenue in Australia increased from 2018 to 2020, but the operational profit and net profit goals were not met. Despite strong sales, the financial losses highlight specific issues that need addressing to improve profitability in Australia.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-  <li>Enhance Operational Efficiency: Keep improving processes to boost operational profit and hit net profit targets.</li>
-  <li>Focus on Cost Management: Maintain strong cost management to ensure gross profit stays above targets.</li>
-  <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
-  <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
-  <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Credit Catd Analysis</h1>
-
-<h3>Objective:</h3>
-To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/27f4bd3d-a7a1-436d-bdfe-78ec8df13164" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
-  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
-</ul>
-
-<h3>Key Explorations:</h3>
-<ul>
-  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
-  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
-  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
-  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
-</ul>
-
-<h3>Insights:</h3>
-<ul>
-  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
-  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
-  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
-  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
-  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
-  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
-  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
-  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
-  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
-  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
-  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
-  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
-  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
