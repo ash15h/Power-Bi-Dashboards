@@ -244,13 +244,13 @@ To analyze Indian cricketers' match statistics, performance metrics, and histori
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <strong><p>Summary Page:</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <strong><p>ODI Captain's stats</p>
+  <strong><p>ODI Captain's stats:</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/eb23be63-041e-45c3-9c9d-f2a28a07979c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <strong><p>ODI Player's stats</p>
+  <strong><p>ODI Player's stats:</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/4d9222ad-0c56-4de7-a783-b233dd24954a" style="width: 80%; height: auto; margin-bottom: 20px;">
-<strong><p>Test Captain's stats</p>
+<strong><p>Test Captain's stats:</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/feea334a-184a-4284-aa60-2c7767d10723" style="width: 80%; height: auto; margin-bottom: 20px;">
-<strong><p>Test Player's stats</p>
+<strong><p>Test Player's stats:</p>
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/e69a60e3-dcde-4595-b7d2-d98dc5b29ba1" style="width: 80%; height: auto;">
 </div>
 
@@ -289,4 +289,74 @@ The summary page provides an initial overview, with additional pages hidden and 
   <li>Batting Averages: Virat Kohli has one of the highest batting averages among current players, highlighting his consistency. Kohli's performance is critical for India's current and future cricketing success.</li>
   <li>Historical Debutants: The number of debutants has fluctuated over the decades, with notable peaks in certain periods. These peaks could correspond to strategic changes or the emergence of new talent in Indian cricket.</li>
 </ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1>IPL Performance Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze IPL matches, performance metrics, player statistics, and historical data to identify key trends, top performers, and strategic insights for improving team performance
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <strong><p>Overall Stats:</p>
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/920969ae-1c2b-4c91-86c3-8a8f44eb097e" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <strong><p>Venuewise Stats:</p>
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/e54b35ef-627b-4ad9-af07-524e53e29b9b" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <strong><p>Teamwise Stats:</p>
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f71d38f6-70b9-42d6-bc87-86fbe962b8ac" style="width: 80%; height: auto; margin-bottom: 20px;">
+<strong><p>Playerwise Stats:</p>
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b1824f62-d65f-4989-8fe2-b55212d943ac" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results</li>
+  <li>Features Used:
+    <ul>
+      <li>Created bookmarks to clear all filters for a streamlined user experience</li>
+      <li>Added buttons for easy page navigation</li>
+      <li>Used bookmarks to open slicer panels on the player-wise stats page</li>
+      <li>Created Power BI's new slicer in team-wise stats page</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Data Modelling:</h3>
+<ul>
+  <li>Tables were connected using one-to-many relationships based on Match ID</li>
+</ul>
+
+<h3>Learning:</h3>
+<ul>
+  <li>Created page navigation on each page</li>
+  <li>Created a "Remove Filters" button</li>
+  <li>Created a slicer panel in the player-wise stats page that opens and closes using the bookmark technique</li>
+   <li>Predicted/Projected total runs for coming years</li>
+</ul>
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Match Outcomes: Analyzed the number of wins in chasing versus defending across different venues and explored the total number of matches and their outcomes</li>
+  <li>Runs and Wickets: Investigated total runs scored by year, total wickets taken, and boundaries hit Analyzed runs scored by different overs and innings</li>
+  <li>Venue Analysis: Examined performance metrics such as wins, economy rates, and matches hosted by various venues</li>
+  <li>Player Performance: Reviewed leading wicket-takers, total runs scored, boundaries conceded, and extras by bowlers Analyzed runs in single overs and stumpings by players</li>
+  <li>Team Performance: Explored the number of wins in defending and chasing by different teams Analyzed super overs played and runouts by team</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Match Outcomes: More wins in chasing (554) compared to wins in defending (459) Teams might prefer chasing, indicating a strategic trend</li>
+  <li>Runs and Wickets: Total runs scored have fluctuated over the years, with peaks in certain years Trends can indicate changing strategies or player form</li>
+  <li>Venue Performance:
+    <ul>
+      <li>Best Venue for Bowlers: OUTsurance Oval has the lowest economy rate (6.35), favoring bowlers</li>
+      <li>Best Venue for Batting: Holkar Cricket Stadium has the highest economy rate (8.77), favoring batsmen</li>
+    </ul>
+  </li>
+  <li>Player Performance: Players like Virat Kohli and AB de Villiers lead in total runs, while bowlers like YS Chahal and DJ Bravo lead in wickets Key players' performance is crucial to team success</li>
+  <li>Team Performance: Teams like MI (Mumbai Indians) and CSK (Chennai Super Kings) show strong performance in both defending and chasing Consistent strategies and strong player rosters contribute to their success</li>
+</ul>
+
 
