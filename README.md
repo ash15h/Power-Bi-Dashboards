@@ -184,4 +184,57 @@ To analyse the data related to electoral bonds in India, focusing on the total d
   <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1>Finance Analysis</h1>
 
+<h3>Objective:</h3>
+To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/27f4bd3d-a7a1-436d-bdfe-78ec8df13164" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
+  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
+</ul>
+
+<h3>Data Analysis and Visualization:</h3>
+<ul>
+  <li>Tool Used: Power BI was used for visualizations and detailed analysis.</li>
+</ul>
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
+  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
+  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
+  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
+  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
+  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
+  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
+  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
+  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
+  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
+  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
+  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
+  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
+  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
+  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
+  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
+</ul>
