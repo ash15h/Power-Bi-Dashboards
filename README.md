@@ -294,7 +294,7 @@ The summary page provides an initial overview, with additional pages hidden and 
 <h1>IPL Performance Analysis</h1>
 
 <h3>Objective:</h3>
-To analyze IPL matches, performance metrics, player statistics, and historical data to identify key trends, top performers, and strategic insights for improving team performance
+To analyze IPL matches, performance metrics, player statistics, venue statistics and historical data to identify key trends, top performers, and strategic insights for improving team performance
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
