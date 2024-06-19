@@ -58,9 +58,7 @@
 <li>Removed Duplicates: Eliminated duplicate entries</li>
 </ul>
 
-<h3>Data Analysis and Visualization:</h3>
-<ul>
-<li>Key Explorations:
+<h3>Key Explorations:</h3>
   <ul>
     <li>Customer Demographics: Distribution of housing and other loans by age, job, and marital status</li>
     <li>Loan Data: Monthly disbursement of housing and other loans, job-wise loan distribution, and loans by age and marital status</li>
@@ -156,7 +154,7 @@ To analyse the data related to electoral bonds in India, focusing on the total d
   <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
 </ul>
 
-<h3>Data Analysis and Visualization:</h3>
+<h3>Key Explorations</h3>
 <ul>
   <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
   <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
@@ -204,11 +202,6 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
   <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
 </ul>
 
-<h3>Data Analysis and Visualization:</h3>
-<ul>
-  <li>Tool Used: Power BI was used for visualizations and detailed analysis.</li>
-</ul>
-
 <h3>Key Explorations:</h3>
 <ul>
   <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
@@ -238,3 +231,57 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
   <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
   <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
 </ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+<h1>Cricket Performance Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze Indian cricketers' match statistics, performance metrics, and historical data to identify key trends, top performers, and strategic insights for improving team performance.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
+</div>
+
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
+  <li>Feature Engineering: Changed many names to match across all tables.</li>
+  <li>Created Captains Table: Created a table with captains' names and images for Power BI's new slicer.</li>
+</ul>
+
+<h3>Data Modelling:</h3>
+<ul>
+  <li>Created a new name lookup table and connected all the tables to it. The relationship was one-to-one.</li>
+  <li>Used DAX to calculate various sums, highest scores, and other stats.</li>
+</ul>
+
+<h3>Learning:</h3>
+The summary page provides an initial overview, with additional pages hidden and accessible based on user roles. Page-level security is implemented using access roles, row-level security, and slicers. A tooltip page shows a player's stats summary on the summary page. Power BI's new slicer is used to create captains' images in the slicer.
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Player Match Statistics: Analyzed the number of ODI and Test matches played by various players. Identified players with significant contributions in one format and minimal in another.</li>
+  <li>Runs and Wickets: Investigated runs scored and wickets taken by players in both ODI and Test formats. Examined players with more than 1000 runs and 100 wickets in both formats.</li>
+  <li>Test and ODI Captains: Reviewed the performance of Test and ODI captains, including their win percentages and contributions.</li>
+  <li>Batting and Bowling Averages: Analyzed batting and bowling averages of key players across different formats.</li>
+  <li>Historical Performance: Explored the number of debutants by year and notable historical achievements of Indian cricketers.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Player Contributions: Players like Sachin Tendulkar, Kapil Dev, and Anil Kumble have made significant contributions in both formats with high runs and wickets. These players are pivotal to India's cricketing history, highlighting their versatility and consistency.</li>
+  <li>Match Statistics: Sachin Tendulkar has played the most ODI matches (463) and scored the highest number of runs. His long career and exceptional performance set a benchmark for future players.</li>
+  <li>Bowling Performance: Anil Kumble and Kapil Dev have taken the highest number of wickets in Test matches. Their bowling prowess was instrumental in India's Test match successes.</li>
+  <li>Batting Averages: Virat Kohli has one of the highest batting averages among current players, highlighting his consistency. Kohli's performance is critical for India's current and future cricketing success.</li>
+  <li>Historical Debutants: The number of debutants has fluctuated over the decades, with notable peaks in certain periods. These peaks could correspond to strategic changes or the emergence of new talent in Indian cricket.</li>
+</ul>
+
