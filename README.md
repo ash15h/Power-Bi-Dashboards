@@ -49,53 +49,6 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>Finance Analysis</h1>
-
-<h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/ab2f905e-d1d7-47ef-8664-a14fdbff20e6" style="width: 80%; height: auto; margin-bottom: 20px;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-  <li>Removed Unnecessary Columns: Got rid of columns not needed for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values.</li>
-  <li>Removed Duplicates: Cleaned up duplicate entries.</li>
-  <li>Used DAX Measure: Calculated sales, gross profits, net profits, operational profit, PBIT, and EBITDA using DAX measures.</li>
-  <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
-</ul>
-
-<h3>Key Explorations</h3>
-<ul>
-  <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
-  <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
-  <li>Yearly Profit Trends: Analyzed profit trends from 2018 to 2020 across different countries.</li>
-  <li>Country-specific Performance: Looked at financial performance for each country, noting significant differences.</li>
-</ul>
-
-<h3>Insights:</h3>
-<ul>
-  <li>Gross Profit: Exceeded the goal by 34.59%, achieving €5.34M against a goal of €3.97M. This indicates strong sales performance and effective cost management overall.</li>
-  <li>Operational Profit: Slightly above the goal by 3.15%, reaching €1.52M against a goal of €1.48M, showing operational efficiencies are in place but there's room for improvement.</li>
-  <li>PBIT: Exceeded the goal by 4.7%, achieving €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
-  <li>Net Profit: Slightly below the goal by 1.01%, reaching €1.29M against a goal of €1.30M, indicating effective overall financial management after accounting for all expenses.</li>
-  <li>EBITDA: Exceeded the goal by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings performance before accounting for interest, taxes, depreciation, and amortization.</li>
-  <li>Sales Trends: Total sales to date amounted to €171,086,642, showing robust sales performance contributing significantly to gross profit.</li>
-  <li>Country-specific Performance: Noticed financial loss in Australia. Sales revenue in Australia increased from 2018 to 2020, but the operational profit and net profit goals were not met. Despite strong sales, the financial losses highlight specific issues that need addressing to improve profitability in Australia.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-  <li>Enhance Operational Efficiency: Keep improving processes to boost operational profit and hit net profit targets.</li>
-  <li>Focus on Cost Management: Maintain strong cost management to ensure gross profit stays above targets.</li>
-  <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
-  <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
-  <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>Bank Churn Analysis </h1>
 
 <h3>Objective:</h3> To analyze and predict customer churn by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.
@@ -137,6 +90,59 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
 <li>Tailored Financial Products: Design products for younger and middle-aged customers</li>
 <li>Competitive Pricing and Services: Review pricing and improve service value for middle-income customers</li>
 <li>Credit Card Improvements: Upgrade credit card offerings to meet customer expectations</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1>IPL Performance Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze IPL matches, performance metrics, player statistics, venue statistics and historical data to identify key trends, top performers, and strategic insights for improving team performance
+
+<h3>Dashboard:</h3> 
+
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/012f3d06-e4b1-49b2-8a9d-4a5fa4ac93b3" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f86e32f3-a49b-40a2-8d66-d48739310750" style="width: 80%; height: auto; margin-bottom: 20px;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results</li>
+  <li>Features Used:
+    <ul>
+      <li>Added buttons for easy page navigation</li>
+      <li>Dax calculations functions: Caculate, Summarise, Filter, Divide, Concat to calculate various measure like economy rate, average, strike rate, etc</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>Data Modelling:</h3>
+<ul>
+  <li>Tables were connected using one-to-many relationships based on Match ID</li>
+</ul>
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Match Outcomes: Analyzed the number of wins in chasing versus defending across different venues and explored the total number of matches and their outcomes</li>
+  <li>Runs and Wickets: Investigated total runs scored by season, total wickets taken, and boundaries hit Analyzed runs scored by different overs and innings</li>
+  <li>Venue Analysis: Examined performance metrics such as wins, economy rates, and matches hosted by various venues</li>
+  <li>Player Performance: Reviewed leading wicket-takers, total runs scored, boundaries conceded, and extras by bowlers Analyzed runs in single overs and stumpings by players</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Match Outcomes: More wins in chasing (554) compared to wins in defending (459) Teams might prefer chasing, indicating a strategic trend</li>
+  <li>Runs and Wickets: Total runs scored have fluctuated over the years, with peaks in certain years Trends can indicate changing strategies or player form</li>
+  <li>Venue Performance:
+    <ul>
+      <li>Best Venue for Bowlers: OUTsurance Oval has the lowest economy rate, favoring bowlers</li>
+      <li>Best Venue for Batting: Barsapra Cricket Stadium has the highest economy rate, favoring batsmen</li>
+    </ul>
+  </li>
+  <li>Player Performance: Players like Virat Kohli and AB de Villiers lead in total runs, while bowlers like YS Chahal and DJ Bravo lead in wickets Key players' performance is crucial to team success</li>
+  <li>Team Performance: Teams like MI (Mumbai Indians) and CSK (Chennai Super Kings) show strong performance in both defending and chasing Consistent strategies and strong player rosters contribute to their success</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
@@ -291,72 +297,51 @@ The summary page provides an initial overview, with additional pages hidden and 
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>IPL Performance Analysis</h1>
 
-<h3>Objective:</h3>
-To analyze IPL matches, performance metrics, player statistics, venue statistics and historical data to identify key trends, top performers, and strategic insights for improving team performance
+<h1>Finance Analysis</h1>
+
+<h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <strong><p>Overall Stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/920969ae-1c2b-4c91-86c3-8a8f44eb097e" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <strong><p>Venuewise Stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/e54b35ef-627b-4ad9-af07-524e53e29b9b" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <strong><p>Teamwise Stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f71d38f6-70b9-42d6-bc87-86fbe962b8ac" style="width: 80%; height: auto; margin-bottom: 20px;">
-<strong><p>Playerwise Stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b1824f62-d65f-4989-8fe2-b55212d943ac" style="width: 80%; height: auto;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/ab2f905e-d1d7-47ef-8664-a14fdbff20e6" style="width: 80%; height: auto; margin-bottom: 20px;">
 </div>
 
 <h3>Data Preparation:</h3>
 <ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results</li>
-  <li>Features Used:
-    <ul>
-      <li>Created bookmarks to clear all filters for a streamlined user experience</li>
-      <li>Added buttons for easy page navigation</li>
-      <li>Used bookmarks to open slicer panels on the player-wise stats page</li>
-      <li>Created Power BI's new slicer in team-wise stats page</li>
-    </ul>
-  </li>
+  <li>Removed Unnecessary Columns: Got rid of columns not needed for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values.</li>
+  <li>Removed Duplicates: Cleaned up duplicate entries.</li>
+  <li>Used DAX Measure: Calculated sales, gross profits, net profits, operational profit, PBIT, and EBITDA using DAX measures.</li>
+  <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
 </ul>
 
-<h3>Data Modelling:</h3>
+<h3>Key Explorations</h3>
 <ul>
-  <li>Tables were connected using one-to-many relationships based on Match ID</li>
-</ul>
-
-<h3>Learning:</h3>
-<ul>
-  <li>Created page navigation on each page</li>
-  <li>Created a "Remove Filters" button</li>
-  <li>Created a slicer panel in the player-wise stats page that opens and closes using the bookmark technique</li>
-   <li>Predicted/Projected total runs for coming years</li>
-</ul>
-
-<h3>Key Explorations:</h3>
-<ul>
-  <li>Match Outcomes: Analyzed the number of wins in chasing versus defending across different venues and explored the total number of matches and their outcomes</li>
-  <li>Runs and Wickets: Investigated total runs scored by year, total wickets taken, and boundaries hit Analyzed runs scored by different overs and innings</li>
-  <li>Venue Analysis: Examined performance metrics such as wins, economy rates, and matches hosted by various venues</li>
-  <li>Player Performance: Reviewed leading wicket-takers, total runs scored, boundaries conceded, and extras by bowlers Analyzed runs in single overs and stumpings by players</li>
-  <li>Team Performance: Explored the number of wins in defending and chasing by different teams Analyzed super overs played and runouts by team</li>
+  <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
+  <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
+  <li>Yearly Profit Trends: Analyzed profit trends from 2018 to 2020 across different countries.</li>
+  <li>Country-specific Performance: Looked at financial performance for each country, noting significant differences.</li>
 </ul>
 
 <h3>Insights:</h3>
 <ul>
-  <li>Match Outcomes: More wins in chasing (554) compared to wins in defending (459) Teams might prefer chasing, indicating a strategic trend</li>
-  <li>Runs and Wickets: Total runs scored have fluctuated over the years, with peaks in certain years Trends can indicate changing strategies or player form</li>
-  <li>Venue Performance:
-    <ul>
-      <li>Best Venue for Bowlers: OUTsurance Oval has the lowest economy rate (6.35), favoring bowlers</li>
-      <li>Best Venue for Batting: Holkar Cricket Stadium has the highest economy rate (8.77), favoring batsmen</li>
-    </ul>
-  </li>
-  <li>Player Performance: Players like Virat Kohli and AB de Villiers lead in total runs, while bowlers like YS Chahal and DJ Bravo lead in wickets Key players' performance is crucial to team success</li>
-  <li>Team Performance: Teams like MI (Mumbai Indians) and CSK (Chennai Super Kings) show strong performance in both defending and chasing Consistent strategies and strong player rosters contribute to their success</li>
+  <li>Gross Profit: Exceeded the goal by 34.59%, achieving €5.34M against a goal of €3.97M. This indicates strong sales performance and effective cost management overall.</li>
+  <li>Operational Profit: Slightly above the goal by 3.15%, reaching €1.52M against a goal of €1.48M, showing operational efficiencies are in place but there's room for improvement.</li>
+  <li>PBIT: Exceeded the goal by 4.7%, achieving €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
+  <li>Net Profit: Slightly below the goal by 1.01%, reaching €1.29M against a goal of €1.30M, indicating effective overall financial management after accounting for all expenses.</li>
+  <li>EBITDA: Exceeded the goal by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings performance before accounting for interest, taxes, depreciation, and amortization.</li>
+  <li>Sales Trends: Total sales to date amounted to €171,086,642, showing robust sales performance contributing significantly to gross profit.</li>
+  <li>Country-specific Performance: Noticed financial loss in Australia. Sales revenue in Australia increased from 2018 to 2020, but the operational profit and net profit goals were not met. Despite strong sales, the financial losses highlight specific issues that need addressing to improve profitability in Australia.</li>
 </ul>
 
-
+<h3>Recommendations:</h3>
+<ul>
+  <li>Enhance Operational Efficiency: Keep improving processes to boost operational profit and hit net profit targets.</li>
+  <li>Focus on Cost Management: Maintain strong cost management to ensure gross profit stays above targets.</li>
+  <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
+  <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
+  <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
