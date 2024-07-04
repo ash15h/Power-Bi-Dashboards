@@ -1,3 +1,53 @@
+<h1>Cricket Performance Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze Indian cricketers' match statistics, performance metrics, and historical data to identify key trends, top performers, and strategic insights for improving team performance.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/4dd63760-9339-4fc5-bf22-a93bac3fe3c0" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/59ee9f60-7b31-4a2d-b98e-c42cca02dfc8" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/ab5f713d-feb3-4561-a610-3efaea60cc6e" style="width: 80%; height: auto; margin-bottom: 20px;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
+  <li>Feature Engineering: Changed many names to match across all tables.</li>
+  <li>Created Captains Table: Created a table with captains' names and images for Power BI's new slicer.</li>
+</ul>
+
+<h3>Data Modelling:</h3>
+<ul>
+  <li>Created a new name lookup table and connected all the tables to it. The relationship was one-to-one.</li>
+  <li>Used DAX to calculate various sums, highest scores, and other stats.</li>
+</ul>
+
+<h3>Learning:</h3>
+The summary page provides an initial overview, with additional pages hidden and accessible based on user roles. Page-level security is implemented using access roles, row-level security, and slicers. A tooltip page shows a player's stats summary on the summary page. Power BI's new slicer is used to create captains' images in the slicer.
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Player Match Statistics: Analyzed the number of ODI and Test matches played by various players. Identified players with significant contributions in one format and minimal in another.</li>
+  <li>Runs and Wickets: Investigated runs scored and wickets taken by players in both ODI and Test formats. Examined players with more than 1000 runs and 100 wickets in both formats.</li>
+  <li>Test and ODI Captains: Reviewed the performance of Test and ODI captains, including their win percentages and contributions.</li>
+  <li>Batting and Bowling Averages: Analyzed batting and bowling averages of key players across different formats.</li>
+  <li>Historical Performance: Explored the number of debutants by year and notable historical achievements of Indian cricketers.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Player Contributions: Players like Sachin Tendulkar, Kapil Dev, and Anil Kumble have made significant contributions in both formats with high runs and wickets. These players are pivotal to India's cricketing history, highlighting their versatility and consistency.</li>
+  <li>Match Statistics: Sachin Tendulkar has played the most ODI matches (463) and scored the highest number of runs. His long career and exceptional performance set a benchmark for future players.</li>
+  <li>Bowling Performance: Anil Kumble and Kapil Dev have taken the highest number of wickets in Test matches. Their bowling prowess was instrumental in India's Test match successes.</li>
+  <li>Batting Averages: Virat Kohli has one of the highest batting averages among current players, highlighting his consistency. Kohli's performance is critical for India's current and future cricketing success.</li>
+  <li>Historical Debutants: The number of debutants has fluctuated over the decades, with notable peaks in certain periods. These peaks could correspond to strategic changes or the emergence of new talent in Indian cricket.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
 <h1>Credit Card Analysis</h1>
 
 <h3>Objective:</h3>
@@ -237,63 +287,6 @@ To analyse the data related to electoral bonds in India, focusing on the total d
 <h3>Recommendations:</h3>
 <ul>
   <li>Public Awareness: Increase public awareness about electoral bonds and their impact on political funding and elections</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
-<h1>Cricket Performance Analysis</h1>
-
-<h3>Objective:</h3>
-To analyze Indian cricketers' match statistics, performance metrics, and historical data to identify key trends, top performers, and strategic insights for improving team performance.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <strong><p>Summary Page:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f11c740a-2015-4053-a50c-f54360eb7bdc" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <strong><p>ODI Captain's stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/eb23be63-041e-45c3-9c9d-f2a28a07979c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <strong><p>ODI Player's stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/4d9222ad-0c56-4de7-a783-b233dd24954a" style="width: 80%; height: auto; margin-bottom: 20px;">
-<strong><p>Test Captain's stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/feea334a-184a-4284-aa60-2c7767d10723" style="width: 80%; height: auto; margin-bottom: 20px;">
-<strong><p>Test Player's stats:</p>
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/e69a60e3-dcde-4595-b7d2-d98dc5b29ba1" style="width: 80%; height: auto;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
-  <li>Feature Engineering: Changed many names to match across all tables.</li>
-  <li>Created Captains Table: Created a table with captains' names and images for Power BI's new slicer.</li>
-</ul>
-
-<h3>Data Modelling:</h3>
-<ul>
-  <li>Created a new name lookup table and connected all the tables to it. The relationship was one-to-one.</li>
-  <li>Used DAX to calculate various sums, highest scores, and other stats.</li>
-</ul>
-
-<h3>Learning:</h3>
-The summary page provides an initial overview, with additional pages hidden and accessible based on user roles. Page-level security is implemented using access roles, row-level security, and slicers. A tooltip page shows a player's stats summary on the summary page. Power BI's new slicer is used to create captains' images in the slicer.
-
-<h3>Key Explorations:</h3>
-<ul>
-  <li>Player Match Statistics: Analyzed the number of ODI and Test matches played by various players. Identified players with significant contributions in one format and minimal in another.</li>
-  <li>Runs and Wickets: Investigated runs scored and wickets taken by players in both ODI and Test formats. Examined players with more than 1000 runs and 100 wickets in both formats.</li>
-  <li>Test and ODI Captains: Reviewed the performance of Test and ODI captains, including their win percentages and contributions.</li>
-  <li>Batting and Bowling Averages: Analyzed batting and bowling averages of key players across different formats.</li>
-  <li>Historical Performance: Explored the number of debutants by year and notable historical achievements of Indian cricketers.</li>
-</ul>
-
-<h3>Insights:</h3>
-<ul>
-  <li>Player Contributions: Players like Sachin Tendulkar, Kapil Dev, and Anil Kumble have made significant contributions in both formats with high runs and wickets. These players are pivotal to India's cricketing history, highlighting their versatility and consistency.</li>
-  <li>Match Statistics: Sachin Tendulkar has played the most ODI matches (463) and scored the highest number of runs. His long career and exceptional performance set a benchmark for future players.</li>
-  <li>Bowling Performance: Anil Kumble and Kapil Dev have taken the highest number of wickets in Test matches. Their bowling prowess was instrumental in India's Test match successes.</li>
-  <li>Batting Averages: Virat Kohli has one of the highest batting averages among current players, highlighting his consistency. Kohli's performance is critical for India's current and future cricketing success.</li>
-  <li>Historical Debutants: The number of debutants has fluctuated over the decades, with notable peaks in certain periods. These peaks could correspond to strategic changes or the emergence of new talent in Indian cricket.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
