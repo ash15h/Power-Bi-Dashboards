@@ -1,3 +1,47 @@
+<h1>Bank Churn Analysis </h1>
+
+<h3>Objective:</h3> To analyze and predict customer churn by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/2c4d226e-248e-46de-aa55-0504c146495f" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/2d7d25ce-ce14-45d6-b8e9-3a92ba76ba2a" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+<li> Removed unnecessary columns</li>
+<li> Dropped rows with missing data</li>
+<li>Encoded 'Geography' and 'Gender' using OneHotEncoder</li>
+<li>Standardized features with StandardScaler</li></ul>
+
+<h3>Modelling:</h3>
+<ul>
+<li>Trained a Random Forest classifier to predict customer churn</li>
+<li>Added predicted churn probabilities to the dataset</li></ul>
+
+<h3>Insights:</h3>
+<ul>
+<li>Geography: France has higher churn rates; service improvements are needed</li>
+<li>Gender: More females are likely to churn</li>
+<li>Credit Score: Lower scores correlate with higher churn, suggesting support services may help. Some high-score customers also churn, possibly seeking better services</li>
+<li>Tenure: Shorter tenures correlate with higher churn, indicating better onboarding is needed</li>
+<li>Age: Young adults and middle-aged customers show higher churn rates, needing targeted products</li>
+<li>Salary: Middle-income customers and some high-income customers churn more, possibly due to service value perceptions</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+<li>Geographical Focus: Investigate why churn is high in France and improve services</li>
+<li>Gender-specific Strategies: Develop tailored retention efforts for female customers</li>
+<li>Credit Score Segmentation: Offer support for low-score customers and better options for high-score ones</li>
+<li>Improving Onboarding: Enhance initial customer experiences to increase retention</li>
+<li>Tailored Financial Products: Design products for younger and middle-aged customers</li>
+<li>Competitive Pricing and Services: Review pricing and improve service value for middle-income customers</li>
+<li>Credit Card Improvements: Upgrade credit card offerings to meet customer expectations</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>Cricket Performance Analysis</h1>
 
 <h3>Objective:</h3>
@@ -47,7 +91,6 @@ The summary page provides an initial overview, with additional pages hidden and 
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
 <h1>Credit Card Analysis</h1>
 
 <h3>Objective:</h3>
@@ -98,58 +141,12 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
-<h1>Bank Churn Analysis </h1>
-
-<h3>Objective:</h3> To analyze and predict customer churn by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/a231fbcc-0406-43ef-aff8-d4fb437fe10a" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/241b9365-3fc1-4722-9015-39293c0e77cc" style="width: 80%; height: auto;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-<li> Removed unnecessary columns</li>
-<li> Dropped rows with missing data</li>
-<li>Encoded 'Geography' and 'Gender' using OneHotEncoder</li>
-<li>Standardized features with StandardScaler</li></ul>
-
-<h3>Modelling:</h3>
-<ul>
-<li>Trained a Random Forest classifier to predict customer churn</li>
-<li>Added predicted churn probabilities to the dataset</li></ul>
-
-<h3>Insights:</h3>
-<ul>
-<li>Geography: France has higher churn rates; service improvements are needed</li>
-<li>Gender: More females are likely to churn</li>
-<li>Credit Score: Lower scores correlate with higher churn, suggesting support services may help. Some high-score customers also churn, possibly seeking better services</li>
-<li>Tenure: Shorter tenures correlate with higher churn, indicating better onboarding is needed</li>
-<li>Age: Young adults and middle-aged customers show higher churn rates, needing targeted products</li>
-<li>Salary: Middle-income customers and some high-income customers churn more, possibly due to service value perceptions</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-<li>Geographical Focus: Investigate why churn is high in France and improve services</li>
-<li>Gender-specific Strategies: Develop tailored retention efforts for female customers</li>
-<li>Credit Score Segmentation: Offer support for low-score customers and better options for high-score ones</li>
-<li>Improving Onboarding: Enhance initial customer experiences to increase retention</li>
-<li>Tailored Financial Products: Design products for younger and middle-aged customers</li>
-<li>Competitive Pricing and Services: Review pricing and improve service value for middle-income customers</li>
-<li>Credit Card Improvements: Upgrade credit card offerings to meet customer expectations</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>IPL Performance Analysis</h1>
 
 <h3>Objective:</h3>
 To analyze IPL matches, performance metrics, player statistics, venue statistics and historical data to identify key trends, top performers, and strategic insights for improving team performance
 
 <h3>Dashboard:</h3> 
-
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/012f3d06-e4b1-49b2-8a9d-4a5fa4ac93b3" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f86e32f3-a49b-40a2-8d66-d48739310750" style="width: 80%; height: auto; margin-bottom: 20px;">
@@ -290,7 +287,6 @@ To analyse the data related to electoral bonds in India, focusing on the total d
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
 <h1>Finance Analysis</h1>
 
 <h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
