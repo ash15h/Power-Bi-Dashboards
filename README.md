@@ -42,6 +42,55 @@
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+<h1>Order Aggregate & Line Analysis</h1>
+
+<h3>Objective:</h3>To analyze and improve the service level performance by examining key metrics such as on-time delivery (OT), in-full delivery (IF), on-time in-full delivery (OTIF), line item fill rate (LIFR), and volume fill rate (VOFR) across different product categories, cities, and customer names. The aim is to identify areas for improvement and implement strategies to enhance service efficiency and customer satisfaction.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/4432120e-eeb7-4730-b4b5-e38a01e18474" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/49920f84-4eca-4c03-9930-525004542384" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/37e523a9-83b9-4f84-a924-7b2f61e4b4aa" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/ba7c1b2e-5cf0-409a-a84b-0a4bfcf46d33" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/3696a095-acaf-46d6-9b18-f60fe201fae8" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+    <ul>
+        <li>Removed unnecessary columns</li>
+        <li>Dropped rows with missing data</li>
+        <li>Encoded categorical variables where necessary</li>
+        <li>Normalised tables</li>
+        <li>Data modeled in star schema</li>
+    </ul>
+
+  <h3>Insights:</h3>
+    <ul>
+        <li>Geography: Surat shows the highest on-time percentage (61.21%) and OTIF percentage (30.07%), indicating relatively better performance. Ahmedabad and   Vadodara need improvements in OT and OTIF percentages</li>
+        <li>Product Category: Dairy and Food categories have higher order quantities and delivered quantities but show significant room for improvement in on-time and in-full deliveries. Beverages perform relatively better in terms of VOFR% (96.59%) and LIFR% (65.96%)</li>
+        <li>Customer Analysis: Customers like Elite Mart, Expert Mart, and Logic Stores show higher on-time and in-full delivery percentages. Atlas Stores and Chiptec Stores have lower OT and IF percentages, indicating a need for targeted service improvement.</li>
+            </ul>
+            
+<h3>Learnings:</h3>
+    <ul>
+        <li>Sparklines: Utilized to show trends in key metrics over time, providing a quick visual representation of performance fluctuations.</li>
+        <li>Conditional Formatting: Applied to highlight areas needing attention, such as below-target performance in OT, IF, and OTIF percentages.</li>
+        <li>Heatmap: Used to visualize the intensity of different performance metrics across cities and product categories.</li>
+        <li>Parameters: Implemented for dynamic filtering and analysis, enabling the examination of data under various conditions.</li>
+    </ul>
+
+  <h3>Recommendations:</h3>
+    <ul>
+        <li>Geographical Focus: Improve services in Ahmedabad and Vadodara using insights from Surat.</li>
+        <li>Product Category Enhancement: Optimize logistics for Dairy and Food categories.</li>
+        <li>Customer-specific Strategies: Target service improvements for Atlas Stores and Chiptec Stores.</li>
+        <li>Utilize Learnings: Regularly use sparklines, conditional formatting, and heatmaps for monitoring.</li>
+        <li>Leverage Parameters: Continuously adjust strategies based on dynamic data insights.</li>
+    </ul>
+    <hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
 <h1>Cricket Performance Analysis</h1>
 
 <h3>Objective:</h3>
@@ -91,55 +140,52 @@ The summary page provides an initial overview, with additional pages hidden and 
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Credit Card Analysis</h1>
-
-<h3>Objective:</h3>
-To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
+<h1>Store Sales Analysis Dashboard</h1>
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/27f4bd3d-a7a1-436d-bdfe-78ec8df13164" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/a8093a83-960d-4d63-9808-a8464d975e2a" style="width: 80%; height: auto; margin-bottom: 20px;">
 </div>
+ 
+<h3>Objective:</h3>
+This dashboard aims to provide a comprehensive analysis of store sales performance across different countries, product categories, and time periods. It focuses on identifying key trends, high-performing products, and areas for improvement to optimize sales strategies and enhance overall business performance.
 
 <h3>Data Preparation:</h3>
 <ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
-  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
+    <li>Removed unnecessary columns</li>
+    <li>Dropped rows with missing data</li>
+    <li>Encoded categorical variables where necessary</li>
+    <li>Normalized tables</li>
+    <li>Data modeled in star schema</li>
 </ul>
 
-<h3>Key Explorations:</h3>
+<h3>Learnings:</h3>
 <ul>
-  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
-  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
-  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
-  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
+    <li>Learned to use various DAX functions such as CALCULATE, SUM, and FILTER.</li>
+    <li>Implemented time intelligence functions for analysis.</li>
+    <li>Implemented Row-Level Security (RLS) to restrict data access based on user roles.</li>
 </ul>
 
 <h3>Insights:</h3>
 <ul>
-  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
-  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
-  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
-  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
-  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
-  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
-  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
+    <li>Geography: France and the UK show significant sales figures, but France underperforms in goal achievement, indicating potential for improvement in sales strategies.</li>
+    <li>Product Categories: Electronics dominate the sales, with TVs and Gaming Laptops being the top sellers, suggesting a strong consumer preference for these items.</li>
+    <li>Time Period: Sales data reveals a peak in Q3 2020 and a notable decline in early 2024, indicating seasonal trends and possibly the impact of external factors on sales.</li>
+    <li>Sales Performance: Highest sales were recorded on 13-09-2020 with $11,078.14, highlighting the impact of specific events or promotions on sales.</li>
+    <li>Top Products: Top-selling products include TVs, Gaming Laptops, and Washing Machines, showing a preference for high-value electronics and essential appliances.</li>
+    <li>Overall Performance: Despite achieving a lifetime sales total of $1,512,172.14, the goal achievement of -12.39% suggests room for improvement in reaching sales targets.</li>
 </ul>
 
 <h3>Recommendations:</h3>
 <ul>
-  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
-  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
-  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
-  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
-  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
-  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
-  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
+    <li>Enhance sales strategies in France to meet targets.</li>
+    <li>Offer promotions for popular electronics.</li>
+    <li>Replicate successful Q3 2020 strategies.</li>
+    <li>Run targeted campaigns during low sales periods.</li>
+    <li>Focus on high-value products to boost revenue.</li>
+    <li>Adjust sales targets to align with market trends.</li>
 </ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
+    <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>IPL Performance Analysis</h1>
 
@@ -193,6 +239,57 @@ To analyze IPL matches, performance metrics, player statistics, venue statistics
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1>Credit Card Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/27f4bd3d-a7a1-436d-bdfe-78ec8df13164" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b124075f-66d3-43fe-8678-d2b362b77c38" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
+  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
+</ul>
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
+  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
+  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
+  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
+  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
+  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
+  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
+  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
+  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
+  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
+  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
+  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
+  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
+  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
+  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
+  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
 <h1>Bank Loan Analysis</h1>
 
 <h3>Objective:</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
