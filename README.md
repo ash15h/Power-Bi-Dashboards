@@ -255,7 +255,7 @@ To analyze IPL matches, performance metrics, player statistics, venue statistics
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Electoral Bonds Analysis (2019-2024 (Till May))</h1>
+<h1>Electoral Bonds Analysis</h1>
 
 <h3>Objective:</h3> 
 To analyse the data related to electoral bonds in India, focusing on the total denominations, political parties, purchasers, and trends over the years.
