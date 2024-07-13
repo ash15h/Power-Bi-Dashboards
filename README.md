@@ -78,6 +78,7 @@
         <li>Conditional Formatting: Applied to highlight areas needing attention, such as below-target performance in OT, IF, and OTIF percentages.</li>
         <li>Heatmap: Used to visualize the intensity of different performance metrics across cities and product categories.</li>
         <li>Parameters: Implemented for dynamic filtering and analysis, enabling the examination of data under various conditions.</li>
+      <li>Forecasting using Line Chart: Added to predict future sales trends based on historical data.</li>
     </ul>
 
   <h3>Recommendations:</h3>
