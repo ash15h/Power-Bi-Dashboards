@@ -49,11 +49,11 @@
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/4432120e-eeb7-4730-b4b5-e38a01e18474" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/49920f84-4eca-4c03-9930-525004542384" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/37e523a9-83b9-4f84-a924-7b2f61e4b4aa" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/ba7c1b2e-5cf0-409a-a84b-0a4bfcf46d33" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/3696a095-acaf-46d6-9b18-f60fe201fae8" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/11831550-de51-45e9-9511-1a7411218e3c" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/87e6d295-6498-4c0b-9375-bfe91436d2e3" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/6c927ed5-610e-4c03-8230-60b46a303420" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
