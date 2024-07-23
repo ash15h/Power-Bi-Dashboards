@@ -99,9 +99,9 @@ To analyze Indian cricketers' match statistics, performance metrics, and histori
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/4dd63760-9339-4fc5-bf22-a93bac3fe3c0" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/59ee9f60-7b31-4a2d-b98e-c42cca02dfc8" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/ab5f713d-feb3-4561-a610-3efaea60cc6e" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/cac06acd-6cec-4541-968f-610dd6723008" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/857a144e-ecc8-4469-adf8-bbc0b20c61a1" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/d52fc71d-cb16-4c6a-906b-79f9dc36f6e3" style="width: 80%; height: auto; margin-bottom: 20px;">
 </div>
 
 <h3>Data Preparation:</h3>
