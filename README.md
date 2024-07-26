@@ -101,7 +101,7 @@ To analyze Indian cricketers' match statistics, performance metrics, and histori
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/cac06acd-6cec-4541-968f-610dd6723008" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/857a144e-ecc8-4469-adf8-bbc0b20c61a1" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/d52fc71d-cb16-4c6a-906b-79f9dc36f6e3" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/d52fc71d-cb16-4c6a-906b-79f9dc36f6e3" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
@@ -141,6 +141,57 @@ The summary page provides an initial overview, with additional pages hidden and 
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+<h1>Finance Analysis</h1>
+
+<h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/4e61fc3b-a3f5-428f-ad1b-1ea79bfb3c99" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/29c4b3b5-d596-46cc-ab54-f6f621db3d18" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/e16e7071-e3bb-49d5-ae01-e187a6a88ede" style="width: 80%; height: auto";>
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Got rid of columns not needed for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values.</li>
+  <li>Removed Duplicates: Cleaned up duplicate entries.</li>
+  <li>Used DAX Measure: Calculated sales, gross profits, net profits, operational profit, PBIT, and EBITDA using DAX measures.</li>
+  <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
+</ul>
+
+<h3>Key Explorations</h3>
+<ul>
+  <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
+  <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
+  <li>Yearly Profit Trends: Analyzed profit trends from 2018 to 2020 across different countries.</li>
+  <li>Country-specific Performance: Looked at financial performance for each country, noting significant differences.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Gross Profit: Exceeded the goal by 34.59%, achieving €5.34M against a goal of €3.97M. This indicates strong sales performance and effective cost management overall.</li>
+  <li>Operational Profit: Slightly above the goal by 3.15%, reaching €1.52M against a goal of €1.48M, showing operational efficiencies are in place but there's room for improvement.</li>
+  <li>PBIT: Exceeded the goal by 4.7%, achieving €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
+  <li>Net Profit: Slightly below the goal by 1.01%, reaching €1.29M against a goal of €1.30M, indicating effective overall financial management after accounting for all expenses.</li>
+  <li>EBITDA: Exceeded the goal by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings performance before accounting for interest, taxes, depreciation, and amortization.</li>
+  <li>Sales Trends: Total sales to date amounted to €171,086,642, showing robust sales performance contributing significantly to gross profit.</li>
+  <li>Country-specific Performance: Noticed financial loss in Australia. Sales revenue in Australia increased from 2018 to 2020, but the operational profit and net profit goals were not met. Despite strong sales, the financial losses highlight specific issues that need addressing to improve profitability in Australia.</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+  <li>Enhance Operational Efficiency: Keep improving processes to boost operational profit and hit net profit targets.</li>
+  <li>Focus on Cost Management: Maintain strong cost management to ensure gross profit stays above targets.</li>
+  <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
+  <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
+  <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
 <h1>Store Sales Analysis Dashboard</h1>
 
 <h3>Dashboard:</h3>
@@ -196,7 +247,7 @@ To analyze IPL matches, performance metrics, player statistics, venue statistics
 <h3>Dashboard:</h3> 
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/012f3d06-e4b1-49b2-8a9d-4a5fa4ac93b3" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f86e32f3-a49b-40a2-8d66-d48739310750" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/f86e32f3-a49b-40a2-8d66-d48739310750" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
@@ -297,7 +348,7 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b00d2564-e22c-4d01-9ea9-ea0e2f8a71de" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b00d2564-e22c-4d01-9ea9-ea0e2f8a71de" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
@@ -360,7 +411,7 @@ To analyse the data related to electoral bonds in India, focusing on the total d
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/0fd9a1fb-141f-4e6e-ad92-0debafacc8de" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/0fd9a1fb-141f-4e6e-ad92-0debafacc8de" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
@@ -382,53 +433,6 @@ To analyse the data related to electoral bonds in India, focusing on the total d
 <h3>Recommendations:</h3>
 <ul>
   <li>Public Awareness: Increase public awareness about electoral bonds and their impact on political funding and elections</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Finance Analysis</h1>
-
-<h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/ab2f905e-d1d7-47ef-8664-a14fdbff20e6" style="width: 80%; height: auto; margin-bottom: 20px;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-  <li>Removed Unnecessary Columns: Got rid of columns not needed for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values.</li>
-  <li>Removed Duplicates: Cleaned up duplicate entries.</li>
-  <li>Used DAX Measure: Calculated sales, gross profits, net profits, operational profit, PBIT, and EBITDA using DAX measures.</li>
-  <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
-</ul>
-
-<h3>Key Explorations</h3>
-<ul>
-  <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
-  <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
-  <li>Yearly Profit Trends: Analyzed profit trends from 2018 to 2020 across different countries.</li>
-  <li>Country-specific Performance: Looked at financial performance for each country, noting significant differences.</li>
-</ul>
-
-<h3>Insights:</h3>
-<ul>
-  <li>Gross Profit: Exceeded the goal by 34.59%, achieving €5.34M against a goal of €3.97M. This indicates strong sales performance and effective cost management overall.</li>
-  <li>Operational Profit: Slightly above the goal by 3.15%, reaching €1.52M against a goal of €1.48M, showing operational efficiencies are in place but there's room for improvement.</li>
-  <li>PBIT: Exceeded the goal by 4.7%, achieving €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
-  <li>Net Profit: Slightly below the goal by 1.01%, reaching €1.29M against a goal of €1.30M, indicating effective overall financial management after accounting for all expenses.</li>
-  <li>EBITDA: Exceeded the goal by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings performance before accounting for interest, taxes, depreciation, and amortization.</li>
-  <li>Sales Trends: Total sales to date amounted to €171,086,642, showing robust sales performance contributing significantly to gross profit.</li>
-  <li>Country-specific Performance: Noticed financial loss in Australia. Sales revenue in Australia increased from 2018 to 2020, but the operational profit and net profit goals were not met. Despite strong sales, the financial losses highlight specific issues that need addressing to improve profitability in Australia.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-  <li>Enhance Operational Efficiency: Keep improving processes to boost operational profit and hit net profit targets.</li>
-  <li>Focus on Cost Management: Maintain strong cost management to ensure gross profit stays above targets.</li>
-  <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
-  <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
-  <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
