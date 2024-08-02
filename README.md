@@ -101,7 +101,7 @@ To analyze Indian cricketers' match statistics, performance metrics, and histori
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/cac06acd-6cec-4541-968f-610dd6723008" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/857a144e-ecc8-4469-adf8-bbc0b20c61a1" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/d52fc71d-cb16-4c6a-906b-79f9dc36f6e3" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/e795eae8-5555-465c-9713-5a7f8ad54aa9" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
