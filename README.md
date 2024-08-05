@@ -92,56 +92,6 @@
     <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>Cricket Performance Analysis</h1>
-
-<h3>Objective:</h3>
-To analyze Indian cricketers' match statistics, performance metrics, and historical data to identify key trends, top performers, and strategic insights for improving team performance.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/cac06acd-6cec-4541-968f-610dd6723008" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/857a144e-ecc8-4469-adf8-bbc0b20c61a1" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e795eae8-5555-465c-9713-5a7f8ad54aa9" style="width: 80%; height: auto;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
-  <li>Feature Engineering: Changed many names to match across all tables.</li>
-  <li>Created Captains Table: Created a table with captains' names and images for Power BI's new slicer.</li>
-</ul>
-
-<h3>Data Modelling:</h3>
-<ul>
-  <li>Created a new name lookup table and connected all the tables to it. The relationship was one-to-one.</li>
-  <li>Used DAX to calculate various sums, highest scores, and other stats.</li>
-</ul>
-
-<h3>Learning:</h3>
-The summary page provides an initial overview, with additional pages hidden and accessible based on user roles. Page-level security is implemented using access roles, row-level security, and slicers. A tooltip page shows a player's stats summary on the summary page. Power BI's new slicer is used to create captains' images in the slicer.
-
-<h3>Key Explorations:</h3>
-<ul>
-  <li>Player Match Statistics: Analyzed the number of ODI and Test matches played by various players. Identified players with significant contributions in one format and minimal in another.</li>
-  <li>Runs and Wickets: Investigated runs scored and wickets taken by players in both ODI and Test formats. Examined players with more than 1000 runs and 100 wickets in both formats.</li>
-  <li>Test and ODI Captains: Reviewed the performance of Test and ODI captains, including their win percentages and contributions.</li>
-  <li>Batting and Bowling Averages: Analyzed batting and bowling averages of key players across different formats.</li>
-  <li>Historical Performance: Explored the number of debutants by year and notable historical achievements of Indian cricketers.</li>
-</ul>
-
-<h3>Insights:</h3>
-<ul>
-  <li>Player Contributions: Players like Sachin Tendulkar, Kapil Dev, and Anil Kumble have made significant contributions in both formats with high runs and wickets. These players are pivotal to India's cricketing history, highlighting their versatility and consistency.</li>
-  <li>Match Statistics: Sachin Tendulkar has played the most ODI matches (463) and scored the highest number of runs. His long career and exceptional performance set a benchmark for future players.</li>
-  <li>Bowling Performance: Anil Kumble and Kapil Dev have taken the highest number of wickets in Test matches. Their bowling prowess was instrumental in India's Test match successes.</li>
-  <li>Batting Averages: Virat Kohli has one of the highest batting averages among current players, highlighting his consistency. Kohli's performance is critical for India's current and future cricketing success.</li>
-  <li>Historical Debutants: The number of debutants has fluctuated over the decades, with notable peaks in certain periods. These peaks could correspond to strategic changes or the emergence of new talent in Indian cricket.</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
 <h1>Finance Analysis</h1>
 
 <h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
@@ -188,6 +138,111 @@ The summary page provides an initial overview, with additional pages hidden and 
   <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
   <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
   <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+<h1>Credit Card Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/86d8cbb7-d4c2-4723-93f9-e4fea046a4ae" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/468e834d-bed0-43a0-98e8-8d92eeb79926" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
+  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
+</ul>
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
+  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
+  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
+  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
+  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
+  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
+  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
+  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
+  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
+  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
+  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
+  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
+  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
+  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
+  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
+  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+
+<h1>Cricket Performance Analysis</h1>
+
+<h3>Objective:</h3>
+To analyze Indian cricketers' match statistics, performance metrics, and historical data to identify key trends, top performers, and strategic insights for improving team performance.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/cac06acd-6cec-4541-968f-610dd6723008" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/857a144e-ecc8-4469-adf8-bbc0b20c61a1" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/e795eae8-5555-465c-9713-5a7f8ad54aa9" style="width: 80%; height: auto;">
+</div>
+
+<h3>Data Preparation:</h3>
+<ul>
+  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
+  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
+  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
+  <li>Feature Engineering: Changed many names to match across all tables.</li>
+  <li>Created Captains Table: Created a table with captains' names and images for Power BI's new slicer.</li>
+</ul>
+
+<h3>Data Modelling:</h3>
+<ul>
+  <li>Created a new name lookup table and connected all the tables to it. The relationship was one-to-one.</li>
+  <li>Used DAX to calculate various sums, highest scores, and other stats.</li>
+</ul>
+
+<h3>Learning:</h3>
+The summary page provides an initial overview, with additional pages hidden and accessible based on user roles. Page-level security is implemented using access roles, row-level security, and slicers. A tooltip page shows a player's stats summary on the summary page. Power BI's new slicer is used to create captains' images in the slicer.
+
+<h3>Key Explorations:</h3>
+<ul>
+  <li>Player Match Statistics: Analyzed the number of ODI and Test matches played by various players. Identified players with significant contributions in one format and minimal in another.</li>
+  <li>Runs and Wickets: Investigated runs scored and wickets taken by players in both ODI and Test formats. Examined players with more than 1000 runs and 100 wickets in both formats.</li>
+  <li>Test and ODI Captains: Reviewed the performance of Test and ODI captains, including their win percentages and contributions.</li>
+  <li>Batting and Bowling Averages: Analyzed batting and bowling averages of key players across different formats.</li>
+  <li>Historical Performance: Explored the number of debutants by year and notable historical achievements of Indian cricketers.</li>
+</ul>
+
+<h3>Insights:</h3>
+<ul>
+  <li>Player Contributions: Players like Sachin Tendulkar, Kapil Dev, and Anil Kumble have made significant contributions in both formats with high runs and wickets. These players are pivotal to India's cricketing history, highlighting their versatility and consistency.</li>
+  <li>Match Statistics: Sachin Tendulkar has played the most ODI matches (463) and scored the highest number of runs. His long career and exceptional performance set a benchmark for future players.</li>
+  <li>Bowling Performance: Anil Kumble and Kapil Dev have taken the highest number of wickets in Test matches. Their bowling prowess was instrumental in India's Test match successes.</li>
+  <li>Batting Averages: Virat Kohli has one of the highest batting averages among current players, highlighting his consistency. Kohli's performance is critical for India's current and future cricketing success.</li>
+  <li>Historical Debutants: The number of debutants has fluctuated over the decades, with notable peaks in certain periods. These peaks could correspond to strategic changes or the emergence of new talent in Indian cricket.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
@@ -291,60 +346,6 @@ To analyze IPL matches, performance metrics, player statistics, venue statistics
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Credit Card Analysis</h1>
-
-<h3>Objective:</h3>
-To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/86d8cbb7-d4c2-4723-93f9-e4fea046a4ae" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/468e834d-bed0-43a0-98e8-8d92eeb79926" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 80%; height: auto;">
-</div>
-
-<h3>Data Preparation:</h3>
-<ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
-  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
-</ul>
-
-<h3>Key Explorations:</h3>
-<ul>
-  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
-  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
-  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
-  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
-</ul>
-
-<h3>Insights:</h3>
-<ul>
-  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
-  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
-  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
-  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
-  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
-  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
-  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
-  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
-  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
-  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
-  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
-  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
-  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
 <h1>Bank Loan Analysis</h1>
 
 <h3>Objective:</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
