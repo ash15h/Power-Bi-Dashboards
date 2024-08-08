@@ -301,9 +301,9 @@ To analyze IPL matches, performance metrics, player statistics, venue statistics
 
 <h3>Dashboard:</h3> 
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/71bc1ecd-ef1c-4343-a801-ae6635726f63" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/c8b879aa-8c96-4fa2-8976-f79a1ae2369d" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/0123997d-3694-4b4d-bf1d-cb4a32687350" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/b3c1064a-cf67-45c6-8dd3-86150d27c511" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/d70c85f1-b454-4f4a-9f19-16ac4b74d082" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/46768fac-1639-44ae-a16d-687c3a2bad09" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/1cc65e22-ae15-4f6d-a3a5-00debb55d538" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/c08859e0-57f7-4986-825f-268307d37397" style="width: 80%; height: auto;">
