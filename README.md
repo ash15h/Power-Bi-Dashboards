@@ -1,44 +1,76 @@
-<h1>Bank Churn Analysis </h1>
+<h1>USECASE 01 - Bank Churn Analysis</h1>
 
-<h3>Objective:</h3> To analyze and predict customer churn by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.
+<h3>Objective:</h3>
+<p>To analyze and predict customer churn and churn risk by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.</p>
 
 <h3>Dashboard:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/2c4d226e-248e-46de-aa55-0504c146495f" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/2d7d25ce-ce14-45d6-b8e9-3a92ba76ba2a" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/fad0cd59-c6a1-4ac5-adb4-cf8d39c9a268" style="width: 80%; height: auto;">
 </div>
 
-<h3>Data Preparation:</h3>
-<ul>
-<li> Removed unnecessary columns</li>
-<li> Dropped rows with missing data</li>
-<li>Encoded 'Geography' and 'Gender' using OneHotEncoder</li>
-<li>Standardized features with StandardScaler</li></ul>
+<h3>Steps:</h3>
+<ol>
+    <li>
+        <h4>Data Preparation</h4>
+        <ul>
+            <li>Removed unnecessary columns</li>
+            <li>Dropped rows with missing data</li>
+            <li>Encoded 'Geography' and 'Gender' using OneHotEncoder</li>
+            <li>Standardized features with StandardScaler</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Data Modelling</h4>
+        <ul>
+            <li>Trained a Random Forest classifier to predict customer churn.</li>
+            <li>Added predicted churn probabilities to the churn dataset</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Data Connection</h4>
+        <ul>
+            <li>The CSV file updated with predicted churn probabilities was imported in PowerBI</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Calculations/Features</h4>
+        <ul>
+            <li>“Group” feature in PowerBI was used to create groups like: Age-groups, Exiting/Churn probability group, etc.</li>
+            <li>DAX functions like Calculate, Divide, DistinctCount, etc., were used to calculate different measures</li>
+            <li>Image was used as a page navigator</li>
+        </ul>
+    </li>
+</ol>
 
-<h3>Modelling:</h3>
+<h3>Skills Acquired;</h3>
 <ul>
-<li>Trained a Random Forest classifier to predict customer churn</li>
-<li>Added predicted churn probabilities to the dataset</li></ul>
+    <li>Using Python for data cleaning, modeling, and prediction</li>
+    <li>Using import mode for data connection</li>
+    <li>Calculating measures using DAX</li>
+    <li>Grouping data</li>
+    <li>Page navigation</li>
+</ul>
 
-<h3>Insights:</h3>
+<h3>Insights/Findings:</h3>
 <ul>
-<li>Geography: France has higher churn rates; service improvements are needed</li>
-<li>Gender: More females are likely to churn</li>
-<li>Credit Score: Lower scores correlate with higher churn, suggesting support services may help. Some high-score customers also churn, possibly seeking better services</li>
-<li>Tenure: Shorter tenures correlate with higher churn, indicating better onboarding is needed</li>
-<li>Age: Young adults and middle-aged customers show higher churn rates, needing targeted products</li>
-<li>Salary: Middle-income customers and some high-income customers churn more, possibly due to service value perceptions</li>
+    <li><strong>Geography:</strong> France has higher churn rates; service improvements are needed.</li>
+    <li><strong>Gender:</strong> More females are likely to churn.</li>
+    <li><strong>Credit Score:</strong> Lower scores correlate with higher churn, suggesting support services may help. Some high-score customers also churn, possibly seeking better services.</li>
+    <li><strong>Tenure:</strong> Shorter tenures correlate with higher churn, indicating better onboarding is needed.</li>
+    <li><strong>Age:</strong> Young adults and middle-aged customers show higher churn rates, needing targeted products.</li>
+    <li><strong>Salary:</strong> Middle-income customers and some high-income customers churn more, possibly due to service value perceptions.</li>
 </ul>
 
 <h3>Recommendations:</h3>
 <ul>
-<li>Geographical Focus: Investigate why churn is high in France and improve services</li>
-<li>Gender-specific Strategies: Develop tailored retention efforts for female customers</li>
-<li>Credit Score Segmentation: Offer support for low-score customers and better options for high-score ones</li>
-<li>Improving Onboarding: Enhance initial customer experiences to increase retention</li>
-<li>Tailored Financial Products: Design products for younger and middle-aged customers</li>
-<li>Competitive Pricing and Services: Review pricing and improve service value for middle-income customers</li>
-<li>Credit Card Improvements: Upgrade credit card offerings to meet customer expectations</li>
+    <li><strong>Geographical Focus:</strong> Investigate why churn is high in France and improve services.</li>
+    <li><strong>Gender-specific Strategies:</strong> Develop tailored retention efforts for female customers.</li>
+    <li><strong>Credit Score Segmentation:</strong> Offer support for low-score customers and better options for high-score ones.</li>
+    <li><strong>Improving Onboarding:</strong> Enhance initial customer experiences to increase retention.</li>
+    <li><strong>Tailored Financial Products:</strong> Design products for younger and middle-aged customers.</li>
+    <li><strong>Competitive Pricing and Services:</strong> Review pricing and improve service value for middle-income customers.</li>
+    <li><strong>Credit Card Improvements:</strong> Upgrade credit card offerings to meet customer expectations.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
@@ -301,12 +333,12 @@ To analyze IPL matches, performance metrics, player statistics, venue statistics
 
 <h3>Dashboard:</h3> 
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/c8b879aa-8c96-4fa2-8976-f79a1ae2369d" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/0123997d-3694-4b4d-bf1d-cb4a32687350" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/d70c85f1-b454-4f4a-9f19-16ac4b74d082" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/46768fac-1639-44ae-a16d-687c3a2bad09" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/1cc65e22-ae15-4f6d-a3a5-00debb55d538" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/c08859e0-57f7-4986-825f-268307d37397" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/e9993bd7-0c39-4cc2-99f1-510c36c4bfe9" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/748438dc-d1b4-4470-8185-8fcaca2c5cc8" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/94d50fb6-f611-42d0-9493-8c5efe77da07" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/e2eef958-a025-4183-8ce6-b4e5f775880a" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/688653e6-bae7-43d3-a896-ea315b333601" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/234e556a-f845-493c-bd7d-53fe7ee7ab8b" style="width: 80%; height: auto;">
 </div>
 
 <h3>Data Preparation:</h3>
