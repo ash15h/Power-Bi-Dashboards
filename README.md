@@ -74,12 +74,12 @@
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1> USECASE 02 - Order Aggregate & Line Analysis</h1>
+<h1>USECASE 02 - Order Aggregate & Line Analysis</h1>
 
 <h3>Objective</h3>
 <p>To analyze and enhance service level performance by examining key metrics such as on-time delivery (OT), in-full delivery (IF), on-time in-full delivery (OTIF), line item fill rate (LIFR), and volume fill rate (VOFR) across different product categories, cities, and customer names. The goal is to identify areas for improvement and implement strategies to boost service efficiency and customer satisfaction.</p>
 
-<h3>Report view</h3>
+<h3>Report View</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" style="width: 100%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" style="width: 100%; height: auto; margin-bottom: 20px;">
@@ -114,18 +114,19 @@
             <li>Established one-to-many, uni-directional relationships from dimension to fact tables.</li>
         </ul>
     </li>
+    <li>
+        <h4>Calculations/Features</h4>
+        <ul>
+            <li>Displayed up and down arrows with conditional formatting based on differences between actual and target metrics.</li>
+            <li>Applied conditional formatting to create gradient colors in visuals and generate heatmaps.</li>
+            <li>Implemented page navigation buttons for better user interaction.</li>
+            <li>Used the Parameter feature to create a slicer for switching between axis values.</li>
+            <li>Added sparklines to provide more insights into the metrics.</li>
+            <li>Forecasted future sales trends based on historical data.</li>
+            <li>Utilized DAX functions such as Average, Calculate, CountRows, and TreatAs.</li>
+        </ul>
+    </li>
 </ol>
-
-<h3>Calculations/Features</h3>
-<ul>
-    <li>Displayed up and down arrows with conditional formatting based on differences between actual and target metrics.</li>
-    <li>Applied conditional formatting to create gradient colors in visuals and generate heatmaps.</li>
-    <li>Implemented page navigation buttons for better user interaction.</li>
-    <li>Used the Parameter feature to create a slicer for switching between axis values.</li>
-    <li>Added sparklines to provide more insights into the metrics.</li>
-    <li>Forecasted future sales trends based on historical data.</li>
-    <li>Utilized DAX functions such as Average, Calculate, CountRows, and TreatAs.</li>
-</ul>
 
 <h3>Skills Acquired</h3>
 <ul>
@@ -154,57 +155,79 @@
     <li><strong>Leverage Parameters:</strong> Continuously adjust strategies based on dynamic data insights.</li>
 </ul>
 
-
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>Finance Analysis</h1>
+<h1>USECASE 03 - Finance Analysis</h1>
 
-<h3>Objective:</h3>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The aim is to identify trends, insights, and areas for improvement across all markets.
+<h3>Objective</h3>
+<p>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The goal is to identify trends, insights, and areas for improvement across all markets.</p>
 
-<h3>Dashboard:</h3>
+<h3>Report View </h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/4e61fc3b-a3f5-428f-ad1b-1ea79bfb3c99" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/29c4b3b5-d596-46cc-ab54-f6f621db3d18" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e16e7071-e3bb-49d5-ae01-e187a6a88ede" style="width: 80%; height: auto";>
+  <img src="https://github.com/user-attachments/assets/f0e647e6-cb1b-4e0f-83bb-7bdfa49e6441" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/8038f63f-f7ff-4e83-a2f5-69bb82896751" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/23c89ecd-4654-4298-877c-adabbcd54e45" style="width: 100%; height: auto";>
 </div>
 
-<h3>Data Preparation:</h3>
+<h3>Steps</h3>
+<ol>
+    <li>
+        <h4>Data Connection</h4>
+        <ul>
+            <li>Tables are connected via DirectQuery from an SQL Server database.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Data Modelling</h4>
+        <ul>
+            <li>Connected tables using a snowflake schema, with dimension tables linking to other dimension tables.</li>
+            <li>Established one-to-many, uni-directional relationships from dimension to fact tables.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Data Preparation</h4>
+        <ul>
+            <li>Adjusted headers.</li>
+            <li>Removed duplicate data.</li>
+            <li>Corrected column data types.</li>
+            <li>Eliminated unnecessary columns.</li>
+            <li>Removed rows with missing data.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Calculations/Features</h4>
+        <ul>
+            <li>Performed time-based calculations without using time intelligence functions.</li>
+            <li>Displayed up and down arrows with conditional formatting based on year-over-year performance.</li>
+            <li>Applied conditional formatting to show green or red colors in arrows based on year-over-year differences.</li>
+            <li>Implemented page navigation buttons for enhanced user interaction.</li>
+            <li>Used the Parameter feature to create slicers for switching between axis values.</li>
+            <li>Utilized DAX functions such as Average, Calculate, Date, Month, Day, and Format.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Insights</h3>
 <ul>
-  <li>Removed Unnecessary Columns: Got rid of columns not needed for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values.</li>
-  <li>Removed Duplicates: Cleaned up duplicate entries.</li>
-  <li>Used DAX Measure: Calculated sales, gross profits, net profits, operational profit, PBIT, and EBITDA using DAX measures.</li>
-  <li>Time Intelligence: Used time intelligence in DAX to calculate previous years' data for profits.</li>
+    <li><strong>Gross Profit:</strong> Surpassed the target by 34.59%, reaching €5.34M against a goal of €3.97M, indicating strong sales performance and effective cost management.</li>
+    <li><strong>Operational Profit:</strong> Slightly exceeded the target by 3.15%, achieving €1.52M against a goal of €1.48M, highlighting operational efficiencies with room for improvement.</li>
+    <li><strong>PBIT:</strong> Exceeded the target by 4.7%, reaching €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
+    <li><strong>Net Profit:</strong> Slightly below the target by 1.01%, reaching €1.29M against a goal of €1.30M, indicating overall effective financial management after accounting for all expenses.</li>
+    <li><strong>EBITDA:</strong> Exceeded the target by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings before interest, taxes, depreciation, and amortization.</li>
+    <li><strong>Sales Trends:</strong> Total sales to date amounted to €171,086,642, showcasing robust sales performance contributing significantly to gross profit.</li>
+    <li><strong>Country-specific Performance:</strong> Financial losses were noted in Australia despite increasing sales revenue from 2018 to 2020. Operational and net profit goals were not met, highlighting specific issues that require attention to improve profitability in the region.</li>
 </ul>
 
-<h3>Key Explorations</h3>
+<h3>Recommendations</h3>
 <ul>
-  <li>Profit Metrics: Checked gross profit, operational profit, PBIT, net profit, and EBITDA.</li>
-  <li>Sales Data: Looked at total sales and gross profit by month and year. Also checked net profit by month and year.</li>
-  <li>Yearly Profit Trends: Analyzed profit trends from 2018 to 2020 across different countries.</li>
-  <li>Country-specific Performance: Looked at financial performance for each country, noting significant differences.</li>
+    <li><strong>Enhance Operational Efficiency:</strong> Continue improving processes to boost operational profit and achieve net profit targets.</li>
+    <li><strong>Focus on Cost Management:</strong> Maintain strong cost control measures to ensure gross profit remains above targets.</li>
+    <li><strong>Monitor Trends:</strong> Regularly review monthly and yearly financial trends to quickly identify and address issues.</li>
+    <li><strong>Country-specific Strategies:</strong> Develop tailored strategies for each country, particularly to address financial losses in Australia.</li>
+    <li><strong>Increase Sales Initiatives:</strong> Implement targeted sales strategies to further enhance total sales and profitability.</li>
 </ul>
 
-<h3>Insights:</h3>
-<ul>
-  <li>Gross Profit: Exceeded the goal by 34.59%, achieving €5.34M against a goal of €3.97M. This indicates strong sales performance and effective cost management overall.</li>
-  <li>Operational Profit: Slightly above the goal by 3.15%, reaching €1.52M against a goal of €1.48M, showing operational efficiencies are in place but there's room for improvement.</li>
-  <li>PBIT: Exceeded the goal by 4.7%, achieving €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
-  <li>Net Profit: Slightly below the goal by 1.01%, reaching €1.29M against a goal of €1.30M, indicating effective overall financial management after accounting for all expenses.</li>
-  <li>EBITDA: Exceeded the goal by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings performance before accounting for interest, taxes, depreciation, and amortization.</li>
-  <li>Sales Trends: Total sales to date amounted to €171,086,642, showing robust sales performance contributing significantly to gross profit.</li>
-  <li>Country-specific Performance: Noticed financial loss in Australia. Sales revenue in Australia increased from 2018 to 2020, but the operational profit and net profit goals were not met. Despite strong sales, the financial losses highlight specific issues that need addressing to improve profitability in Australia.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-  <li>Enhance Operational Efficiency: Keep improving processes to boost operational profit and hit net profit targets.</li>
-  <li>Focus on Cost Management: Maintain strong cost management to ensure gross profit stays above targets.</li>
-  <li>Monitor Trends: Regularly check monthly and yearly financial trends to spot and fix issues quickly.</li>
-  <li>Country-specific Strategies: Create tailored plans for each country, especially to fix financial losses in Australia.</li>
-  <li>Increase Sales Initiatives: Launch targeted sales efforts to further boost total sales and profitability.</li>
-</ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
