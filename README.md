@@ -1,127 +1,161 @@
 <h1>USECASE 01 - Bank Churn Analysis</h1>
 
-<h3>Objective:</h3>
-<p>To analyze and predict customer churn and churn risk by looking at factors like geography, gender, credit score, tenure, age, and salary. We used machine learning to calculate the churn probability of customers. The aim is to find ways to keep customers and reduce churn through practical insights.</p>
+<h3>Objective</h3>
+<p>To analyze and predict customer churn and risk by examining factors such as geography, gender, credit score, tenure, age, and salary. Machine learning was used to calculate the churn probability of customers. The goal is to provide actionable insights to retain customers and reduce churn.</p>
 
-<h3>Dashboard:</h3>
+<h3>Report View</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/fad0cd59-c6a1-4ac5-adb4-cf8d39c9a268" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/fad0cd59-c6a1-4ac5-adb4-cf8d39c9a268" style="width: 100%; height: auto;">
 </div>
 
-<h3>Steps:</h3>
+<h3>Steps</h3>
 <ol>
     <li>
         <h4>Data Preparation</h4>
         <ul>
-            <li>Removed unnecessary columns</li>
-            <li>Dropped rows with missing data</li>
-            <li>Encoded 'Geography' and 'Gender' using OneHotEncoder</li>
-            <li>Standardized features with StandardScaler</li>
+            <li>Removed unnecessary columns.</li>
+            <li>Eliminated rows with missing data.</li>
+            <li>Encoded 'Geography' and 'Gender' using OneHotEncoder.</li>
+            <li>Standardized features with StandardScaler.</li>
         </ul>
     </li>
     <li>
-        <h4>Data Modelling</h4>
+        <h4>Data Modeling</h4>
         <ul>
             <li>Trained a Random Forest classifier to predict customer churn.</li>
-            <li>Added predicted churn probabilities to the churn dataset</li>
+            <li>Added predicted churn probabilities to the dataset.</li>
         </ul>
     </li>
     <li>
         <h4>Data Connection</h4>
         <ul>
-            <li>The CSV file updated with predicted churn probabilities was imported in PowerBI</li>
+            <li>Imported the CSV file with predicted churn probabilities into Power BI.</li>
         </ul>
     </li>
     <li>
-        <h4>Calculations/Features</h4>
+        <h4>Calculations and Features</h4>
         <ul>
-            <li>“Group” feature in PowerBI was used to create groups like: Age-groups, Exiting/Churn probability group, etc.</li>
-            <li>DAX functions like Calculate, Divide, DistinctCount, etc., were used to calculate different measures</li>
-            <li>Image was used as a page navigator</li>
+            <li>Used the “Group” feature in Power BI to create groups such as age groups and churn probability groups.</li>
+            <li>Utilized DAX functions like Calculate, Divide, and DistinctCount to calculate various measures.</li>
+            <li>Incorporated an image as a page navigator.</li>
         </ul>
     </li>
 </ol>
 
-<h3>Skills Acquired;</h3>
+<h3>Skills Acquired</h3>
 <ul>
-    <li>Using Python for data cleaning, modeling, and prediction</li>
-    <li>Using import mode for data connection</li>
-    <li>Calculating measures using DAX</li>
-    <li>Grouping data</li>
-    <li>Page navigation</li>
+    <li>Data cleaning, modeling, and prediction using Python.</li>
+    <li>Connecting data using import mode in Power BI.</li>
+    <li>Calculating measures using DAX.</li>
+    <li>Grouping data effectively.</li>
+    <li>Implementing page navigation in reports.</li>
 </ul>
 
-<h3>Insights/Findings:</h3>
+<h3>Insights and Findings</h3>
 <ul>
-    <li><strong>Geography:</strong> France has higher churn rates; service improvements are needed.</li>
-    <li><strong>Gender:</strong> More females are likely to churn.</li>
-    <li><strong>Credit Score:</strong> Lower scores correlate with higher churn, suggesting support services may help. Some high-score customers also churn, possibly seeking better services.</li>
-    <li><strong>Tenure:</strong> Shorter tenures correlate with higher churn, indicating better onboarding is needed.</li>
-    <li><strong>Age:</strong> Young adults and middle-aged customers show higher churn rates, needing targeted products.</li>
-    <li><strong>Salary:</strong> Middle-income customers and some high-income customers churn more, possibly due to service value perceptions.</li>
+    <li><strong>Geography:</strong> France exhibits higher churn rates, indicating a need for service improvements.</li>
+    <li><strong>Gender:</strong> Female customers are more likely to churn.</li>
+    <li><strong>Credit Score:</strong> Lower credit scores are associated with higher churn, suggesting that support services may help. However, some high-score customers also churn, potentially seeking better services.</li>
+    <li><strong>Tenure:</strong> Shorter tenures are linked to higher churn, highlighting the importance of improving the onboarding process.</li>
+    <li><strong>Age:</strong> Young adults and middle-aged customers have higher churn rates, necessitating targeted products.</li>
+    <li><strong>Salary:</strong> Middle-income customers, along with some high-income customers, churn more frequently, possibly due to perceptions of service value.</li>
 </ul>
 
-<h3>Recommendations:</h3>
+<h3>Recommendations</h3>
 <ul>
-    <li><strong>Geographical Focus:</strong> Investigate why churn is high in France and improve services.</li>
-    <li><strong>Gender-specific Strategies:</strong> Develop tailored retention efforts for female customers.</li>
-    <li><strong>Credit Score Segmentation:</strong> Offer support for low-score customers and better options for high-score ones.</li>
-    <li><strong>Improving Onboarding:</strong> Enhance initial customer experiences to increase retention.</li>
-    <li><strong>Tailored Financial Products:</strong> Design products for younger and middle-aged customers.</li>
-    <li><strong>Competitive Pricing and Services:</strong> Review pricing and improve service value for middle-income customers.</li>
+    <li><strong>Geographical Focus:</strong> Investigate the reasons behind high churn in France and enhance services accordingly.</li>
+    <li><strong>Gender-specific Strategies:</strong> Develop retention efforts tailored to female customers.</li>
+    <li><strong>Credit Score Segmentation:</strong> Provide support for low-score customers and offer better options for high-score ones.</li>
+    <li><strong>Improving Onboarding:</strong> Enhance initial customer experiences to boost retention.</li>
+    <li><strong>Tailored Financial Products:</strong> Design financial products specifically for younger and middle-aged customers.</li>
+    <li><strong>Competitive Pricing and Services:</strong> Review and improve service value for middle-income customers.</li>
     <li><strong>Credit Card Improvements:</strong> Upgrade credit card offerings to meet customer expectations.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1> USECASE 02 - Order Aggregate & Line Analysis</h1>
 
-<h1>Order Aggregate & Line Analysis</h1>
+<h3>Objective</h3>
+<p>To analyze and enhance service level performance by examining key metrics such as on-time delivery (OT), in-full delivery (IF), on-time in-full delivery (OTIF), line item fill rate (LIFR), and volume fill rate (VOFR) across different product categories, cities, and customer names. The goal is to identify areas for improvement and implement strategies to boost service efficiency and customer satisfaction.</p>
 
-<h3>Objective:</h3>To analyze and improve the service level performance by examining key metrics such as on-time delivery (OT), in-full delivery (IF), on-time in-full delivery (OTIF), line item fill rate (LIFR), and volume fill rate (VOFR) across different product categories, cities, and customer names. The aim is to identify areas for improvement and implement strategies to enhance service efficiency and customer satisfaction.
-
-<h3>Dashboard:</h3>
+<h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/11831550-de51-45e9-9511-1a7411218e3c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/87e6d295-6498-4c0b-9375-bfe91436d2e3" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/6c927ed5-610e-4c03-8230-60b46a303420" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/11831550-de51-45e9-9511-1a7411218e3c" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/87e6d295-6498-4c0b-9375-bfe91436d2e3" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/6c927ed5-610e-4c03-8230-60b46a303420" style="width: 100%; height: auto;">
 </div>
 
-<h3>Data Preparation:</h3>
-    <ul>
-        <li>Removed unnecessary columns</li>
-        <li>Dropped rows with missing data</li>
-        <li>Encoded categorical variables where necessary</li>
-        <li>Normalised tables</li>
-        <li>Data modeled in star schema</li>
-    </ul>
+<h3>Steps</h3>
 
-  <h3>Insights:</h3>
-    <ul>
-        <li>Geography: Surat shows the highest on-time percentage (61.21%) and OTIF percentage (30.07%), indicating relatively better performance. Ahmedabad and   Vadodara need improvements in OT and OTIF percentages</li>
-        <li>Product Category: Dairy and Food categories have higher order quantities and delivered quantities but show significant room for improvement in on-time and in-full deliveries. Beverages perform relatively better in terms of VOFR% (96.59%) and LIFR% (65.96%)</li>
-        <li>Customer Analysis: Customers like Elite Mart, Expert Mart, and Logic Stores show higher on-time and in-full delivery percentages. Atlas Stores and Chiptec Stores have lower OT and IF percentages, indicating a need for targeted service improvement.</li>
-            </ul>
-            
-<h3>Learnings:</h3>
-    <ul>
-        <li>Sparklines: Utilized to show trends in key metrics over time, providing a quick visual representation of performance fluctuations.</li>
-        <li>Conditional Formatting: Applied to highlight areas needing attention, such as below-target performance in OT, IF, and OTIF percentages.</li>
-        <li>Heatmap: Used to visualize the intensity of different performance metrics across cities and product categories.</li>
-        <li>Parameters: Implemented for dynamic filtering and analysis, enabling the examination of data under various conditions.</li>
-      <li>Forecasting using Line Chart: Added to predict future sales trends based on historical data.</li>
-    </ul>
+<ol>
+    <li>
+        <h4>Data Connection</h4>
+        <ul>
+            <li>The CSV files were imported into Power BI using Import Mode.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Data Preparation</h4>
+        <ul>
+            <li>Adjusted the headers.</li>
+            <li>Removed duplicate data.</li>
+            <li>Corrected data types for columns.</li>
+            <li>Eliminated unnecessary columns.</li>
+            <li>Removed rows with missing data.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Data Modelling</h4>
+        <ul>
+            <li>Connected the tables using a Star Schema with one fact table and five dimension tables.</li>
+            <li>Established one-to-many, uni-directional relationships from dimension to fact tables.</li>
+        </ul>
+    </li>
+</ol>
 
-  <h3>Recommendations:</h3>
-    <ul>
-        <li>Geographical Focus: Improve services in Ahmedabad and Vadodara using insights from Surat.</li>
-        <li>Product Category Enhancement: Optimize logistics for Dairy and Food categories.</li>
-        <li>Customer-specific Strategies: Target service improvements for Atlas Stores and Chiptec Stores.</li>
-        <li>Utilize Learnings: Regularly use sparklines, conditional formatting, and heatmaps for monitoring.</li>
-        <li>Leverage Parameters: Continuously adjust strategies based on dynamic data insights.</li>
-    </ul>
-    <hr style="border: 1px solid #fff; margin: 20px 0;">
+<h3>Calculations/Features</h3>
+<ul>
+    <li>Displayed up and down arrows with conditional formatting based on differences between actual and target metrics.</li>
+    <li>Applied conditional formatting to create gradient colors in visuals and generate heatmaps.</li>
+    <li>Implemented page navigation buttons for better user interaction.</li>
+    <li>Used the Parameter feature to create a slicer for switching between axis values.</li>
+    <li>Added sparklines to provide more insights into the metrics.</li>
+    <li>Forecasted future sales trends based on historical data.</li>
+    <li>Utilized DAX functions such as Average, Calculate, CountRows, and TreatAs.</li>
+</ul>
+
+<h3>Skills Acquired</h3>
+<ul>
+    <li>Conditional formatting.</li>
+    <li>Using multi-card visuals to compare metrics.</li>
+    <li>Calculating measures using DAX.</li>
+    <li>Implementing the Parameter feature.</li>
+    <li>Creating page navigation buttons.</li>
+    <li>Developing heatmaps.</li>
+    <li>Forecasting using Line Chart.</li>
+</ul>
+
+<h3>Insights</h3>
+<ul>
+    <li><strong>Geography:</strong> Surat shows the highest on-time percentage (61.21%) and OTIF percentage (30.07%), indicating relatively better performance. Ahmedabad and Vadodara require improvements in OT and OTIF percentages.</li>
+    <li><strong>Product Category:</strong> The Dairy and Food categories have higher order quantities and delivered quantities but show significant room for improvement in on-time and in-full deliveries. Beverages perform relatively better in terms of VOFR% (96.59%) and LIFR% (65.96%).</li>
+    <li><strong>Customer Analysis:</strong> Customers like Elite Mart, Expert Mart, and Logic Stores show higher on-time and in-full delivery percentages. Atlas Stores and Chiptec Stores have lower OT and IF percentages, indicating a need for targeted service improvement.</li>
+</ul>
+
+<h3>Recommendations</h3>
+<ul>
+    <li><strong>Geographical Focus:</strong> Improve services in Ahmedabad and Vadodara by leveraging insights from Surat.</li>
+    <li><strong>Product Category Enhancement:</strong> Optimize logistics for the Dairy and Food categories.</li>
+    <li><strong>Customer-specific Strategies:</strong> Target service improvements for Atlas Stores and Chiptec Stores.</li>
+    <li><strong>Utilize Learnings:</strong> Regularly employ sparklines, conditional formatting, and heatmaps for ongoing monitoring.</li>
+    <li><strong>Leverage Parameters:</strong> Continuously adjust strategies based on dynamic data insights.</li>
+</ul>
+
+
+<hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
 <h1>Finance Analysis</h1>
