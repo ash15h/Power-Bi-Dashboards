@@ -208,6 +208,18 @@
     </li>
 </ol>
 
+<h3>Skills Acquired</h3>
+<ul>
+    <li>Calculating time based measures without using time intelligence functions.</li>
+    <li>Calculating running/cumulative sum.</li>
+    <li>Conditional formatting.</li>
+    <li>Using multi-card visuals to compare metrics.</li>
+    <li>Using kpi visual.</li>
+    <li>Calculating measures using DAX.</li>
+    <li>Implementing the Parameter feature.</li>
+    <li>Creating page navigation buttons.</li>
+</ul>
+
 <h3>Insights</h3>
 <ul>
     <li><strong>Gross Profit:</strong> Surpassed the target by 34.59%, reaching €5.34M against a goal of €3.97M, indicating strong sales performance and effective cost management.</li>
