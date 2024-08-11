@@ -204,6 +204,7 @@
             <li>Implemented page navigation buttons for enhanced user interaction.</li>
             <li>Used the Parameter feature to create slicers for switching between axis values.</li>
             <li>Utilized DAX functions such as Average, Calculate, Date, Month, Day, and Format.</li>
+            <li>Implemented Row-Level Security (RLS) to provide users with access to data specific to their country.</li>
         </ul>
     </li>
 </ol>
@@ -218,6 +219,7 @@
     <li>Calculating measures using DAX.</li>
     <li>Implementing the Parameter feature.</li>
     <li>Creating page navigation buttons.</li>
+    <li>Configuring Row-Level Security (RLS) for data access control.</li>
 </ul>
 
 <h3>Insights</h3>
@@ -243,12 +245,12 @@
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>Credit Card Analysis</h1>
+<h1>USECASE 04 - Credit Card Analysis</h1>
 
-<h3>Objective:</h3>
-To analyze credit card usage, customer demographics, and revenue metrics to identify key trends and areas for improvement. The goal is to optimize marketing strategies, develop targeted products, and enhance customer satisfaction.
+<h3>Objective</h3>
+<p>To evaluate the credit card usage patterns, loan distribution, customer demographics, customer feedback, and financial performance across various regions and customer segments. The goal is to identify key trends, opportunities for revenue enhancement, areas with potential risks, and strategies to optimize customer engagement, satisfaction, and profitability.</p>
 
-<h3>Dashboard:</h3>
+<h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 80%; height: auto; margin-bottom: 20px;">
    <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 80%; height: auto; margin-bottom: 20px;">
@@ -257,46 +259,133 @@ To analyze credit card usage, customer demographics, and revenue metrics to iden
   <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 80%; height: auto;">
 </div>
 
-<h3>Data Preparation:</h3>
+<h3>Steps</h3>
+<ol>
+    <li><strong>Data Connection</strong>
+        <ul>
+            <li>Tables are connected via DirectQuery from an SQL Server database.</li>
+        </ul>
+    </li>
+    <li><strong>Data Modelling</strong>
+        <ul>
+            <li>Connected tables using a snowflake schema, with dimension tables linking to other dimension tables.</li>
+            <li>Established one-to-many, uni-directional relationships from dimension to fact tables.</li>
+        </ul>
+    </li>
+    <li><strong>Data Preparation</strong>
+        <ul>
+            <li>Adjusted headers and corrected column data types.</li>
+            <li>Removed duplicate data and unnecessary columns.</li>
+            <li>Eliminated rows with missing data.</li>
+        </ul>
+    </li>
+    <li><strong>Calculations/Features</strong>
+        <ul>
+            <li>Performed time-based calculations without using time intelligence functions.</li>
+            <li>Calculated same-period-last-year data without relying on time intelligence.</li>
+            <li>Displayed up and down arrows with conditional formatting based on year-over-year performance.</li>
+            <li>Applied conditional formatting to highlight performance differences with green or red colors.</li>
+            <li>Implemented the Parameter feature to create slicers for switching between axis values.</li>
+            <li>Utilized various DAX functions such as Average, Calculate, Date, Month, Day, Format, CountRows, Filter, etc.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
 <ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
-  <li>DAX Measures: Used DAX to calculate weekly revenue, previous week revenue, week-over-week revenue, etc.</li>
+    <li>Calculating time-based measures without using time intelligence functions.</li>
+    <li>Implementing running/cumulative sum calculations.</li>
+    <li>Applying conditional formatting in visuals.</li>
+    <li>Comparing metrics using multi-card visuals.</li>
+    <li>Calculating measures using DAX.</li>
+    <li>Implementing the Parameter feature for dynamic visualizations.</li>
 </ul>
 
-<h3>Key Explorations:</h3>
-<ul>
-  <li>Customer Demographics: Analyzed distribution by age, gender, income, education level, and job type.</li>
-  <li>Revenue Metrics: Explored weekly and monthly revenue trends, revenue by expense type and payment mode, and total revenue by customer education level and job type.</li>
-  <li>Credit Card Usage: Investigated customer numbers by card type (Blue, Gold, Platinum, Silver), customer satisfaction ratings, and activation rates within 30 days.</li>
-  <li>Defaulters and Revolving Balance: Assessed the number of defaulters and total revolving balance by month.</li>
-</ul>
+<h3>Insights</h3>
+<ol>
+    <li><strong>Customer Demographics</strong>
+        <ul>
+            <li>Female customers dominate the customer base (57.14%), with male customers slightly less at 42.7%.</li>
+            <li>The majority of customers fall into the "29-40 years" age group (25.75%), followed by the "41-52 years" group (20.25%).</li>
+            <li>Most customers have an annual income greater than 15 LPA (28.26%), indicating a relatively affluent customer base.</li>
+        </ul>
+    </li>
+    <li><strong>Geographical Distribution</strong>
+        <ul>
+            <li>Uttar Pradesh (20.88%) and Karnataka (20.09%) have the highest concentration of customers.</li>
+            <li>Haryana and Goa have the highest percentage of customers with loans disbursed, particularly home loans (59.06%) and car loans (38.59%).</li>
+        </ul>
+    </li>
+    <li><strong>Loan Distribution</strong>
+        <ul>
+            <li>Home loans are the most popular type of loan (59.06%), followed by car loans (38.59%) and personal loans (33.65%).</li>
+            <li>A significant portion of customers have multiple loans, such as home and car loans.</li>
+        </ul>
+    </li>
+    <li><strong>Credit Card Usage</strong>
+        <ul>
+            <li>There were 6,248 transactions, with an average spend per card of ₹58.79K.</li>
+            <li>The groceries category has the highest transaction amount, followed by shopping.</li>
+            <li>A total of 86.01M reward points were accumulated, with an average of 505.82 points per card.</li>
+        </ul>
+    </li>
+    <li><strong>Customer Feedback</strong>
+        <ul>
+            <li>A total of 1,692 feedback entries were recorded, with an average rating of 3.5 out of 5.</li>
+            <li>The majority of feedback is related to complaints (59.16%), followed by suggestions (25.65%) and praise (15.19%).</li>
+            <li>The highest percentage of ratings fall in the 4-star category (31.50%), indicating mixed customer satisfaction.</li>
+        </ul>
+    </li>
+    <li><strong>Financial Performance</strong>
+        <ul>
+            <li>Revenue has decreased slightly compared to the previous year by ₹4.50M, and merchant fees saw a reduction of ₹2.52M.</li>
+            <li>Interest income is down by ₹1.17M, while penalties have seen a slight increase of ₹0.36M.</li>
+            <li>The defaulter rate has marginally increased from 49.24% to 49.36%, indicating potential risk.</li>
+        </ul>
+    </li>
+</ol>
 
-<h3>Insights:</h3>
-<ul>
-  <li>Age Groups: Highest revenue from customers aged 31-50. Targeted marketing for these age groups is crucial.</li>
-  <li>Job Types: Businessmen, white-collar workers, and self-employed contribute most to revenue. Customized products for these categories can boost satisfaction and loyalty.</li>
-  <li>Education Level: Graduates and post-graduates generate the highest revenue. Promotions targeted at these groups can leverage their spending behavior.</li>
-  <li>Gender: Further breakdown needed for precise insights. Gender-specific marketing could be beneficial.</li>
-  <li>Monthly Revenue Trends: Peaks in certain months, drops in others. Understanding seasonal trends can optimize marketing activities.</li>
-  <li>Payment Modes: Most revenue from chip and online payments. Enhancing these methods can increase usage.</li>
-  <li>Defaulters: Monthly variation in defaulters. Mitigating factors can improve financial stability.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-  <li>Targeted Marketing for Key Age Groups: Focus on 31-50 age groups to maximize revenue.</li>
-  <li>Customized Credit Card Products: Offer specialized products for businessmen, white-collar workers, and self-employed individuals.</li>
-  <li>Educational-targeted Promotions: Create promotions for graduates and post-graduates.</li>
-  <li>Gender-specific Strategies: Develop gender-specific retention and acquisition strategies.</li>
-  <li>Seasonal Marketing Plans: Align marketing plans with peak revenue months.</li>
-  <li>Enhance Payment Methods: Improve chip and online payment experiences.</li>
-  <li>Mitigate Defaulter Risk: Identify high-risk months and implement measures to reduce defaults.</li>
-</ul>
+<h3>Recommendations</h3>
+<ol>
+    <li><strong>Targeted Marketing</strong>
+        <ul>
+            <li>Focus marketing campaigns on the "29-40 years" and "41-52 years" age groups, as they represent the largest segments.</li>
+            <li>Tailor financial products and offers to the high-income group (>15 LPA) to maximize engagement and revenue.</li>
+        </ul>
+    </li>
+    <li><strong>Regional Strategy</strong>
+        <ul>
+            <li>Enhance financial services and customer support in Uttar Pradesh and Karnataka, given their large customer base.</li>
+            <li>Consider region-specific promotions in Delhi and Maharashtra to boost customer engagement.</li>
+        </ul>
+    </li>
+    <li><strong>Product Optimization</strong>
+        <ul>
+            <li>Given the high popularity of home and car loans, introduce bundled offers or loyalty programs to encourage repeat loans or cross-selling.</li>
+            <li>Develop specific credit card reward programs aligned with top merchant categories (e.g., groceries, shopping) to increase card usage.</li>
+        </ul>
+    </li>
+    <li><strong>Customer Feedback Management</strong>
+        <ul>
+            <li>Prioritize addressing complaints, as they constitute the majority of feedback (59.16%). Improving the complaint resolution process could enhance overall customer satisfaction.</li>
+            <li>Encourage customers to provide positive feedback and ratings, possibly through incentives, to boost the overall average rating.</li>
+        </ul>
+    </li>
+    <li><strong>Risk Mitigation</strong>
+        <ul>
+            <li>Investigate the rising defaulter rates and implement stricter credit monitoring and customer support for at-risk customers.</li>
+            <li>Analyze the causes of the revenue decline, particularly in merchant fees and interest income, and consider revising fee structures or introducing new revenue streams.</li>
+        </ul>
+    </li>
+    <li><strong>Customer Engagement</strong>
+        <ul>
+            <li>Increase customer interaction and feedback collection to improve the average rating, especially focusing on complaint resolution.</li>
+            <li>Utilize the insights from reward points distribution to incentivize higher card usage and customer loyalty.</li>
+        </ul>
+    </li>
+</ol>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
 
 <h1>Cricket Performance Analysis</h1>
 
