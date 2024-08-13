@@ -252,11 +252,11 @@
 
 <h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/86d8cbb7-d4c2-4723-93f9-e4fea046a4ae" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/468e834d-bed0-43a0-98e8-8d92eeb79926" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 100%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 100%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/86d8cbb7-d4c2-4723-93f9-e4fea046a4ae" style="width: 100%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/468e834d-bed0-43a0-98e8-8d92eeb79926" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 100%; height: auto;">
 </div>
 
 <h3>Steps</h3>
@@ -386,54 +386,90 @@
 </ol>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1>USECASE 05 - Indian Cricket Captains and Players Analysis</h1>
 
-<h1>Cricket Performance Analysis</h1>
+<h3>Objective</h3>
+<p>To meticulously evaluate the performances of Indian cricket captains and players in Test and ODI formats, focusing on their contributions to the team's success over different periods. The analysis aims to identify patterns, strengths, and areas of improvement to inform future strategies.</p>
 
-<h3>Objective:</h3>
-To analyze Indian cricketers' match statistics, performance metrics, and historical data to identify key trends, top performers, and strategic insights for improving team performance.
-
-<h3>Dashboard:</h3>
+<h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/cac06acd-6cec-4541-968f-610dd6723008" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/857a144e-ecc8-4469-adf8-bbc0b20c61a1" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e795eae8-5555-465c-9713-5a7f8ad54aa9" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/46682824-beae-43e6-a819-70db7f4bd2a7" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/64703ac7-db0c-4701-8582-f5d37ac17a57" style="width: 100%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/f947f2d5-7b21-432b-87b8-22bb6bf81410" style="width: 100%; height: auto;">
 </div>
 
-<h3>Data Preparation:</h3>
+<h3>Steps</h3>
+<ol>
+    <li><strong>Data Connection</strong>
+        <ul>
+            <li>Tables are connected via Import mode from a csv file.</li>
+        </ul>
+    </li>
+    <li><strong>Data Modelling</strong>
+        <ul>
+            <li>Connected tables using a snowflake schema, with dimension tables linking to other dimension tables.</li>
+        </ul>
+    </li>
+    <li><strong>Data Preparation</strong>
+        <ul>
+            <li>Removed duplicate data and unnecessary columns.</li>
+            <li>Eliminated rows with missing data.</li>
+            <li>Reviewed historical match data and cleaned it by removing duplicates and handling missing values.</li>
+            <li>Constructed a normalized table for captains to reduce cardinality and facilitate detailed analysis in Power BI.</li>
+            <li>Standardized player names across all datasets to ensure consistency.</li>
+        </ul>
+    </li>
+    <li><strong>Calculations/Features</strong>
+        <ul>
+            <li>Applied conditional formatting to gradient colors in visuals</li>
+            <li>Used Filters to filter Top N data.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
 <ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis.</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity.</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results.</li>
-  <li>Feature Engineering: Changed many names to match across all tables.</li>
-  <li>Created Captains Table: Created a table with captains' names and images for Power BI's new slicer.</li>
+    <li>Using filters</li>
+    <li>Applying conditional formatting in visuals.</li>
+    <li>Calculating measures using DAX.</li>
 </ul>
 
-<h3>Data Modelling:</h3>
+<h3>Insights</h3>
 <ul>
-  <li>Created a new name lookup table and connected all the tables to it. The relationship was one-to-one.</li>
-  <li>Used DAX to calculate various sums, highest scores, and other stats.</li>
+  <li><strong>Captains' Performance Analysis:</strong></li>
+  <ul>
+    <li><strong>Kapil Dev's Captaincy:</strong> Led India in 131 Test matches (1982-1986) and 225 ODIs (1982-1992). Achieved a 30.53% win rate in Tests and 52.45% in ODIs, showcasing a higher success rate in the shorter format. Kapil’s leadership coincided with the emergence of a more aggressive and balanced Indian team, especially in ODIs where his all-round skills were pivotal.</li>
+    <li><strong>MS Dhoni's Impact:</strong> Played 347 ODIs and transformed the Indian team into a world-class unit, particularly noted for his calm leadership under pressure, leading to notable victories such as the 2007 T20 World Cup and 2011 ODI World Cup.</li>
+    <li><strong>Sourav Ganguly's Legacy:</strong> With 334 ODI matches, Ganguly was instrumental in rebuilding the Indian team post the match-fixing scandal, fostering a culture of aggression and self-belief that laid the groundwork for future successes.</li>
+  </ul>
+  <li><strong>Top Performers in Test Cricket:</strong></li>
+  <ul>
+    <li><strong>Sachin Tendulkar's Consistency:</strong> Played 200 Test matches, amassing 15,921 runs with an average of 53.78, solidifying his position as one of the greatest batsmen in cricket history. His ability to perform across all conditions and against all opponents made him the backbone of India’s batting for two decades.</li>
+    <li><strong>Anil Kumble's Dominance with the Ball:</strong> With 619 wickets in 132 matches, Kumble was the most successful Indian bowler in Tests, known for his relentless accuracy and ability to extract bounce even on flat pitches.</li>
+    <li><strong>Emerging Patterns of Success:</strong> The 2000s saw a surge in debutants who later became key players, indicating a successful phase of talent identification and development.</li>
+  </ul>
+  <li><strong>Top Performers in ODI Cricket:</strong></li>
+  <ul>
+    <li><strong>Sachin Tendulkar's Unparalleled Legacy:</strong> Accumulated 18,426 runs in 463 ODIs, with a batting average of 44.83, setting numerous records including the first double century in ODI cricket. Tendulkar’s adaptability and longevity set a benchmark for modern cricketers.</li>
+    <li><strong>Virat Kohli's Modern Mastery:</strong> With 12,169 runs in ODIs at an average of 59.07, Kohli exemplifies consistency and has been a pivotal figure in India’s batting lineup, particularly in run chases.</li>
+    <li><strong>All-Round Contributions:</strong> Players like Kapil Dev and Ravindra Jadeja have excelled as all-rounders, contributing significantly with both bat and ball. Their versatility has often given India a crucial edge in matches.</li>
+  </ul>
+  <li><strong>Patterns in Player Development:</strong></li>
+  <ul>
+    <li><strong>Increased Specialization in Roles:</strong> Recent trends indicate a focus on specialization, with bowlers like Jasprit Bumrah and batsmen like Rohit Sharma emerging as key players in their respective domains.</li>
+    <li><strong>Shift Towards Fitness and Athleticism:</strong> Modern players like Virat Kohli and Ravindra Jadeja exemplify the shift towards higher fitness standards, leading to improved fielding and overall team agility.</li>
+  </ul>
 </ul>
 
-<h3>Learning:</h3>
-The summary page provides an initial overview, with additional pages hidden and accessible based on user roles. Page-level security is implemented using access roles, row-level security, and slicers. A tooltip page shows a player's stats summary on the summary page. Power BI's new slicer is used to create captains' images in the slicer.
-
-<h3>Key Explorations:</h3>
+<h3>Recommendations</h3>
 <ul>
-  <li>Player Match Statistics: Analyzed the number of ODI and Test matches played by various players. Identified players with significant contributions in one format and minimal in another.</li>
-  <li>Runs and Wickets: Investigated runs scored and wickets taken by players in both ODI and Test formats. Examined players with more than 1000 runs and 100 wickets in both formats.</li>
-  <li>Test and ODI Captains: Reviewed the performance of Test and ODI captains, including their win percentages and contributions.</li>
-  <li>Batting and Bowling Averages: Analyzed batting and bowling averages of key players across different formats.</li>
-  <li>Historical Performance: Explored the number of debutants by year and notable historical achievements of Indian cricketers.</li>
+  <li>Develop Future Leaders: Implement leadership programs based on the strengths of captains like MS Dhoni and Sourav Ganguly, focusing on mental toughness and team unity.</li>
+  <li>Cultivate All-Rounders: Prioritize the development of versatile players who can contribute with both bat and ball, inspired by legends like Kapil Dev and Ravindra Jadeja.</li>
+  <li>Use Data Analytics: Leverage advanced analytics to identify and nurture emerging talent, focusing on early signs of excellence in domestic and international cricket.</li>
+  <li>Prioritize Fitness: Invest in fitness and conditioning programs to maintain high performance levels, taking cues from the fitness regimes of players like Virat Kohli.</li>
+  <li>Promote Consistency: Encourage players to develop consistent performances across formats, inspired by the careers of Sachin Tendulkar and Rahul Dravid.</li>
 </ul>
 
-<h3>Insights:</h3>
-<ul>
-  <li>Player Contributions: Players like Sachin Tendulkar, Kapil Dev, and Anil Kumble have made significant contributions in both formats with high runs and wickets. These players are pivotal to India's cricketing history, highlighting their versatility and consistency.</li>
-  <li>Match Statistics: Sachin Tendulkar has played the most ODI matches (463) and scored the highest number of runs. His long career and exceptional performance set a benchmark for future players.</li>
-  <li>Bowling Performance: Anil Kumble and Kapil Dev have taken the highest number of wickets in Test matches. Their bowling prowess was instrumental in India's Test match successes.</li>
-  <li>Batting Averages: Virat Kohli has one of the highest batting averages among current players, highlighting his consistency. Kohli's performance is critical for India's current and future cricketing success.</li>
-  <li>Historical Debutants: The number of debutants has fluctuated over the decades, with notable peaks in certain periods. These peaks could correspond to strategic changes or the emergence of new talent in Indian cricket.</li>
-</ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
