@@ -423,6 +423,7 @@
         <ul>
             <li>Applied conditional formatting to gradient colors in visuals</li>
             <li>Used Filters to filter Top N data.</li>
+            <li>Implemented page navigation buttons for better user interaction.</li>
         </ul>
     </li>
 </ol>
@@ -432,6 +433,7 @@
     <li>Using filters</li>
     <li>Applying conditional formatting in visuals.</li>
     <li>Calculating measures using DAX.</li>
+    <li>Implementing page navigation buttons.</li>
 </ul>
 
 <h3>Insights</h3>
@@ -542,60 +544,102 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 </ul>
     <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECA 07 - IPL Performance Analysis</h1>
+<h1>USECASE 07 - IPL Performance Analysis</h1>
 
-<h3>Objective:</h3>
-To analyze IPL matches, performance metrics, player statistics, venue statistics and historical data to identify key trends, top performers, and strategic insights for improving team performance
+<h3>Objective</h3>
+<p>The objective of the IPL Dashboard is to provide a comprehensive analysis of team and player performances across various IPL seasons. It focuses on key metrics such as runs, wickets, and match outcomes. The dashboard is designed to help identify patterns, top performers, and areas of improvement for teams and players.</p>
 
-<h3>Dashboard:</h3> 
+<h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e9993bd7-0c39-4cc2-99f1-510c36c4bfe9" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/748438dc-d1b4-4470-8185-8fcaca2c5cc8" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/94d50fb6-f611-42d0-9493-8c5efe77da07" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/efb8ff77-d86b-41c9-bdba-5511656fad0e" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/688653e6-bae7-43d3-a896-ea315b333601" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/234e556a-f845-493c-bd7d-53fe7ee7ab8b" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/265a8cce-ffb6-43ce-8a0a-b4b28ec7330c" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/9d68a0f8-2dc5-4d3c-865b-181c6998ad2c" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/5c6a4fe0-8236-4f01-97da-eda07800ba1b" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/18dc63a3-fb0d-4c2c-b018-5289ebb832f8" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/eb937a50-f9ab-408b-b20a-91890b8524e2" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/f5878a22-658a-4e17-9cf8-4e8d7432abb6" style="width: 80%; height: auto;">
 </div>
 
-<h3>Data Preparation:</h3>
+<h3>Steps</h3>
+<ol>
+    <li><strong>Data Connection</strong>
+        <ul>
+            <li>Tables are connected using Import mode from a CSV file.</li>
+        </ul>
+    </li>
+    <li><strong>Data Modeling</strong>
+        <ul>
+            <li>Tables are connected using a snowflake schema, with dimension tables linked to other dimension tables.</li>
+        </ul>
+    </li>
+    <li><strong>Data Preparation</strong>
+        <ul>
+            <li>Removed duplicate data.</li>
+            <li>Removed unnecessary columns.</li>
+            <li>Eliminated rows with missing data.</li>
+            <li>Reviewed historical match data and cleaned it by removing duplicates and handling missing values.</li>
+            <li>Constructed a normalized table to reduce cardinality and facilitate detailed analysis in Power BI.</li>
+            <li>Replaced inconsistent values in columns across tables.</li>
+        </ul>
+    </li>
+    <li><strong>Calculations/Features</strong>
+        <ul>
+            <li>Used the “Group” feature in Power BI to create groups for over ranges.</li>
+            <li>Filtered data in visuals to obtain the Top N players for the selected category.</li>
+            <li>Defined measures for conditionally formatting data background and font color in table cells.</li>
+            <li>Implemented page navigation buttons for enhanced user interaction.</li>
+            <li>DAX functions like <code>IsBlank</code>, <code>RankX</code>, <code>CountRows</code>, <code>SelectedValue</code>, <code>Switch</code>, and <code>Count</code> were utilized.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
 <ul>
-  <li>Removed Unnecessary Columns: Identified and removed columns not essential for the analysis</li>
-  <li>Handled Missing Data: Dropped rows with missing values to ensure data integrity</li>
-  <li>Removed Duplicates: Eliminated duplicate entries to maintain accurate results</li>
-  <li>Features Used:
-    <ul>
-      <li>Added buttons for easy page navigation</li>
-      <li>Dax calculations functions: Caculate, Summarise, Filter, Divide, Concat to calculate various measure like economy rate, average, strike rate, etc</li>
-    </ul>
-  </li>
+    <li>Connecting data using Import mode in Power BI.</li>
+    <li>Applying field value for conditional formatting.</li>
+    <li>Calculating measures using DAX.</li>
+    <li>Grouping data effectively.</li>
+    <li>Implementing page navigation in reports.</li>
 </ul>
 
-<h3>Data Modelling:</h3>
+<h3>Insights</h3>
 <ul>
-  <li>Tables were connected using one-to-many relationships based on Match ID</li>
+    <li><strong>Top Teams:</strong> CSK, MI, and KKR consistently dominate in terms of playoff appearances and winning percentages, highlighting their strong performance across seasons.</li>
+    <li><strong>Batting Performance:</strong> 
+        <ul>
+            <li>Virat Kohli and Shikhar Dhawan are among the top run-scorers, showcasing their consistency across different seasons.</li>
+            <li>MS Dhoni excels in the death overs, establishing himself as one of the most reliable finishers in IPL history.</li>
+            <li>Chris Gayle and Rohit Sharma are among the top six-hitters, indicating their aggressive batting styles.</li>
+        </ul>
+    </li>
+    <li><strong>Bowling Performance:</strong> 
+        <ul>
+            <li>YS Chahal and DJ Bravo are leading wicket-takers, especially in crucial overs, making them essential to their teams' success.</li>
+            <li>Bhuvneshwar Kumar and Sandeep Sharma excel in the powerplay, demonstrating their ability to provide early breakthroughs.</li>
+        </ul>
+    </li>
+    <li><strong>Venue Analysis:</strong> 
+        <ul>
+            <li>M. Chinnaswamy Stadium and Wankhede Stadium are favorable venues for batsmen, with players like Virat Kohli and AB de Villiers scoring heavily here.</li>
+            <li>MA Chidambaram Stadium is a fortress for CSK, reflecting their home advantage.</li>
+        </ul>
+    </li>
+    <li><strong>Seasonal Patterns:</strong> 
+        <ul>
+            <li>Teams like GT and LSG have shown remarkable consistency in their early years, with high winning percentages and strong performances in key matches.</li>
+            <li>Recent seasons have seen a rise in the importance of all-rounders, with players like Ravindra Jadeja excelling in both batting and bowling departments.</li>
+        </ul>
+    </li>
 </ul>
 
-<h3>Key Explorations:</h3>
+<h3>Recommendations</h3>
 <ul>
-  <li>Match Outcomes: Analyzed the number of wins in chasing versus defending across different venues and explored the total number of matches and their outcomes</li>
-  <li>Runs and Wickets: Investigated total runs scored by season, total wickets taken, and boundaries hit Analyzed runs scored by different overs and innings</li>
-  <li>Venue Analysis: Examined performance metrics such as wins, economy rates, and matches hosted by various venues</li>
-  <li>Player Performance: Reviewed leading wicket-takers, total runs scored, boundaries conceded, and extras by bowlers Analyzed runs in single overs and stumpings by players</li>
+    <li><strong>Focus on Consistency:</strong> Teams should prioritize consistent performers like Virat Kohli and MS Dhoni, who can anchor the innings and provide stability under pressure.</li>
+    <li><strong>Strengthen Death Over Strategies:</strong> Investing in bowlers like DJ Bravo and Lasith Malinga, who excel in death overs, could significantly improve match outcomes, especially in tight situations.</li>
+    <li><strong>Leverage Home Advantage:</strong> Teams should develop strategies tailored to their home grounds, similar to CSK's dominance at MA Chidambaram Stadium, to maximize their chances of success.</li>
+    <li><strong>Develop Young Talent:</strong> Emerging teams like GT and LSG should focus on nurturing young talent to maintain their early momentum and build a strong foundation for the future.</li>
+    <li><strong>Adapt to Venue Conditions:</strong> Players and teams should continuously adapt their strategies based on venue-specific data, ensuring optimal performance across different stadiums.</li>
 </ul>
 
-<h3>Insights:</h3>
-<ul>
-  <li>Match Outcomes: More wins in chasing (554) compared to wins in defending (459) Teams might prefer chasing, indicating a strategic trend</li>
-  <li>Runs and Wickets: Total runs scored have fluctuated over the years, with peaks in certain years Trends can indicate changing strategies or player form</li>
-  <li>Venue Performance:
-    <ul>
-      <li>Best Venue for Bowlers: OUTsurance Oval has the lowest economy rate, favoring bowlers</li>
-      <li>Best Venue for Batting: Barsapra Cricket Stadium has the highest economy rate, favoring batsmen</li>
-    </ul>
-  </li>
-  <li>Player Performance: Players like Virat Kohli and AB de Villiers lead in total runs, while bowlers like YS Chahal and DJ Bravo lead in wickets Key players' performance is crucial to team success</li>
-  <li>Team Performance: Teams like MI (Mumbai Indians) and CSK (Chennai Super Kings) show strong performance in both defending and chasing Consistent strategies and strong player rosters contribute to their success</li>
-</ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>Bank Loan Analysis</h1>
