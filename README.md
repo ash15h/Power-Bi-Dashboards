@@ -5,8 +5,8 @@
 
 <h3>Report View</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/fad0cd59-c6a1-4ac5-adb4-cf8d39c9a268" style="width: 100%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/fad0cd59-c6a1-4ac5-adb4-cf8d39c9a268" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
@@ -37,7 +37,7 @@
         <h4>Calculations and Features</h4>
         <ul>
             <li>Used the “Group” feature in Power BI to create groups such as age groups and churn probability groups.</li>
-            <li>Utilized DAX functions like Calculate, Divide, and DistinctCount to calculate various measures.</li>
+            <li>Utilized DAX functions like <code>Calculate</code>, <code>Divide</code>, and <code>DistinctCount</code> to calculate various measures.</li>
             <li>Incorporated an image as a page navigator.</li>
         </ul>
     </li>
@@ -81,11 +81,11 @@
 
 <h3>Report View</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/11831550-de51-45e9-9511-1a7411218e3c" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/87e6d295-6498-4c0b-9375-bfe91436d2e3" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/6c927ed5-610e-4c03-8230-60b46a303420" style="width: 100%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/11831550-de51-45e9-9511-1a7411218e3c" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/87e6d295-6498-4c0b-9375-bfe91436d2e3" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/6c927ed5-610e-4c03-8230-60b46a303420" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
@@ -123,7 +123,7 @@
             <li>Used the Parameter feature to create a slicer for switching between axis values.</li>
             <li>Added sparklines to provide more insights into the metrics.</li>
             <li>Forecasted future sales trends based on historical data.</li>
-            <li>Utilized DAX functions such as Average, Calculate, CountRows, and TreatAs.</li>
+            <li>Utilized DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>CountRows</code>, and <code>TreatAs</code>.</li>
         </ul>
     </li>
 </ol>
@@ -165,9 +165,9 @@
 
 <h3>Report View </h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/f0e647e6-cb1b-4e0f-83bb-7bdfa49e6441" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/8038f63f-f7ff-4e83-a2f5-69bb82896751" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/23c89ecd-4654-4298-877c-adabbcd54e45" style="width: 100%; height: auto";>
+  <img src="https://github.com/user-attachments/assets/f0e647e6-cb1b-4e0f-83bb-7bdfa49e6441" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/8038f63f-f7ff-4e83-a2f5-69bb82896751" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/23c89ecd-4654-4298-877c-adabbcd54e45" style="width: 80%; height: auto";>
 </div>
 
 <h3>Steps</h3>
@@ -203,7 +203,7 @@
             <li>Applied conditional formatting to show green or red colors in arrows based on year-over-year differences.</li>
             <li>Implemented page navigation buttons for enhanced user interaction.</li>
             <li>Used the Parameter feature to create slicers for switching between axis values.</li>
-            <li>Utilized DAX functions such as Average, Calculate, Date, Month, Day, and Format.</li>
+            <li>Utilized DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, and <code>Format</code>.</li>
             <li>Implemented Row-Level Security (RLS) to provide users with access to data specific to their country.</li>
         </ul>
     </li>
@@ -252,11 +252,11 @@
 
 <h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 100%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 100%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/86d8cbb7-d4c2-4723-93f9-e4fea046a4ae" style="width: 100%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/468e834d-bed0-43a0-98e8-8d92eeb79926" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 100%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/86d8cbb7-d4c2-4723-93f9-e4fea046a4ae" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/468e834d-bed0-43a0-98e8-8d92eeb79926" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
@@ -286,7 +286,7 @@
             <li>Displayed up and down arrows with conditional formatting based on year-over-year performance.</li>
             <li>Applied conditional formatting to highlight performance differences with green or red colors.</li>
             <li>Implemented the Parameter feature to create slicers for switching between axis values.</li>
-            <li>Utilized various DAX functions such as Average, Calculate, Date, Month, Day, Format, CountRows, Filter, etc.</li>
+            <li>Utilized various DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, <code>Format</code>, <code>CountRows</code>, <code>Filter</code>, etc.</li>
         </ul>
     </li>
 </ol>
@@ -393,9 +393,9 @@
 
 <h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/46682824-beae-43e6-a819-70db7f4bd2a7" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/64703ac7-db0c-4701-8582-f5d37ac17a57" style="width: 100%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/f947f2d5-7b21-432b-87b8-22bb6bf81410" style="width: 100%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/46682824-beae-43e6-a819-70db7f4bd2a7" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/64703ac7-db0c-4701-8582-f5d37ac17a57" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/f947f2d5-7b21-432b-87b8-22bb6bf81410" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
@@ -473,33 +473,55 @@
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>Store Sales Analysis Dashboard</h1>
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/a8093a83-960d-4d63-9808-a8464d975e2a" style="width: 80%; height: auto; margin-bottom: 20px;">
-</div>
+<h1>USECASE 06 - Store Sales Analysis Dashboard</h1>
  
-<h3>Objective:</h3>
+<h3>Objective</h3>
 This dashboard aims to provide a comprehensive analysis of store sales performance across different countries, product categories, and time periods. It focuses on identifying key trends, high-performing products, and areas for improvement to optimize sales strategies and enhance overall business performance.
 
-<h3>Data Preparation:</h3>
+<h3>Report view</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/34c3ad19-c9c8-49b8-8bd9-d1b2010d7e41" style="width: 80%; height: auto; margin-bottom: 20px;">
+</div>
+
+<h3>Steps</h3>
+<ol>
+    <li><strong>Data Connection</strong>
+        <ul>
+            <li>Imported tables from a CSV file using Import mode.</li>
+        </ul>
+    </li>
+    <li><strong>Data Modelling</strong>
+        <ul>
+            <li>Connected tables using a Star Schema with one fact table and multiple dimension tables.</li>
+            <li>Established one-to-many, unidirectional relationships from dimension tables to the fact table.</li>
+        </ul>
+    </li>
+    <li><strong>Data Preparation</strong>
+        <ul>
+            <li>Removed duplicate entries and unnecessary columns.</li>
+            <li>Eliminated rows with missing data to ensure accuracy.</li>
+        </ul>
+    </li>
+    <li><strong>Calculations/Features</strong>
+        <ul>
+            <li>Applied conditional formatting to gradient colors in a gauge visual, highlighting the red and green sections of the axis.</li>
+            <li>Calculated total sales over time using time intelligence functions.</li>
+            <li>Dynamically displayed the Top N products using a slicer and rank function.</li>
+            <li>Calculated running totals.</li>
+            <li>Utilized a calendar dimension table for time-based calculations.</li>
+            <li>Employed DAX functions such as <code>SUM</code>, <code>RANK</code>, <code>SAMEPERIODLASTYEAR</code>, <code>EXCEPT</code>, and <code>CALCULATE</code>.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
 <ul>
-    <li>Removed unnecessary columns</li>
-    <li>Dropped rows with missing data</li>
-    <li>Encoded categorical variables where necessary</li>
-    <li>Normalized tables</li>
-    <li>Data modeled in star schema</li>
+    <li>Effectively using filters to refine data.</li>
+    <li>Applying conditional formatting in visuals to enhance readability.</li>
+    <li>Calculating measures using DAX for advanced data analysis.</li>
 </ul>
 
-<h3>Learnings:</h3>
-<ul>
-    <li>Learned to use various DAX functions such as CALCULATE, SUM, and FILTER.</li>
-    <li>Implemented time intelligence functions for analysis.</li>
-    <li>Implemented Row-Level Security (RLS) to restrict data access based on user roles.</li>
-</ul>
-
-<h3>Insights:</h3>
+<h3>Insights</h3>
 <ul>
     <li>Geography: France and the UK show significant sales figures, but France underperforms in goal achievement, indicating potential for improvement in sales strategies.</li>
     <li>Product Categories: Electronics dominate the sales, with TVs and Gaming Laptops being the top sellers, suggesting a strong consumer preference for these items.</li>
@@ -509,7 +531,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
     <li>Overall Performance: Despite achieving a lifetime sales total of $1,512,172.14, the goal achievement of -12.39% suggests room for improvement in reaching sales targets.</li>
 </ul>
 
-<h3>Recommendations:</h3>
+<h3>Recommendations</h3>
 <ul>
     <li>Enhance sales strategies in France to meet targets.</li>
     <li>Offer promotions for popular electronics.</li>
@@ -520,7 +542,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 </ul>
     <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>IPL Performance Analysis</h1>
+<h1>USECA 07 - IPL Performance Analysis</h1>
 
 <h3>Objective:</h3>
 To analyze IPL matches, performance metrics, player statistics, venue statistics and historical data to identify key trends, top performers, and strategic insights for improving team performance
@@ -530,7 +552,7 @@ To analyze IPL matches, performance metrics, player statistics, venue statistics
   <img src="https://github.com/user-attachments/assets/e9993bd7-0c39-4cc2-99f1-510c36c4bfe9" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/748438dc-d1b4-4470-8185-8fcaca2c5cc8" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/94d50fb6-f611-42d0-9493-8c5efe77da07" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e2eef958-a025-4183-8ce6-b4e5f775880a" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/efb8ff77-d86b-41c9-bdba-5511656fad0e" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/688653e6-bae7-43d3-a896-ea315b333601" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/234e556a-f845-493c-bd7d-53fe7ee7ab8b" style="width: 80%; height: auto;">
 </div>
