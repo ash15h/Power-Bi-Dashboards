@@ -393,9 +393,9 @@
 
 <h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/46682824-beae-43e6-a819-70db7f4bd2a7" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/64703ac7-db0c-4701-8582-f5d37ac17a57" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/f947f2d5-7b21-432b-87b8-22bb6bf81410" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/dc2fd6ae-bf0b-4fb1-bed5-9189f62f6377" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/2f21c8e5-758a-48c8-bfca-cb76ac8db6b7" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/4afe9635-b89f-4a67-8f49-0f57d022227d" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
