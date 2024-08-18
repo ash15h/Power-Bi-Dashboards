@@ -642,65 +642,78 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Bank Loan Analysis</h1>
+<h1>USECASE 08 - Bank Loan Analysis</h1>
 
-<h3>Objective:</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
+<h3>Objective</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
 
-<h3>Dashboard:</h3>
+<h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/ash15h/Power-Bi-Dashboards/assets/67120563/b00d2564-e22c-4d01-9ea9-ea0e2f8a71de" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/2f137506-e2b6-42b1-946d-7f2b1ad8dedd" style="width: 80%; height: auto;">
 </div>
 
-<h3>Data Preparation:</h3>
+<h3>Steps</h3>
+<ol>
+    <li><strong>Data Connection</strong>
+        <ul>
+            <li>Tables are connected via Import mode using an Excel file.</li>
+        </ul>
+    </li>
+    <li><strong>Data Preparation</strong>
+        <ul>
+            <li>Adjusted headers and corrected column data types.</li>
+            <li>Removed duplicate data and unnecessary columns.</li>
+            <li>Eliminated rows with missing data.</li>
+        </ul>
+    </li>
+    <li><strong>Calculations/Features</strong>
+        <ul>
+            <li>Implemented the Parameter feature to create slicers for switching between axis values.</li>
+            <li>Utilized various DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, <code>Format</code>, <code>CountRows</code>, <code>Filter</code>, etc.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
 <ul>
-<li>Removed Unnecessary Columns: Kept only columns relevant to the analysis</li>
-<li>Handled Missing Data: Dropped rows with missing values</li>
-<li>Removed Duplicates: Eliminated duplicate entries</li>
+    <li>Calculating measures using DAX.</li>
+    <li>Implementing the Parameter feature for dynamic visualizations.</li>
 </ul>
 
-<h3>Key Explorations:</h3>
-  <ul>
-    <li>Customer Demographics: Distribution of housing and other loans by age, job, and marital status</li>
-    <li>Loan Data: Monthly disbursement of housing and other loans, job-wise loan distribution, and loans by age and marital status</li>
-  </ul>
-</li>
-</ul>
-
-<h3>Insights:</h3>
+<h3>Insights</h3>
 <ul>
 <li>Age Groups:
   <ul>
-    <li>Observation: 31-40 age group has the most housing loans; 19-30 age group prefers other loans</li>
-    <li>Implication: Target marketing for younger customers with specific loan products</li>
+    <li><strong>Observation:</strong> 31-40 age group has the most housing loans; 19-30 age group prefers other loans</li>
+    <li><strong>Implication:</strong> Target marketing for younger customers with specific loan products</li>
   </ul>
 </li>
 <li>Job Categories:
   <ul>
-    <li>Observation: Blue-collar and self-employed have the most housing loans; students and unemployed have the least</li>
-    <li>Implication: Customize loans for blue-collar and self-employed individuals</li>
+    <li><strong>Observation:</strong> Blue-collar and self-employed have the most housing loans; students and unemployed have the least</li>
+    <li><strong>Implication:</strong> Customize loans for blue-collar and self-employed individuals</li>
   </ul>
 </li>
 <li>Marital Status:
   <ul>
-    <li>Observation: Married individuals take the most loans</li>
-    <li>Implication: Develop family-focused loan products</li>
+    <li><strong>Observation:</strong> Married individuals take the most loans</li>
+    <li><strong>Implication:</strong> Develop family-focused loan products</li>
   </ul>
 </li>
 <li>Monthly Distribution:
   <ul>
-    <li>Observation: May has the highest, December the lowest loan disbursements</li>
-    <li>Implication: Plan strategic marketing for peak months</li>
+    <li><strong>Observation:</strong> May has the highest, December the lowest loan disbursements</li>
+    <li><strong>Implication:</strong> Plan strategic marketing for peak months</li>
   </ul>
 </li>
 </ul>
 
 <h3>Recommendations:</h3>
 <ul>
-<li>Target Younger Demographics: Create loans for 19-30 age group inclined towards other loans</li>
-<li>Customize for Blue-collar and Self-employed: Offer loan products tailored to their needs</li>
-<li>Family-focused Loan Products: Introduce and market family-oriented loans</li>
-<li>Seasonal Loan Campaigns: Plan marketing campaigns during peak loan months (e.g., May)</li>
-<li>Support for High-risk Jobs: Provide financial advice for customers in high-risk jobs to help manage loans better</li>
+<li><strong>Target Younger Demographics:</strong> Create loans for 19-30 age group inclined towards other loans</li>
+<li><strong>Customize for Blue-collar and Self-employed:</strong> Offer loan products tailored to their needs</li>
+<li><strong>Family-focused Loan Products:</strong> Introduce and market family-oriented loans</li>
+<li><strong>Seasonal Loan Campaigns:</strong> Plan marketing campaigns during peak loan months (e.g., May)</li>
+<li><strong>Support for High-risk Jobs:</strong> Provide financial advice for customers in high-risk jobs to help manage loans better</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
