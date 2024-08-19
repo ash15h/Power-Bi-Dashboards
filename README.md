@@ -553,7 +553,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/265a8cce-ffb6-43ce-8a0a-b4b28ec7330c" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/9d68a0f8-2dc5-4d3c-865b-181c6998ad2c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/5c6a4fe0-8236-4f01-97da-eda07800ba1b" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/093ef66a-6529-49bf-923c-160c31ebee53" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/18dc63a3-fb0d-4c2c-b018-5289ebb832f8" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/eb937a50-f9ab-408b-b20a-91890b8524e2" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/f5878a22-658a-4e17-9cf8-4e8d7432abb6" style="width: 80%; height: auto;">
@@ -585,7 +585,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
         <ul>
             <li>Used the “Group” feature in Power BI to create groups for over ranges.</li>
             <li>Filtered data in visuals to obtain the Top N players for the selected category.</li>
-            <li>Defined measures for conditionally formatting data background and font color in table cells.</li>
+            <li>Defined measures for conditionally formatting column's color in visual.</li>
             <li>Implemented page navigation buttons for enhanced user interaction.</li>
             <li>DAX functions like <code>IsBlank</code>, <code>RankX</code>, <code>CountRows</code>, <code>SelectedValue</code>, <code>Switch</code>, and <code>Count</code> were utilized.</li>
         </ul>
