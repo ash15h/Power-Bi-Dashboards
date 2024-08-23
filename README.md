@@ -252,11 +252,11 @@
 
 <h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/733ff992-7176-46f1-b4fa-84edc1e2a334" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/a81272c4-b29b-4b6a-8de6-d002061a96a9" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/86d8cbb7-d4c2-4723-93f9-e4fea046a4ae" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/468e834d-bed0-43a0-98e8-8d92eeb79926" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/33f601a0-6aa0-4fb2-ad09-871f70c8e799" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/03cefb3a-da40-443b-9c81-de4732ef4e31" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/200a20db-75e0-4103-ac33-f9577d7f2ccb" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/aa4feea9-fb93-4026-a41c-fcb3e245c6ac" style="width: 80%; height: auto; margin-bottom: 20px;">
+   <img src="https://github.com/user-attachments/assets/7dbb8cce-c535-4cd8-b38b-3ee8f40a3819" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/b06695c4-bc7f-47cb-bd8c-e285da734ad2" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
