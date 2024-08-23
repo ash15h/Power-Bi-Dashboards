@@ -648,7 +648,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 
 <h3>Report view</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/2f137506-e2b6-42b1-946d-7f2b1ad8dedd" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/cea26c03-2708-4287-bfe1-f6e81cdf2359" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
