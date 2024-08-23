@@ -415,7 +415,7 @@
             <li>Removed duplicate data and unnecessary columns.</li>
             <li>Eliminated rows with missing data.</li>
             <li>Reviewed historical match data and cleaned it by removing duplicates and handling missing values.</li>
-            <li>Constructed a normalized table for captains to reduce cardinality and facilitate detailed analysis in Power BI.</li>
+            <li>Constructed a normalized table for captains to reduce dimensionality and facilitate detailed analysis in Power BI.</li>
             <li>Standardized player names across all datasets to ensure consistency.</li>
         </ul>
     </li>
