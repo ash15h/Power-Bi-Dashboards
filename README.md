@@ -245,7 +245,70 @@
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>USECASE 04 - Credit Card Analysis</h1>
+<h1>USECASE 04 - Paris Olympics Analysis</h1>
+
+<h3>Objective:</h3> 
+To analyze and provide key insights on the Paris Olympics, focusing on aspects such as participating countries, events, athletes, historical performance, and key achievements.
+
+<h3>Dashboard:</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/ed5f547f-1f0b-4e2c-b112-a79df5a31b2b" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/f961d45b-5dcb-4fa0-9396-720dae804bdf" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/a6ef0aec-e2f4-4225-a2e0-2e1bc0723e60" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/6dcc7647-8d25-44f3-8a95-dcdf36803bd8" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/e404ec55-7fad-4100-8c98-092369afa2a0" style="width: 80%; height: auto;">
+</div>
+
+<h3>Steps</h3>
+<ol>
+    <li><strong>Data Connection</strong>
+        <ul>
+            <li>Tables are connected via Import mode using an Excel file.</li>
+        </ul>
+    </li>
+    <li><strong>Data Modeling</strong>
+        <ul>
+            <li>Tables are connected using a snowflake schema, with dimension tables linked to other dimension tables.</li>
+        </ul>
+    </li>
+    <li><strong>Data Preparation</strong>
+        <ul>
+            <li>Gathered data on athletes, events, and medals from multiple sources to ensure accuracy.</li>
+            <li>Adjusted headers and corrected column data types.</li>
+            <li>Removed duplicate data and unnecessary columns.</li>
+            <li>Cleaned data to standardize country names, athlete details, and event categories.</li>
+        </ul>
+    </li>
+    <li><strong>Calculations/Features</strong>
+        <ul>
+            <li>Grouped data by age groups, event categories, and medal types using Power BI’s "Group" feature.</li>
+            <li>Utilized various DAX functions such as <code>Calculate</code>, <code>Date</code>, <code>Format</code>, <code>DistinctCount</code>,etc.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
+<ul>
+    <li>Calculating measures using DAX.</li>
+    <li>Leveraged bookmarks to open and close the side drawer, ensuring data persistence while navigating using bookmarks.</li>
+    <li>Implemented page navigation using buttons to enhance user experience.</li>
+    <li>Syncing slicers across pages.</li>
+</ul>  
+
+<h3>Insights:</h3>
+<ul>
+  <li><strong>Participation:</strong> The Paris Olympics have seen increased participation from emerging countries, highlighting a broader global interest in the Games.</li>
+  <li><strong>Top-performing Nations:</strong> Certain countries continue to dominate in specific sports, showcasing long-standing strengths in areas like athletics and swimming.</li>
+  <li><strong>Purchasers:</strong> 1320 purchasers have bought electoral bonds, with Future Gaming and Hotel Services PR making the highest denominations</li>
+  <li><strong>Gender Representation:</strong> There is a balanced representation of male and female athletes, indicating significant strides in gender inclusivity over recent years.</li>
+  <li><strong>Youth Athletes:</strong> A substantial presence of young athletes points toward a generational shift in Olympic competitors.</li>
+  <li><strong>Popular Sports:</strong> Track and field events have seen the highest participation, emphasizing their global appeal.</li>
+</ul>
+
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+<h1>USECASE 05 - Credit Card Analysis</h1>
 
 <h3>Objective</h3>
 <p>To evaluate the credit card usage patterns, loan distribution, customer demographics, customer feedback, and financial performance across various regions and customer segments. The goal is to identify key trends, opportunities for revenue enhancement, areas with potential risks, and strategies to optimize customer engagement, satisfaction, and profitability.</p>
@@ -386,7 +449,7 @@
 </ol>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 05 - Indian Cricket Captains and Players Analysis</h1>
+<h1>USECASE 06 - Indian Cricket Captains and Players Analysis</h1>
 
 <h3>Objective</h3>
 <p>To meticulously evaluate the performances of Indian cricket captains and players in Test and ODI formats, focusing on their contributions to the team's success over different periods. The analysis aims to identify patterns, strengths, and areas of improvement to inform future strategies.</p>
@@ -475,7 +538,7 @@
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>USECASE 06 - Store Sales Analysis Dashboard</h1>
+<h1>USECASE 07 - Store Sales Analysis Dashboard</h1>
  
 <h3>Objective</h3>
 This dashboard aims to provide a comprehensive analysis of store sales performance across different countries, product categories, and time periods. It focuses on identifying key trends, high-performing products, and areas for improvement to optimize sales strategies and enhance overall business performance.
@@ -544,7 +607,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 </ul>
     <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 07 - IPL Performance Analysis</h1>
+<h1>USECASE 08 - IPL Performance Analysis</h1>
 
 <h3>Objective</h3>
 <p>The objective of the IPL Dashboard is to provide a comprehensive analysis of team and player performances across various IPL seasons. It focuses on key metrics such as runs, wickets, and match outcomes. The dashboard is designed to help identify patterns, top performers, and areas of improvement for teams and players.</p>
@@ -642,7 +705,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 08 - Bank Loan Analysis</h1>
+<h1>USECASE 09 - Bank Loan Analysis</h1>
 
 <h3>Objective</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
 
@@ -717,65 +780,4 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>Paris Olympics Analysis</h1>
 
-<h3>Objective:</h3> 
-To analyze and provide key insights on the Paris Olympics, focusing on aspects such as participating countries, events, athletes, historical performance, and key achievements.
-
-<h3>Dashboard:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/ed5f547f-1f0b-4e2c-b112-a79df5a31b2b" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/f961d45b-5dcb-4fa0-9396-720dae804bdf" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/a6ef0aec-e2f4-4225-a2e0-2e1bc0723e60" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/6dcc7647-8d25-44f3-8a95-dcdf36803bd8" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e404ec55-7fad-4100-8c98-092369afa2a0" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Tables are connected via Import mode using an Excel file.</li>
-        </ul>
-    </li>
-    <li><strong>Data Modeling</strong>
-        <ul>
-            <li>Tables are connected using a snowflake schema, with dimension tables linked to other dimension tables.</li>
-        </ul>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-            <li>Gathered data on athletes, events, and medals from multiple sources to ensure accuracy.</li>
-            <li>Adjusted headers and corrected column data types.</li>
-            <li>Removed duplicate data and unnecessary columns.</li>
-            <li>Cleaned data to standardize country names, athlete details, and event categories.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>Grouped data by age groups, event categories, and medal types using Power BI’s "Group" feature.</li>
-            <li>Utilized various DAX functions such as <code>Calculate</code>, <code>Date</code>, <code>Format</code>, <code>DistinctCount</code>,etc.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Calculating measures using DAX.</li>
-    <li>Leveraged bookmarks to open and close the side drawer, ensuring data persistence while navigating using bookmarks.</li>
-    <li>Implemented page navigation using buttons to enhance user experience.</li>
-    <li>Syncing slicers across pages.</li>
-</ul>  
-
-<h3>Insights:</h3>
-<ul>
-  <li><strong>Participation:</strong> The Paris Olympics have seen increased participation from emerging countries, highlighting a broader global interest in the Games.</li>
-  <li><strong>Top-performing Nations:</strong> Certain countries continue to dominate in specific sports, showcasing long-standing strengths in areas like athletics and swimming.</li>
-  <li><strong>Purchasers:</strong> 1320 purchasers have bought electoral bonds, with Future Gaming and Hotel Services PR making the highest denominations</li>
-  <li><strong>Gender Representation:</strong> There is a balanced representation of male and female athletes, indicating significant strides in gender inclusivity over recent years.</li>
-  <li><strong>Youth Athletes:</strong> A substantial presence of young athletes points toward a generational shift in Olympic competitors.</li>
-  <li><strong>Popular Sports:</strong> Track and field events have seen the highest participation, emphasizing their global appeal.</li>
-</ul>
-
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
