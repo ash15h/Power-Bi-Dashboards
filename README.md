@@ -250,7 +250,7 @@
 <h3>Objective:</h3> 
 To analyze and provide key insights on the Paris Olympics, focusing on aspects such as participating countries, events, athletes, historical performance, and key achievements.
 
-<h3>Dashboard:</h3>
+<h3>Report View:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/ed5f547f-1f0b-4e2c-b112-a79df5a31b2b" style="width: 80%; height: auto; margin-bottom: 20px;">
   <img src="https://github.com/user-attachments/assets/f961d45b-5dcb-4fa0-9396-720dae804bdf" style="width: 80%; height: auto; margin-bottom: 20px;">
