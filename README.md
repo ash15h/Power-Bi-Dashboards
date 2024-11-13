@@ -780,4 +780,64 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1>USECASE 10 - Bank Loan Analysis</h1>
+
+<h3>Objective</h3> To analyze retail sales performance by tracking key metrics across regions, products, and time periods, enabling stakeholders to identify trends, assess targets, and make data-driven decisions.
+
+<h3>Report view</h3>
+
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/86a252b4-f2f5-4a97-a4f4-0368aaab143b" style="width: 80%; height: auto;">
+</div>
+
+<h3>Steps</h3>
+<ol>
+    <li><strong>Data Connection</strong>
+        <ul>
+            <li>Source Integration: Historical data files from a local folder were imported and combined to create a unified dataset whereas Dimension table were fetched from PostgreSQL database.</li>
+        </ul>
+    </li>
+    <li><strong>Data Modelling</strong>
+        <ul>
+            <li>Schema: Organized in a Snowflake schema with a central Fact Sales table linked to dimension tables for date, country, product, and sales representatives.</li>
+          <li>Connections: Utilized Import mode for sales data, with real-time updates via DirectQuery for dimension tables in PostgreSQL.</li>
+    </li>
+    <li><strong>Data Preparation</strong>
+        <ul>
+           <li>Data Cleaning: Standardized headers, removed duplicates, and formatted data consistently.</li>
+          <li>Transformation: Created new columns for date using "Column by Example" for better formatting</li>
+      <li>Time Support: Added a date lookup table for time-based calculations.</li>
+        </ul>
+    </li>
+    <li><strong>Calculations/Features</strong>
+        <ul>
+            <li>DAX Functions: Used CALCULATE, AVERAGE, and SUM for metrics, and time functions like PREVIOUSQUARTER() for period comparisons.</li>
+            <li>Date Calculations: Employed CALENDAR() to create a date lookup table for consistency in date-based analysis.</li>
+          <li>Icon Indicators: Used icons to display growth or decline in average revenue and profit, giving quick visual cues on daily trends.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
+<ul>
+    <li>Advanced DAX functions for KPI calculations and time intelligence.</li>
+    <li>Proficiency in data cleaning, Snowflake schema modeling, and applying Import, Dual, and DirectQuery modes.</li>
+</ul>
+
+<h3>Insights</h3>
+<ul>
+<li>Revenue & Units Sold: Declines noted in recent quarters, possibly indicating seasonal or emerging challenges.</li>
+<li>Top Performers: Specific products and sales reps, notably "El Bob" and "Jan Novotny," significantly contribute to revenue.</li>
+<li>Profit Volatility: Monthly Gross Profit Percent shows fluctuations, suggesting areas for deeper analysis.</li>
+</ul>
+
+<h3>Recommendations:</h3>
+<ul>
+<li>Investigate declining metrics to identify underlying issues.</li>
+<li>Apply successful strategies from high-performing products and reps to improve other areas.</li>
+<li>Further analyze Gross Profit Percent fluctuations to manage profit stability.</li>
+<li>Add filters or drill-downs for more granular analysis by region and product category.</li>
+</ul>
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+
 
