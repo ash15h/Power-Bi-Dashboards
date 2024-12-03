@@ -252,11 +252,11 @@ To analyze and provide key insights on the Paris Olympics, focusing on aspects s
 
 <h3>Report View:</h3>
 <div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/ed5f547f-1f0b-4e2c-b112-a79df5a31b2b" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/f961d45b-5dcb-4fa0-9396-720dae804bdf" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/a6ef0aec-e2f4-4225-a2e0-2e1bc0723e60" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/6dcc7647-8d25-44f3-8a95-dcdf36803bd8" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e404ec55-7fad-4100-8c98-092369afa2a0" style="width: 80%; height: auto;">
+  <img src="https://github.com/user-attachments/assets/4596b418-4e79-4d71-b00d-827188a31292" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/292757e3-df82-4851-9078-f9c7d505a894" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/dd56d3c4-6a68-4b3f-bea3-20927e646e0b" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/63e1c48d-f843-4be4-8352-2ade161359f2" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/7aacd41f-7e5a-45df-8552-5b1f2becd944" style="width: 80%; height: auto;">
 </div>
 
 <h3>Steps</h3>
