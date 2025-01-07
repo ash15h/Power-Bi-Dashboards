@@ -346,10 +346,8 @@ To analyze and provide key insights on the Paris Olympics, focusing on aspects s
         <ul>
             <li>Performed time-based calculations without using time intelligence functions.</li>
             <li>Calculated same-period-last-year data without relying on time intelligence.</li>
-            <li>Displayed up and down arrows with conditional formatting based on year-over-year performance.</li>
-            <li>Applied conditional formatting to highlight performance differences with green or red colors.</li>
             <li>Implemented the Parameter feature to create slicers for switching between axis values.</li>
-            <li>Utilized various DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, <code>Format</code>, <code>CountRows</code>, <code>Filter</code>, etc.</li>
+            <li>Utilized various DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, <code>Format</code>, <code>CountRows</code>, <code>Filter</code>,<code>RankX</code> etc.</li>
         </ul>
     </li>
 </ol>
@@ -362,48 +360,49 @@ To analyze and provide key insights on the Paris Olympics, focusing on aspects s
     <li>Comparing metrics using multi-card visuals.</li>
     <li>Calculating measures using DAX.</li>
     <li>Implementing the Parameter feature for dynamic visualizations.</li>
+    <li>Usinf RankX function to calculate Top N performers.</li>
 </ul>
 
 <h3>Insights</h3>
 <ol>
     <li><strong>Customer Demographics</strong>
         <ul>
-            <li>Female customers dominate the customer base (57.14%), with male customers slightly less at 42.7%.</li>
-            <li>The majority of customers fall into the "29-40 years" age group (25.75%), followed by the "41-52 years" group (20.25%).</li>
-            <li>Most customers have an annual income greater than 15 LPA (28.26%), indicating a relatively affluent customer base.</li>
+            <li>Female customers dominate the customer base, accounting for 58.4%, with male customers at 41.2%.</li>
+            <li>The most represented age group is "29-40 years" (25.75%), followed by "41-52 years" (20.25%).</li>
+            <li>Customers with an annual income greater than ₹15 LPA form the largest segment (28.26%).</li>
         </ul>
     </li>
     <li><strong>Geographical Distribution</strong>
         <ul>
-            <li>Uttar Pradesh (20.88%) and Karnataka (20.09%) have the highest concentration of customers.</li>
-            <li>Haryana and Goa have the highest percentage of customers with loans disbursed, particularly home loans (59.06%) and car loans (38.59%).</li>
+            <li>Uttar Pradesh (21.68%) and Karnataka (19.44%) have the highest concentrations of customers.</li>
+            <li>Haryana and Delhi are notable for high loan disbursements, particularly home loans (42.83%).</li>
         </ul>
     </li>
     <li><strong>Loan Distribution</strong>
         <ul>
-            <li>Home loans are the most popular type of loan (59.06%), followed by car loans (38.59%) and personal loans (33.65%).</li>
-            <li>A significant portion of customers have multiple loans, such as home and car loans.</li>
+            <li>Home loans are the most common (63.75%), followed by car loans (24.06%) and personal loans (22.49%).</li>
+            <li>Customers with multiple loans, such as home and car loans, represent a growing segment.</li>
         </ul>
     </li>
     <li><strong>Credit Card Usage</strong>
         <ul>
-            <li>There were 6,248 transactions, with an average spend per card of ₹58.79K.</li>
-            <li>The groceries category has the highest transaction amount, followed by shopping.</li>
-            <li>A total of 86.01M reward points were accumulated, with an average of 505.82 points per card.</li>
+            <li>Total transactions amounted to ₹2.70 billion, with an average spend of ₹1.09M per card.</li>
+            <li>Groceries and shopping are the top categories by transaction amount.</li>
+            <li>Platinum and Gold cards are the most preferred, each accounting for around 25% of total card users.</li>
         </ul>
     </li>
     <li><strong>Customer Feedback</strong>
         <ul>
-            <li>A total of 1,692 feedback entries were recorded, with an average rating of 3.5 out of 5.</li>
-            <li>The majority of feedback is related to complaints (59.16%), followed by suggestions (25.65%) and praise (15.19%).</li>
-            <li>The highest percentage of ratings fall in the 4-star category (31.50%), indicating mixed customer satisfaction.</li>
+            <li>A total of 4,432 feedback entries were recorded, with an average satisfaction rating of 3.5 out of 5.</li>
+            <li>Complaints dominate the feedback (59.57%), followed by suggestions (25%) and praise (15.43%).</li>
+            <li>Most ratings fall in the 4-star category (31.23%).</li>
         </ul>
     </li>
     <li><strong>Financial Performance</strong>
         <ul>
-            <li>Revenue has decreased slightly compared to the previous year by ₹4.50M, and merchant fees saw a reduction of ₹2.52M.</li>
-            <li>Interest income is down by ₹1.17M, while penalties have seen a slight increase of ₹0.36M.</li>
-            <li>The defaulter rate has marginally increased from 49.24% to 49.36%, indicating potential risk.</li>
+            <li>Revenue increased by ₹82.29M compared to the previous year.</li>
+            <li>Merchant fees saw a significant rise of ₹49.22M.</li>
+            <li>The defaulter rate slightly increased from 49.10% to 49.67%, indicating a potential risk.</li>
         </ul>
     </li>
 </ol>
@@ -412,41 +411,42 @@ To analyze and provide key insights on the Paris Olympics, focusing on aspects s
 <ol>
     <li><strong>Targeted Marketing</strong>
         <ul>
-            <li>Focus marketing campaigns on the "29-40 years" and "41-52 years" age groups, as they represent the largest segments.</li>
-            <li>Tailor financial products and offers to the high-income group (>15 LPA) to maximize engagement and revenue.</li>
+            <li>Focus marketing campaigns on the "29-40 years" age group and customers earning more than ₹15 LPA.</li>
+            <li>Tailor credit card offers and loan products to match customer preferences in groceries and shopping.</li>
         </ul>
     </li>
     <li><strong>Regional Strategy</strong>
         <ul>
-            <li>Enhance financial services and customer support in Uttar Pradesh and Karnataka, given their large customer base.</li>
-            <li>Consider region-specific promotions in Delhi and Maharashtra to boost customer engagement.</li>
+            <li>Enhance customer services and financial product offerings in Uttar Pradesh and Karnataka to capitalize on their large customer base.</li>
+            <li>Conduct targeted campaigns in Haryana and Delhi for promoting home and car loans.</li>
         </ul>
     </li>
     <li><strong>Product Optimization</strong>
         <ul>
-            <li>Given the high popularity of home and car loans, introduce bundled offers or loyalty programs to encourage repeat loans or cross-selling.</li>
-            <li>Develop specific credit card reward programs aligned with top merchant categories (e.g., groceries, shopping) to increase card usage.</li>
+            <li>Develop bundled offers for multiple loans (e.g., home and car loans) to encourage cross-selling.</li>
+            <li>Introduce loyalty programs for Platinum and Gold card users to boost retention and spending.</li>
         </ul>
     </li>
     <li><strong>Customer Feedback Management</strong>
         <ul>
-            <li>Prioritize addressing complaints, as they constitute the majority of feedback (59.16%). Improving the complaint resolution process could enhance overall customer satisfaction.</li>
-            <li>Encourage customers to provide positive feedback and ratings, possibly through incentives, to boost the overall average rating.</li>
+            <li>Prioritize resolving complaints efficiently to improve the satisfaction rating.</li>
+            <li>Encourage more positive feedback through incentives for high ratings and testimonials.</li>
         </ul>
     </li>
     <li><strong>Risk Mitigation</strong>
         <ul>
-            <li>Investigate the rising defaulter rates and implement stricter credit monitoring and customer support for at-risk customers.</li>
-            <li>Analyze the causes of the revenue decline, particularly in merchant fees and interest income, and consider revising fee structures or introducing new revenue streams.</li>
+            <li>Monitor the rising defaulter rate closely and implement preemptive measures for at-risk customers.</li>
+            <li>Analyze revenue components to sustain the positive growth trend and explore diversification in merchant fees and interest income.</li>
         </ul>
     </li>
     <li><strong>Customer Engagement</strong>
         <ul>
-            <li>Increase customer interaction and feedback collection to improve the average rating, especially focusing on complaint resolution.</li>
-            <li>Utilize the insights from reward points distribution to incentivize higher card usage and customer loyalty.</li>
+            <li>Use insights from transaction data to personalize customer offers and reward programs.</li>
+            <li>Increase feedback collection frequency and improve the overall rating by focusing on quick resolution of issues.</li>
         </ul>
     </li>
 </ol>
+
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>USECASE 06 - Indian Cricket Captains and Players Analysis</h1>
