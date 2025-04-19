@@ -705,7 +705,76 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 09 - Bank Loan Analysis</h1>
+<h1>USECASE 09 - Compliance & Security Dashboard</h1>
+
+<h3>Objective</h3>
+<p>To monitor and analyze security & compliance issues across multiple domains, track ownership through SPOCs and testers, and provide visibility into issue status, due dates, and workloads. The goal is to improve operational transparency, prioritize risks, and ensure timely resolution of compliance tasks.</p>
+
+<h3>Report View</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/ae14ade2-23f8-42ff-839b-21da7ddd65de" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/c6ec209c-1f89-4504-ad06-42a7b411dced" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/016d7bb6-2e9b-4d90-9eed-1cb3fbf9c200" style="width: 80%; height: auto;">
+</div>
+
+<h3>Steps</h3>
+<ol>
+  <li>
+    <h4>Data Connection</h4>
+    <ul>
+      <li>Tables are connected using Import mode from a CSV file.</li>
+      <li>Implemented a Star Schema for efficient modeling and relationships.</li>
+      <li>Created a Bridge Table using DAX to eliminate many-to-many relationships.</li>
+    </ul>
+  </li>
+  <li>
+    <h4>Data Preparation</h4>
+    <ul>
+      <li>Adjusted headers and corrected column data types.</li>
+      <li>Removed duplicate records and unnecessary columns.</li>
+      <li>Introduced a Bridge Table to enable clean relational mapping.</li>
+    </ul>
+  </li>
+  <li>
+    <h4>Calculations and Features</h4>
+    <ul>
+      <li>Used Drill Through functionality to navigate to detailed Issue Details page.</li>
+      <li>Implemented the Parameter feature to dynamically switch axis values.</li>
+      <li>Used <code>Summarize</code>, <code>DistinctCount</code> and various DAX functions to compute custom metrics.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3>Skills Acquired</h3>
+<ul>
+  <li>Designing and modeling data using Star Schema.</li>
+  <li>Using Bridge Tables to manage complex relationships.</li>
+  <li>Implementing Drill Through and Parameter features in Power BI.</li>
+  <li>Advanced use of DAX for summarization and calculation.</li>
+</ul>
+
+<h3>Insights and Findings</h3>
+<ul>
+  <li><strong>SPOC Activity:</strong> Angela, Robin, and Cassey are the most active SPOCs, indicating a potential need for task redistribution.</li>
+  <li><strong>Tester Workload:</strong> Fiona and Bob handle the most CT requests — optimization opportunities may exist here.</li>
+  <li><strong>Domain-wise Issue Volume:</strong> AuthTrack, CoreOps, and StratOps consistently report more issues, which may indicate higher vulnerability or reporting maturity.</li>
+  <li><strong>Overdue Issues:</strong> Multiple tasks are past due, some significantly, pointing to process bottlenecks or follow-up gaps.</li>
+</ul>
+
+<h3>Recommendations</h3>
+<ul>
+  <li><strong>Balance SPOC Responsibilities:</strong> Evaluate and distribute workload more evenly across SPOCs.</li>
+  <li><strong>Monitor Tester Capacity:</strong> Track and manage tester workload to ensure efficiency.</li>
+  <li><strong>Prioritize High-Issue Domains:</strong> Conduct root-cause analysis for frequently reported domains.</li>
+  <li><strong>Follow-up for Overdue Issues:</strong> Set up automated alerts or reminders for past-due items.</li>
+  <li><strong>Enhance Drill-through Pages:</strong> Enrich detail views with resolution time, test status, and SLA indicators.</li>
+  <li><strong>Track SLAs Visually:</strong> Introduce timeline visuals to monitor adherence to delivery expectations.</li>
+</ul>
+
+<hr style="border: 1px solid #fff; margin: 20px 0;">
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+
+<h1>USECASE 10 - Bank Loan Analysis</h1>
 
 <h3>Objective</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
 
@@ -780,7 +849,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 10 - Bank Loan Analysis</h1>
+<h1>USECASE 11 - Bank Loan Analysis</h1>
 
 <h3>Objective</h3> To analyze retail sales performance by tracking key metrics across regions, products, and time periods, enabling stakeholders to identify trends, assess targets, and make data-driven decisions.
 
@@ -839,5 +908,3 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 <li>Add filters or drill-downs for more granular analysis by region and product category.</li>
 </ul>
 <hr style="border: 1px solid #fff; margin: 20px 0;">
-
-
