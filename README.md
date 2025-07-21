@@ -772,9 +772,87 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 </ul>
 
 <hr style="border: 1px solid #fff; margin: 20px 0;">
+
+<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<h1>USECASE 10 - Car Market Analysis Dashboard</h1>
+
+<h3>Objective</h3>
+<p>To analyze car market performance across brands, models, and configurations using sales, pricing, and specification data. This dashboard empowers business users to explore vehicle trends, identify top-performing segments, and make data-driven decisions in product planning, inventory management, and marketing strategies.</p>
+
+<h3>Report View</h3>
+<div style="width: 100%; text-align: center; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/b5a61669-3b33-4653-b627-abb880377f9c" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/ed46d7bf-fe47-4ca4-a421-04446ff069fd" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/94b7f8c4-9225-4724-8cff-802d72834ec9" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/8fee0d81-7a1e-472a-8e99-293ceba096b4" style="width: 80%; height: auto; margin-bottom: 20px;">
+  <img src="https://github.com/user-attachments/assets/96edfad7-038b-4f21-8e63-f9a680fcc7f3" style="width: 80%; height: auto;">
+</div>
+
+<h3>Steps</h3>
+<ol>
+    <li>
+        <h4>Data Connection</h4>
+        <ul>
+            <li>Connected to PostgreSQL database using Import mode.</li>
+            <li>Implemented a Star Schema model with dimension and fact tables.</li>
+            <li>Used Bridge Tables to manage many-to-many relationships.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Data Preparation</h4>
+        <ul>
+            <li>Cleaned and transformed data using Power Query.</li>
+            <li>Removed duplicate rows and unnecessary columns.</li>
+            <li>Standardized categories like fuel type, body type, and transmission.</li>
+            <li>Mapped car variants such as Base, Mid, Mid-Top, and Top.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>Calculations and Features</h4>
+        <ul>
+            <li>Created DAX measures for price, sales volume, fuel type distribution, and engine capacity.</li>
+            <li>Used the Parameter feature to toggle between KPIs such as price, engine cc, and transmission type.</li>
+            <li>Implemented Conditional Formatting for dynamic color scaling based on performance metrics.</li>
+        </ul>
+    </li>
+    <li>
+        <h4>External Visuals</h4>
+        <ul>
+            <li>Used Box Plot to visualize price distribution by model and variant.</li>
+            <li>Used Bubble Chart to analyze model-wise impact based on seating, fuel type, and engine cc.</li>
+        </ul>
+    </li>
+</ol>
+
+<h3>Skills Acquired</h3>
+<ul>
+    <li>Connecting PostgreSQL data using Import mode in Power BI.</li>
+    <li>Modeling relational data with Star Schema and Bridge Tables.</li>
+    <li>Using external visuals like Box Plot and Bubble Chart effectively.</li>
+    <li>Creating custom KPIs with DAX functions like <code>SUMX</code>, <code>CALCULATE</code>, and <code>SWITCH</code>.</li>
+    <li>Implementing advanced Power BI features such as Parameter and Conditional Formatting.</li>
+</ul>
+
+<h3>Insights and Findings</h3>
+<ul>
+    <li><strong>Brand Dominance:</strong> Certain brands dominate the mid and top segments, indicating strong customer loyalty and perceived value.</li>
+    <li><strong>Fuel Preference:</strong> Petrol variants are still the most popular, but hybrid and electric models show early traction.</li>
+    <li><strong>Transmission:</strong> Manual transmissions dominate entry-level segments; automatic options gain traction in premium variants.</li>
+    <li><strong>Body Type Popularity:</strong> SUVs and Hatchbacks are the most sold body types, indicating a focus on utility and space.</li>
+    <li><strong>Price Spread:</strong> Box plots reveal price volatility across similar variant types, helping identify pricing gaps.</li>
+</ul>
+
+<h3>Recommendations</h3>
+<ul>
+    <li><strong>Mid Variant Focus:</strong> High demand in the mid variant category calls for marketing and production alignment.</li>
+    <li><strong>EV Market Entry:</strong> Increase hybrid and electric vehicle offerings to stay ahead in a transitioning market.</li>
+    <li><strong>Inventory Planning:</strong> Align inventory with trends in transmission, body type, and fuel category.</li>
+    <li><strong>Parameter Expansion:</strong> Add more toggle fields for comparative analysis across performance, mileage, or resale value.</li>
+    <li><strong>Improve Visual Navigation:</strong> Enhance bubble chart interactivity and add tooltips for deeper insights.</li>
+</ul>
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 
-<h1>USECASE 10 - Bank Loan Analysis</h1>
+<!-- <h1>USECASE 10 - Bank Loan Analysis</h1>
 
 <h3>Objective</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
 
@@ -847,7 +925,7 @@ This dashboard aims to provide a comprehensive analysis of store sales performan
 <li><strong>Seasonal Loan Campaigns:</strong> Plan marketing campaigns during peak loan months (e.g., May)</li>
 <li><strong>Support for High-risk Jobs:</strong> Provide financial advice for customers in high-risk jobs to help manage loans better</li>
 </ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
+<hr style="border: 1px solid #fff; margin: 20px 0;"> -->
 <!------------------------------------------------------------------ End -------------------------------------------------------------------------->
 <h1>USECASE 11 - Bank Loan Analysis</h1>
 
