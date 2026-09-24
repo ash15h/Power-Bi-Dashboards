@@ -32,7 +32,7 @@
 <table>
 <tr>
 <td align="center" width="25%"><h2>7+</h2>years in Power BI &amp; BI reporting</td>
-<td align="center" width="25%"><h2>9–10</h2>dashboards developed and maintained end to end</td>
+<td align="center" width="25%"><h2>17+</h2>enterprise dashboards delivered at PwC, from hands-on builds to leading delivery</td>
 <td align="center" width="25%"><h2>8</h2>Insurance functions supported<br><sub>Sales · HR · Billing &amp; Collections · DQ &amp; Governance · Inforce Book · IT Ticketing · Claims · RCU</sub></td>
 <td align="center" width="25%"><h2>40+</h2>projects unified in one issue-tracking dashboard</td>
 </tr>
