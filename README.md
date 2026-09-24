@@ -1,988 +1,696 @@
-<h1>USECASE 01 - Bank Churn Analysis</h1>
+<!-- Portfolio README for recruiters. Ready to publish. -->
+<div align="center">
 
-<h3>Objective</h3>
-<p>To analyze and predict customer churn and risk by examining factors such as geography, gender, credit score, tenure, age, and salary. Machine learning was used to calculate the churn probability of customers. The goal is to provide actionable insights to retain customers and reduce churn.</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F2C811,100:1f1f1f&height=200&section=header&text=Ashish%20Anand&fontSize=58&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Senior%20Power%20BI%20Developer%20%7C%20BI%20Delivery%20%7C%20Power%20BI%20Service&descAlignY=60&descSize=18" alt="Ashish Anand, Senior Power BI Developer" width="100%">
 
-<h3>Report View</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/fad0cd59-c6a1-4ac5-adb4-cf8d39c9a268" style="width: 80%; height: auto;">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=F2C811&center=true&vCenter=true&width=800&lines=7%2B+years+delivering+Power+BI+in+Insurance%2C+Banking%2C+Retail+%26+Energy;From+requirements+to+production+support%2C+end+to+end;Semantic+models+%C2%B7+DAX+%C2%B7+RLS+%C2%B7+Refresh+automation" alt="Typing intro"></a>
+
+<br>
+
+<a href="https://github.com/ash15h/Power-Bi-Dashboards/raw/main/Ashish_Anand_Power_BI_CV.pdf"><img src="https://img.shields.io/badge/Resume-Download%20PDF-F2C811?style=for-the-badge&logo=readme&logoColor=black" alt="Resume"></a>
+<a href="mailto:anand_ashish96@outlook.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
+<a href="https://www.linkedin.com/in/anandash15h/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<img src="https://img.shields.io/badge/Microsoft%20Certified-PL--300-107C10?style=for-the-badge&logo=microsoft&logoColor=white" alt="PL-300">
+
+<br><br>
+
+<a href="#snapshot">Snapshot</a> ·
+<a href="#experience">Experience</a> ·
+<a href="#case-studies">Case studies</a> ·
+<a href="#skills">Skills</a> ·
+<a href="#demos">Demo projects</a> ·
+<a href="#credentials">Credentials</a>
+
 </div>
 
-<h3>Steps</h3>
-<ol>
-    <li>
-        <h4>Data Preparation</h4>
-        <ul>
-            <li>Removed unnecessary columns.</li>
-            <li>Eliminated rows with missing data.</li>
-            <li>Encoded 'Geography' and 'Gender' using OneHotEncoder.</li>
-            <li>Standardized features with StandardScaler.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Data Modeling</h4>
-        <ul>
-            <li>Trained a Random Forest classifier to predict customer churn.</li>
-            <li>Added predicted churn probabilities to the dataset.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Data Connection</h4>
-        <ul>
-            <li>Imported the CSV file with predicted churn probabilities into Power BI.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Calculations and Features</h4>
-        <ul>
-            <li>Used the “Group” feature in Power BI to create groups such as age groups and churn probability groups.</li>
-            <li>Utilized DAX functions like <code>Calculate</code>, <code>Divide</code>, and <code>DistinctCount</code> to calculate various measures.</li>
-            <li>Incorporated an image as a page navigator.</li>
-        </ul>
-    </li>
-</ol>
+---
 
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Data cleaning, modeling, and prediction using Python.</li>
-    <li>Connecting data using import mode in Power BI.</li>
-    <li>Calculating measures using DAX.</li>
-    <li>Grouping data effectively.</li>
-    <li>Implementing page navigation in reports.</li>
-</ul>
+<a id="snapshot"></a>
 
-<h3>Insights and Findings</h3>
-<ul>
-    <li><strong>Geography:</strong> France exhibits higher churn rates, indicating a need for service improvements.</li>
-    <li><strong>Gender:</strong> Female customers are more likely to churn.</li>
-    <li><strong>Credit Score:</strong> Lower credit scores are associated with higher churn, suggesting that support services may help. However, some high-score customers also churn, potentially seeking better services.</li>
-    <li><strong>Tenure:</strong> Shorter tenures are linked to higher churn, highlighting the importance of improving the onboarding process.</li>
-    <li><strong>Age:</strong> Young adults and middle-aged customers have higher churn rates, necessitating targeted products.</li>
-    <li><strong>Salary:</strong> Middle-income customers, along with some high-income customers, churn more frequently, possibly due to perceptions of service value.</li>
-</ul>
+## ⚡ Recruiter Snapshot
 
-<h3>Recommendations</h3>
-<ul>
-    <li><strong>Geographical Focus:</strong> Investigate the reasons behind high churn in France and enhance services accordingly.</li>
-    <li><strong>Gender-specific Strategies:</strong> Develop retention efforts tailored to female customers.</li>
-    <li><strong>Credit Score Segmentation:</strong> Provide support for low-score customers and offer better options for high-score ones.</li>
-    <li><strong>Improving Onboarding:</strong> Enhance initial customer experiences to boost retention.</li>
-    <li><strong>Tailored Financial Products:</strong> Design financial products specifically for younger and middle-aged customers.</li>
-    <li><strong>Competitive Pricing and Services:</strong> Review and improve service value for middle-income customers.</li>
-    <li><strong>Credit Card Improvements:</strong> Upgrade credit card offerings to meet customer expectations.</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 02 - Order Aggregate & Line Analysis</h1>
+<table>
+<tr>
+<td align="center" width="25%"><h2>7+</h2>years in Power BI &amp; BI reporting</td>
+<td align="center" width="25%"><h2>9–10</h2>dashboards developed and maintained end to end</td>
+<td align="center" width="25%"><h2>8</h2>Insurance functions supported<br><sub>Sales · HR · Billing &amp; Collections · DQ &amp; Governance · Inforce Book · IT Ticketing · Claims · RCU</sub></td>
+<td align="center" width="25%"><h2>40+</h2>projects unified in one issue-tracking dashboard</td>
+</tr>
+<tr>
+<td align="center"><h2>4</h2>developers co-led across build, test and production</td>
+<td align="center"><h2>15 min</h2>refresh requirement supported</td>
+<td align="center"><h2>Dev → UAT → Prod</h2>release and access management</td>
+<td align="center"><h2>PL-300</h2>Power BI Data Analyst Associate</td>
+</tr>
+</table>
 
-<h3>Objective</h3>
-<p>To analyze and enhance service level performance by examining key metrics such as on-time delivery (OT), in-full delivery (IF), on-time in-full delivery (OTIF), line item fill rate (LIFR), and volume fill rate (VOFR) across different product categories, cities, and customer names. The goal is to identify areas for improvement and implement strategies to boost service efficiency and customer satisfaction.</p>
+| | |
+|---|---|
+| **Current role** | Senior Associate, **PwC India** (Jan 2026 – Present) |
+| **Domains** | Insurance · Banking · Retail · Energy |
+| **Core stack** | Power BI Desktop &amp; Service · DAX · Power Query · SQL · BigQuery · Semantic modelling · RLS |
+| **What sets me apart** | I own the whole lifecycle: requirements, modelling, build, validation, deployment, security, refresh and production support |
 
-<h3>Report View</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/11831550-de51-45e9-9511-1a7411218e3c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/87e6d295-6498-4c0b-9375-bfe91436d2e3" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/6c927ed5-610e-4c03-8230-60b46a303420" style="width: 80%; height: auto;">
+## 🎯 What I Bring
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🧩 End-to-end ownership**<br>
+Requirements with business stakeholders, KPI definition, semantic model, DAX, dashboards, testing, release and support. No hand-offs needed.
+
+</td>
+<td width="50%" valign="top">
+
+**🔒 Numbers stakeholders can trust**<br>
+Source-to-report reconciliation in SQL and BigQuery, controlled automated refresh, and centralised dashboards that replaced manually prepared reports and limited manual changes to reported figures.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🏗️ Production-grade delivery**<br>
+Dev, UAT and Prod workspaces, Apps, permissions, RLS through AD groups, refresh monitoring and automation via APIs, notebooks and data pipelines.
+
+</td>
+<td valign="top">
+
+**🤝 Lead and communicator**<br>
+Co-lead a team of 4 developers while staying hands-on, and translate business processes into practical KPI reporting.
+
+</td>
+</tr>
+</table>
+
+```mermaid
+flowchart LR
+    A["Requirements and KPIs"] --> B["Data prep: Power Query, SQL, BigQuery"]
+    B --> C["Semantic model"]
+    C --> D["DAX and report build"]
+    D --> E["Validation: source to report"]
+    E --> F["Deploy: Dev, UAT, Prod"]
+    F --> G["Secure: RLS, AD groups, Apps"]
+    G --> H["Refresh, monitor, optimise, support"]
+```
+
+---
+
+<a id="experience"></a>
+
+## 💼 Experience
+
+| Period | Role | Company | Focus |
+|---|---|---|---|
+| Jan 2026 – Present | **Senior Associate** | PwC India, Gurugram | Enterprise Insurance BI delivery, team co-lead |
+| Feb 2022 – Jan 2026 | **IT Analyst** | Tata Consultancy Services, Gurugram | Banking issue-tracking and remediation reporting |
+| Mar 2021 – Feb 2022 | **Data Analyst** | EnigmaSoft Technologies, Panjim | Energy demand analytics for a UK supplier |
+| Nov 2020 – Mar 2021 | **Data Analyst** | Sveltetech Technologies, Gurugram | KPI dashboards and scheduled refresh |
+| Nov 2018 – Mar 2020 | **Tech Support Associate** | Tech Mahindra, Noida | KPI reporting and recurring report support |
+
+<details>
+<summary><b>PwC India · Senior Associate (Jan 2026 – Present)</b></summary>
+
+<br>
+
+- Developed and maintained **9–10 dashboards end to end** across Sales, HR, Billing &amp; Collections, Data Quality &amp; Governance, Movement in Inforce Book, IT Ticketing, Claims and RCU, taking full ownership of selected ones.
+- **Co-led a team of 4 developers** across requirements, development, testing, deployment and issue resolution while contributing hands-on.
+- Worked directly with business stakeholders to define KPIs and turn business processes into reporting solutions.
+- Designed **semantic models** with fact and dimension structures and reusable measures; wrote **DAX** for operational KPIs, ageing, trends and movement analysis.
+- Managed **Power BI Service across Dev, UAT and Prod**: workspaces, deployment, Apps, permissions and **RLS with AD groups**.
+- Used **BigQuery and SQL** for dashboard testing and source-to-report reconciliation.
+- Supported **refresh automation** (APIs, notebooks, data pipelines) including table-level and selective refresh.
+- **Improved report performance** by trimming unused columns, moving suitable transformations and bucketing logic to the backend, and reducing calculated columns.
+
+</details>
+
+<details>
+<summary><b>Tata Consultancy Services · IT Analyst (Feb 2022 – Jan 2026)</b></summary>
+
+<br>
+
+- Built and maintained Power BI reporting for a global bank's **Vulnerability Assessment (Safety &amp; Soundness)** function.
+- Delivered the **Issue Tracking Dashboard** combining assessment schedules, issues, due dates, CAPs, Risk Exceptions and Production Change Verification.
+- Gave stakeholders visibility across **40+ projects**: status, ageing, due dates, workload and remediation progress.
+- Wrote **DAX for ageing and due-date analysis**; built drill-throughs and views by domain, SPOC, JIRA assignee and status.
+- Implemented **RLS with AD groups**; managed workspaces, publishing, Apps and refresh monitoring.
+- Supported a **15-minute refresh requirement** and selective table refresh via APIs, notebooks and data pipelines.
+- Validated outputs against source data with **SQL and BigQuery**, and reviewed DAX, models and report design for optimisation.
+
+</details>
+
+<details>
+<summary><b>EnigmaSoft · Sveltetech · Tech Mahindra (2018 – 2022)</b></summary>
+
+<br>
+
+- **EnigmaSoft (Energy):** Power BI dashboards for a **UK electricity supplier** comparing actual and predicted demand against weather; analysed historical consumption to support operational planning; contributed to analytics and chatbot initiatives.
+- **Sveltetech:** KPI dashboards, recurring reports and scheduled refresh.
+- **Tech Mahindra:** translated business data into KPI-focused Power BI views and maintained recurring reporting.
+
+</details>
+
+---
+
+<a id="case-studies"></a>
+
+## 🏆 Case Studies (Professional Work)
+
+> Client dashboards and data are confidential, so no screenshots are shown here. Public demo projects further down show my hands-on build quality.
+
+<a id="cs1"></a>
+
+### 1 · Enterprise Insurance BI Delivery
+<sub>PwC India · 2026–Present · Power BI · BigQuery · SQL · DAX · Power BI Service · RLS</sub>
+
+- **Problem:** Insurance functions relied on manually prepared, function-owned reports, which made figures inconsistent and open to manual alteration.
+- **What I did:** Built semantic models, DAX measures and Power Query transformations for KPI, ageing, trend and movement analysis. Ran controlled releases across Dev, UAT and Prod with workspaces, Apps, permissions and RLS. Automated refresh with APIs, notebooks and pipelines, and validated against source with BigQuery and SQL.
+- **Outcome:** Centralised, source-driven dashboards across 8 functions replaced manual reports, giving stakeholders one consistent view and reducing the ability to change reported figures manually. Model and transformation tuning improved report performance.
+- **My role:** Owner of selected dashboards, co-lead of a 4-developer team.
+
+<a id="cs2"></a>
+
+### 2 · Vulnerability Assessment Issue Tracking (Banking)
+<sub>TCS · 2022–2026 · Power BI · BigQuery · SQL · DAX · RLS</sub>
+
+- **Problem:** Assessment schedules, issues, due dates, CAPs, Risk Exceptions and Production Change Verification lived in separate places, which made remediation hard to track.
+- **What I did:** Consolidated them into one Power BI solution covering **40+ projects**, with DAX ageing and due-date logic, drill-throughs and views by domain, SPOC, JIRA assignee and status. Added RLS with AD groups, source reconciliation in SQL and BigQuery, and support for a 15-minute refresh requirement.
+- **Outcome:** Stakeholders could track status, ageing, workload and remediation progress in one place.
+- **Related public demo:** [Compliance &amp; Security Dashboard](#uc09) (same pattern on sample data).
+
+<a id="cs3"></a>
+
+### 3 · Electricity Demand: Actual vs Predicted (Energy)
+<sub>EnigmaSoft · 2021–2022 · Power BI</sub>
+
+- **Problem:** A UK electricity supplier needed to understand how weather influenced demand.
+- **What I did:** Prepared historical consumption data and built dashboards comparing actual and predicted demand against weather conditions.
+- **Outcome:** Trend analysis that supported operational planning.
+
+---
+
+<a id="skills"></a>
+
+## 🧰 Skills
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+<img src="https://img.shields.io/badge/DAX-0078D4?style=for-the-badge" alt="DAX">
+<img src="https://img.shields.io/badge/Power%20Query-107C10?style=for-the-badge" alt="Power Query">
+<img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL">
+<img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" alt="BigQuery">
+<img src="https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="JIRA">
+<img src="https://img.shields.io/badge/Agile-555?style=for-the-badge" alt="Agile">
+
 </div>
 
-<h3>Steps</h3>
+| Area | What I do | Evidence |
+|---|---|---|
+| **Power BI reports** | KPI reporting, drill-through, bookmarks, tooltips, conditional formatting, dynamic filtering | [Case 1](#cs1) · [Case 2](#cs2) · demos [04](#uc04) · [09](#uc09) |
+| **DAX &amp; Power Query** | Measures, calculated columns, time intelligence, ageing, KPI logic, cleaning and transformation | [Case 1](#cs1) · demos [03](#uc03) · [05](#uc05) · [07](#uc07) · [11](#uc11) |
+| **Data modelling** | Semantic models, star and snowflake schema, fact and dimension design, bridge tables | [Case 1](#cs1) · demos [02](#uc02) · [09](#uc09) · [10](#uc10) |
+| **SQL &amp; data platforms** | SQL, BigQuery, data validation, reconciliation, dashboard testing | [Case 1](#cs1) · [Case 2](#cs2) · demos [03](#uc03) · [10](#uc10) |
+| **Service &amp; administration** | Workspaces, Apps, deployment, permissions, AD groups, RLS, scheduled refresh, refresh monitoring | [Case 1](#cs1) · [Case 2](#cs2) · demo [03](#uc03) (RLS) |
+| **Delivery &amp; automation** | Requirements, stakeholders, testing, release coordination, production support, performance tuning, APIs, notebooks, data pipelines, selective refresh | [Case 1](#cs1) · [Case 2](#cs2) |
+| **Also hands-on** | Python + Random Forest feeding Power BI, PostgreSQL, SQL Server DirectQuery, composite models | demos [01](#uc01) · [03](#uc03) · [10](#uc10) · [11](#uc11) |
 
-<ol>
-    <li>
-        <h4>Data Connection</h4>
-        <ul>
-            <li>The CSV files were imported into Power BI using Import Mode.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Data Preparation</h4>
-        <ul>
-            <li>Adjusted the headers.</li>
-            <li>Removed duplicate data.</li>
-            <li>Corrected data types for columns.</li>
-            <li>Eliminated unnecessary columns.</li>
-            <li>Removed rows with missing data.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Data Modelling</h4>
-        <ul>
-            <li>Connected the tables using a Star Schema with one fact table and five dimension tables.</li>
-            <li>Established one-to-many, uni-directional relationships from dimension to fact tables.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Calculations/Features</h4>
-        <ul>
-            <li>Displayed up and down arrows with conditional formatting based on differences between actual and target metrics.</li>
-            <li>Applied conditional formatting to create gradient colors in visuals and generate heatmaps.</li>
-            <li>Implemented page navigation buttons for better user interaction.</li>
-            <li>Used the Parameter feature to create a slicer for switching between axis values.</li>
-            <li>Added sparklines to provide more insights into the metrics.</li>
-            <li>Forecasted future sales trends based on historical data.</li>
-            <li>Utilized DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>CountRows</code>, and <code>TreatAs</code>.</li>
-        </ul>
-    </li>
-</ol>
+---
 
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Conditional formatting.</li>
-    <li>Using multi-card visuals to compare metrics.</li>
-    <li>Calculating measures using DAX.</li>
-    <li>Implementing the Parameter feature.</li>
-    <li>Creating page navigation buttons.</li>
-    <li>Developing heatmaps.</li>
-    <li>Forecasting using Line Chart.</li>
-</ul>
+<a id="demos"></a>
 
-<h3>Insights</h3>
-<ul>
-    <li><strong>Geography:</strong> Surat shows the highest on-time percentage (61.21%) and OTIF percentage (30.07%), indicating relatively better performance. Ahmedabad and Vadodara require improvements in OT and OTIF percentages.</li>
-    <li><strong>Product Category:</strong> The Dairy and Food categories have higher order quantities and delivered quantities but show significant room for improvement in on-time and in-full deliveries. Beverages perform relatively better in terms of VOFR% (96.59%) and LIFR% (65.96%).</li>
-    <li><strong>Customer Analysis:</strong> Customers like Elite Mart, Expert Mart, and Logic Stores show higher on-time and in-full delivery percentages. Atlas Stores and Chiptec Stores have lower OT and IF percentages, indicating a need for targeted service improvement.</li>
-</ul>
+## 🖼️ Demo Projects (Public Sample Data)
 
-<h3>Recommendations</h3>
-<ul>
-    <li><strong>Geographical Focus:</strong> Improve services in Ahmedabad and Vadodara by leveraging insights from Surat.</li>
-    <li><strong>Product Category Enhancement:</strong> Optimize logistics for the Dairy and Food categories.</li>
-    <li><strong>Customer-specific Strategies:</strong> Target service improvements for Atlas Stores and Chiptec Stores.</li>
-    <li><strong>Utilize Learnings:</strong> Regularly employ sparklines, conditional formatting, and heatmaps for ongoing monitoring.</li>
-    <li><strong>Leverage Parameters:</strong> Continuously adjust strategies based on dynamic data insights.</li>
-</ul>
+These 11 dashboards were built on public or sample datasets to show hands-on craft that I cannot share from client work. **Click a card to jump to its breakdown.**
 
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
+<table>
+<tr>
+<td width="50%" valign="top"><a href="#uc01"><img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" alt="Bank Churn Analysis + ML Prediction" width="100%"></a><br><b>01 · Bank Churn Analysis + ML Prediction</b><br><sub>Banking · Import (CSV)</sub><br><sub>Random Forest churn probabilities scored in Python, then surfaced in Power BI</sub></td>
+<td width="50%" valign="top"><a href="#uc02"><img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" alt="Order Aggregate & Line Fulfilment" width="100%"></a><br><b>02 · Order Aggregate & Line Fulfilment</b><br><sub>Retail & Supply Chain · Import (CSV)</sub><br><sub>OT, IF, OTIF, LIFR and VOFR tracked by city, category and customer, with forecasting</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="#uc03"><img src="https://github.com/user-attachments/assets/f0e647e6-cb1b-4e0f-83bb-7bdfa49e6441" alt="Finance Analysis (2018–2020)" width="100%"></a><br><b>03 · Finance Analysis (2018–2020)</b><br><sub>Banking & Finance · DirectQuery (SQL Server)</sub><br><sub>Gross profit €5.34M vs €3.97M target (+34.59%), with row-level security by country</sub></td>
+<td width="50%" valign="top"><a href="#uc04"><img src="https://github.com/user-attachments/assets/4596b418-4e79-4d71-b00d-827188a31292" alt="Paris Olympics Analysis" width="100%"></a><br><b>04 · Paris Olympics Analysis</b><br><sub>Sports · Import (Excel)</sub><br><sub>Bookmark-driven side drawer with synced slicers across pages</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="#uc05"><img src="https://github.com/user-attachments/assets/c6248c04-f1ba-48f6-a86f-7566b8c8efa7" alt="Credit Card & Customer 360 Analysis" width="100%"></a><br><b>05 · Credit Card & Customer 360 Analysis</b><br><sub>Banking & Finance · DirectQuery (SQL Server)</sub><br><sub>₹2.70B in transactions, loan mix, feedback sentiment and defaulter-rate risk in one report</sub></td>
+<td width="50%" valign="top"><a href="#uc06"><img src="https://github.com/user-attachments/assets/dc2fd6ae-bf0b-4fb1-bed5-9189f62f6377" alt="Indian Cricket Captains & Players" width="100%"></a><br><b>06 · Indian Cricket Captains & Players</b><br><sub>Sports · Import (CSV)</sub><br><sub>Test and ODI performance across eras, with a normalised captains table</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="#uc07"><img src="https://github.com/user-attachments/assets/34c3ad19-c9c8-49b8-8bd9-d1b2010d7e41" alt="Store Sales Dashboard" width="100%"></a><br><b>07 · Store Sales Dashboard</b><br><sub>Retail & Supply Chain · Import (CSV)</sub><br><sub>Lifetime sales of $1.51M, 12.39% behind goal, with dynamic Top N products</sub></td>
+<td width="50%" valign="top"><a href="#uc08"><img src="https://github.com/user-attachments/assets/265a8cce-ffb6-43ce-8a0a-b4b28ec7330c" alt="IPL Performance Analysis" width="100%"></a><br><b>08 · IPL Performance Analysis</b><br><sub>Sports · Import (CSV)</sub><br><sub>Team, player, over-phase and venue analysis across seasons</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="#uc09"><img src="https://github.com/user-attachments/assets/ae14ade2-23f8-42ff-839b-21da7ddd65de" alt="Compliance & Security Dashboard" width="100%"></a><br><b>09 · Compliance & Security Dashboard</b><br><sub>Compliance & Ops · Import (CSV)</sub><br><sub>Bridge table resolves many-to-many; drill-through to issue-level detail</sub></td>
+<td width="50%" valign="top"><a href="#uc10"><img src="https://github.com/user-attachments/assets/b5a61669-3b33-4653-b627-abb880377f9c" alt="Car Market Analysis" width="100%"></a><br><b>10 · Car Market Analysis</b><br><sub>Automotive · Import (PostgreSQL)</sub><br><sub>Box plots and bubble charts to expose price spread and segment demand</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="#uc11"><img src="https://github.com/user-attachments/assets/86a252b4-f2f5-4a97-a4f4-0368aaab143b" alt="Retail Sales Performance (Composite Model)" width="100%"></a><br><b>11 · Retail Sales Performance (Composite Model)</b><br><sub>Retail & Supply Chain · Composite (Import / DirectQuery / Dual)</sub><br><sub>Import + DirectQuery + Dual storage modes across files and PostgreSQL</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
 
-<h1>USECASE 03 - Finance Analysis</h1>
+<details>
+<summary><b>🏦 01 · Bank Churn Analysis + ML Prediction</b></summary>
 
-<h3>Objective</h3>
-<p>To analyze the financial performance of the company from 2018 to 2020, focusing on key metrics such as sales revenue, gross profit, operational profit, PBIT (Profit Before Interest and Taxes), net profit, and EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization). The goal is to identify trends, insights, and areas for improvement across all markets.</p>
+<a id="uc01"></a>
 
-<h3>Report View </h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/f0e647e6-cb1b-4e0f-83bb-7bdfa49e6441" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/8038f63f-f7ff-4e83-a2f5-69bb82896751" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/23c89ecd-4654-4298-877c-adabbcd54e45" style="width: 80%; height: auto";>
+<img src="https://img.shields.io/badge/Banking-F2C811?style=flat-square" alt="Banking"> <img src="https://img.shields.io/badge/Import%20%28CSV%29-0078D4?style=flat-square" alt="Import (CSV)"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn"> <img src="https://img.shields.io/badge/Random%20Forest-555?style=flat-square" alt="Random Forest"> <img src="https://img.shields.io/badge/DAX-F2C811?style=flat-square" alt="DAX">
+
+**Objective:** Predict which customers are likely to churn and why, by geography, gender, credit score, tenure, age and salary, so retention can be targeted.
+
+**Approach**
+
+- **Python prep:** dropped irrelevant columns and null rows, One-Hot encoded Geography/Gender, standardised features with StandardScaler.
+- **Modelling:** trained a Random Forest classifier and appended churn probability to every customer.
+- **Power BI:** imported the scored CSV, built age and churn-probability bands with Grouping, and wrote measures with `CALCULATE`, `DIVIDE`, `DISTINCTCOUNT`.
+- **UX:** image-based page navigator.
+
+**Insights**
+
+- France shows the highest churn, so service quality there needs a look.
+- Female customers, short-tenure customers and lower credit scores all churn more, pointing to onboarding and support gaps.
+- Young and middle-aged customers churn most; some high-credit-score customers leave too, likely chasing better service.
+
+**Recommendations**
+
+- Investigate the France churn drivers.
+- Rework onboarding for the first months of tenure.
+- Design products for younger and middle-aged segments; segment retention offers by credit score.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/9b9ae585-a10c-4b93-b62e-3c8a764e4110" alt="Bank Churn Analysis + ML Prediction" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/fad0cd59-c6a1-4ac5-adb4-cf8d39c9a268" alt="Bank Churn Analysis + ML Prediction" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>🚚 02 · Order Aggregate & Line Fulfilment</b></summary>
+
+<a id="uc02"></a>
+
+<img src="https://img.shields.io/badge/Retail%20%26%20Supply%20Chain-F2C811?style=flat-square" alt="Retail &amp; Supply Chain"> <img src="https://img.shields.io/badge/Import%20%28CSV%29-0078D4?style=flat-square" alt="Import (CSV)"> <img src="https://img.shields.io/badge/Star%20Schema-0078D4?style=flat-square" alt="Star Schema"> <img src="https://img.shields.io/badge/Sparklines-555?style=flat-square" alt="Sparklines"> <img src="https://img.shields.io/badge/Heatmaps-555?style=flat-square" alt="Heatmaps"> <img src="https://img.shields.io/badge/Forecasting-555?style=flat-square" alt="Forecasting"> <img src="https://img.shields.io/badge/Parameters-555?style=flat-square" alt="Parameters"> <img src="https://img.shields.io/badge/TREATAS-F2C811?style=flat-square" alt="TREATAS">
+
+**Objective:** Measure service-level performance (on-time, in-full, OTIF, line-item and volume fill rate) and pinpoint where delivery breaks down.
+
+**Approach**
+
+- **Model:** star schema, one fact and five dimensions, one-to-many single-direction relationships.
+- **Prep:** fixed headers and data types, removed duplicates, nulls and unused columns.
+- **Report features:** up/down arrows vs target, gradient heatmaps, sparklines, forecast on line chart, parameter slicer to switch axes, navigation buttons.
+- **DAX:** `AVERAGE`, `CALCULATE`, `COUNTROWS`, `TREATAS`.
+
+**Insights**
+
+- Surat leads (on-time 61.21%, OTIF 30.07%); Ahmedabad and Vadodara lag.
+- Dairy and Food carry the volume but have the biggest on-time/in-full gaps; Beverages do best (VOFR 96.59%, LIFR 65.96%).
+- Elite Mart, Expert Mart and Logic Stores perform well; Atlas Stores and Chiptec Stores need attention.
+
+**Recommendations**
+
+- Copy Surat's practices into Ahmedabad and Vadodara.
+- Optimise logistics for Dairy and Food.
+- Run targeted service plans for Atlas and Chiptec Stores.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/20d33d99-2bec-4faf-ab8b-f664a75bc6d0" alt="Order Aggregate & Line Fulfilment" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/5fabaf3e-0481-4c51-aec3-4b3bffeb3b18" alt="Order Aggregate & Line Fulfilment" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/11831550-de51-45e9-9511-1a7411218e3c" alt="Order Aggregate & Line Fulfilment" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/87e6d295-6498-4c0b-9375-bfe91436d2e3" alt="Order Aggregate & Line Fulfilment" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/6c927ed5-610e-4c03-8230-60b46a303420" alt="Order Aggregate & Line Fulfilment" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>💶 03 · Finance Analysis (2018–2020)</b></summary>
+
+<a id="uc03"></a>
+
+<img src="https://img.shields.io/badge/Banking%20%26%20Finance-F2C811?style=flat-square" alt="Banking &amp; Finance"> <img src="https://img.shields.io/badge/DirectQuery%20%28SQL%20Server%29-0078D4?style=flat-square" alt="DirectQuery (SQL Server)"> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&amp;logo=microsoftsqlserver&amp;logoColor=white" alt="SQL Server"> <img src="https://img.shields.io/badge/RLS-D83B01?style=flat-square" alt="RLS"> <img src="https://img.shields.io/badge/KPI%20visuals-555?style=flat-square" alt="KPI visuals"> <img src="https://img.shields.io/badge/Time%20calcs%20w%2Fo%20Time%20Intelligence-F2C811?style=flat-square" alt="Time calcs w/o Time Intelligence">
+
+**Objective:** Track sales revenue, gross/operational/net profit, PBIT and EBITDA against targets across markets.
+
+**Approach**
+
+- **Connectivity:** DirectQuery to SQL Server; snowflake model with one-to-many, single-direction relationships.
+- **DAX:** time-based measures and running totals **without** time-intelligence functions; year-over-year arrows with green/red conditional formatting.
+- **Security:** Row-Level Security so each user only sees their own country.
+- **UX:** parameter-driven axis switching, multi-card and KPI visuals, navigation buttons.
+
+**Insights**
+
+- Gross profit +34.59% vs target; EBITDA +11.42% (€2.24M vs €2.01M); PBIT +4.7%.
+- Operational profit +3.15%; net profit marginally under target (−1.01%).
+- Australia posted losses despite rising revenue from 2018 to 2020.
+
+**Recommendations**
+
+- Keep cost control tight to protect gross profit.
+- Build country-specific plans, starting with Australia.
+- Review monthly and yearly trends to catch issues early.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/f0e647e6-cb1b-4e0f-83bb-7bdfa49e6441" alt="Finance Analysis (2018–2020)" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/8038f63f-f7ff-4e83-a2f5-69bb82896751" alt="Finance Analysis (2018–2020)" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/23c89ecd-4654-4298-877c-adabbcd54e45" alt="Finance Analysis (2018–2020)" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>🏅 04 · Paris Olympics Analysis</b></summary>
+
+<a id="uc04"></a>
+
+<img src="https://img.shields.io/badge/Sports-F2C811?style=flat-square" alt="Sports"> <img src="https://img.shields.io/badge/Import%20%28Excel%29-0078D4?style=flat-square" alt="Import (Excel)"> <img src="https://img.shields.io/badge/Bookmarks-F2C811?style=flat-square" alt="Bookmarks"> <img src="https://img.shields.io/badge/Synced%20slicers-555?style=flat-square" alt="Synced slicers"> <img src="https://img.shields.io/badge/Grouping-555?style=flat-square" alt="Grouping"> <img src="https://img.shields.io/badge/Data%20cleaning-555?style=flat-square" alt="Data cleaning">
+
+**Objective:** Explore participating countries, events, athletes, medals and historical performance at the Paris Olympics.
+
+**Approach**
+
+- **Prep:** merged athlete, event and medal data from multiple sources; standardised country names, athlete details and event categories.
+- **Model:** snowflake schema in Import mode.
+- **Features:** age, event and medal groupings; bookmarks that open/close a side drawer while keeping state; synced slicers; navigation buttons.
+- **DAX:** `CALCULATE`, `DATE`, `FORMAT`, `DISTINCTCOUNT`.
+
+**Insights**
+
+- More emerging countries are taking part, signalling wider global interest.
+- Athletics and swimming remain dominated by a few long-standing nations.
+- Gender representation is close to balanced; track and field draws the most participants.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/4596b418-4e79-4d71-b00d-827188a31292" alt="Paris Olympics Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/292757e3-df82-4851-9078-f9c7d505a894" alt="Paris Olympics Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/dd56d3c4-6a68-4b3f-bea3-20927e646e0b" alt="Paris Olympics Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/63e1c48d-f843-4be4-8352-2ade161359f2" alt="Paris Olympics Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/7aacd41f-7e5a-45df-8552-5b1f2becd944" alt="Paris Olympics Analysis" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>💳 05 · Credit Card & Customer 360 Analysis</b></summary>
+
+<a id="uc05"></a>
+
+<img src="https://img.shields.io/badge/Banking%20%26%20Finance-F2C811?style=flat-square" alt="Banking &amp; Finance"> <img src="https://img.shields.io/badge/DirectQuery%20%28SQL%20Server%29-0078D4?style=flat-square" alt="DirectQuery (SQL Server)"> <img src="https://img.shields.io/badge/RANKX%20Top%20N-F2C811?style=flat-square" alt="RANKX Top N"> <img src="https://img.shields.io/badge/SPLY%20w%2Fo%20Time%20Intelligence-F2C811?style=flat-square" alt="SPLY w/o Time Intelligence"> <img src="https://img.shields.io/badge/Parameters-555?style=flat-square" alt="Parameters">
+
+**Objective:** Understand card usage, loan distribution, demographics, feedback and financial performance to grow revenue and manage risk.
+
+**Approach**
+
+- **Connectivity:** DirectQuery to SQL Server; snowflake model with single-direction relationships.
+- **DAX:** same-period-last-year and running totals without time intelligence; `RANKX` for dynamic Top N performers.
+- **UX:** parameter slicers to switch axes; multi-card comparisons; conditional formatting.
+
+**Insights**
+
+- Women make up 58.4% of customers; the 29–40 age band is largest (25.75%); 28.26% earn above ₹15 LPA.
+- Home loans lead (63.75%); Uttar Pradesh (21.68%) and Karnataka (19.44%) hold the most customers.
+- Feedback: 4,432 entries, 3.5/5 average, 59.57% complaints. Defaulter rate rose from 49.10% to 49.67%.
+
+**Recommendations**
+
+- Target the 29–40, ₹15 LPA+ segment with card and loan offers.
+- Bundle home and car loans for cross-sell; add loyalty perks for Platinum and Gold users.
+- Watch the defaulter rate and resolve complaints faster.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/c6248c04-f1ba-48f6-a86f-7566b8c8efa7" alt="Credit Card & Customer 360 Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/9dd02996-aaf0-4e14-a7a0-ef27c3806c23" alt="Credit Card & Customer 360 Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/584be58d-d6b1-4316-9c3b-980476c935b4" alt="Credit Card & Customer 360 Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/eb6a0dee-2f76-4e4f-b6da-f7d8cddc72cd" alt="Credit Card & Customer 360 Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/e709db34-a49f-4540-b843-84ebc8fa1c2e" alt="Credit Card & Customer 360 Analysis" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>🏏 06 · Indian Cricket Captains & Players</b></summary>
+
+<a id="uc06"></a>
+
+<img src="https://img.shields.io/badge/Sports-F2C811?style=flat-square" alt="Sports"> <img src="https://img.shields.io/badge/Import%20%28CSV%29-0078D4?style=flat-square" alt="Import (CSV)"> <img src="https://img.shields.io/badge/Top%20N%20filters-555?style=flat-square" alt="Top N filters"> <img src="https://img.shields.io/badge/Conditional%20formatting-555?style=flat-square" alt="Conditional formatting"> <img src="https://img.shields.io/badge/Data%20normalisation-555?style=flat-square" alt="Data normalisation">
+
+**Objective:** Evaluate how Indian captains and players performed in Tests and ODIs over time to spot patterns and strengths.
+
+**Approach**
+
+- **Prep:** cleaned historical match data, standardised player names across datasets, built a normalised captains table to cut dimensionality.
+- **Features:** gradient conditional formatting, Top N filters, navigation buttons.
+
+**Insights**
+
+- Tendulkar: 15,921 Test runs (avg 53.78) and 18,426 ODI runs (avg 44.83).
+- Kumble is India's leading Test wicket-taker with 619 wickets.
+- Kapil Dev's win rate as captain: 30.53% in Tests, 52.45% in ODIs. Dhoni and Ganguly stand out for transforming team culture.
+
+**Recommendations**
+
+- Invest in all-rounder development and fitness.
+- Use analytics to spot emerging talent early.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/dc2fd6ae-bf0b-4fb1-bed5-9189f62f6377" alt="Indian Cricket Captains & Players" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/2f21c8e5-758a-48c8-bfca-cb76ac8db6b7" alt="Indian Cricket Captains & Players" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/4afe9635-b89f-4a67-8f49-0f57d022227d" alt="Indian Cricket Captains & Players" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>🛒 07 · Store Sales Dashboard</b></summary>
+
+<a id="uc07"></a>
+
+<img src="https://img.shields.io/badge/Retail%20%26%20Supply%20Chain-F2C811?style=flat-square" alt="Retail &amp; Supply Chain"> <img src="https://img.shields.io/badge/Import%20%28CSV%29-0078D4?style=flat-square" alt="Import (CSV)"> <img src="https://img.shields.io/badge/Time%20Intelligence-F2C811?style=flat-square" alt="Time Intelligence"> <img src="https://img.shields.io/badge/SAMEPERIODLASTYEAR-F2C811?style=flat-square" alt="SAMEPERIODLASTYEAR"> <img src="https://img.shields.io/badge/Gauge%20visual-555?style=flat-square" alt="Gauge visual"> <img src="https://img.shields.io/badge/Top%20N%20slicer-555?style=flat-square" alt="Top N slicer">
+
+**Objective:** Analyse store sales by country, category and period to find high performers and gaps against target.
+
+**Approach**
+
+- **Model:** star schema with a calendar dimension for time-based calculations.
+- **DAX:** `SUM`, `RANK`, `SAMEPERIODLASTYEAR`, `EXCEPT`, `CALCULATE`; running totals; slicer-driven Top N products.
+- **Visuals:** gauge with conditional red/green zones.
+
+**Insights**
+
+- France and the UK sell strongly, but France misses its goal.
+- Electronics dominate; TVs, Gaming Laptops and Washing Machines lead.
+- Sales peaked in Q3 2020 (best day 13-09-2020, $11,078.14) and dipped in early 2024.
+
+**Recommendations**
+
+- Fix France's sales strategy.
+- Promote top electronics and run campaigns in weak periods.
+- Recalibrate targets to market trends.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/34c3ad19-c9c8-49b8-8bd9-d1b2010d7e41" alt="Store Sales Dashboard" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>🏟️ 08 · IPL Performance Analysis</b></summary>
+
+<a id="uc08"></a>
+
+<img src="https://img.shields.io/badge/Sports-F2C811?style=flat-square" alt="Sports"> <img src="https://img.shields.io/badge/Import%20%28CSV%29-0078D4?style=flat-square" alt="Import (CSV)"> <img src="https://img.shields.io/badge/RANKX-F2C811?style=flat-square" alt="RANKX"> <img src="https://img.shields.io/badge/SWITCH-F2C811?style=flat-square" alt="SWITCH"> <img src="https://img.shields.io/badge/SELECTEDVALUE-F2C811?style=flat-square" alt="SELECTEDVALUE"> <img src="https://img.shields.io/badge/Field--value%20formatting-555?style=flat-square" alt="Field-value formatting">
+
+**Objective:** Analyse runs, wickets and match outcomes across IPL seasons to identify top teams and players.
+
+**Approach**
+
+- **Prep:** removed duplicates and nulls, replaced inconsistent values, built a normalised table to reduce cardinality.
+- **Features:** over-range groups, Top N per selected category, measure-driven conditional colours, navigation buttons.
+- **DAX:** `ISBLANK`, `RANKX`, `COUNTROWS`, `SELECTEDVALUE`, `SWITCH`, `COUNT`.
+
+**Insights**
+
+- CSK, MI and KKR lead on playoff appearances and win rate.
+- Kohli and Dhawan top the run charts; Dhoni excels in the death overs; Chahal and Bravo lead wicket-takers.
+- Chinnaswamy and Wankhede favour batters; MA Chidambaram is a CSK stronghold.
+
+**Recommendations**
+
+- Plan around venue conditions and home advantage.
+- Strengthen death-over bowling.
+- Invest in all-rounders and young talent.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/265a8cce-ffb6-43ce-8a0a-b4b28ec7330c" alt="IPL Performance Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/9d68a0f8-2dc5-4d3c-865b-181c6998ad2c" alt="IPL Performance Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/093ef66a-6529-49bf-923c-160c31ebee53" alt="IPL Performance Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/18dc63a3-fb0d-4c2c-b018-5289ebb832f8" alt="IPL Performance Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/eb937a50-f9ab-408b-b20a-91890b8524e2" alt="IPL Performance Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/f5878a22-658a-4e17-9cf8-4e8d7432abb6" alt="IPL Performance Analysis" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>🛡️ 09 · Compliance & Security Dashboard</b></summary>
+
+<a id="uc09"></a>
+
+<img src="https://img.shields.io/badge/Compliance%20%26%20Ops-F2C811?style=flat-square" alt="Compliance &amp; Ops"> <img src="https://img.shields.io/badge/Import%20%28CSV%29-0078D4?style=flat-square" alt="Import (CSV)"> <img src="https://img.shields.io/badge/Bridge%20Table-0078D4?style=flat-square" alt="Bridge Table"> <img src="https://img.shields.io/badge/Drill--through-F2C811?style=flat-square" alt="Drill-through"> <img src="https://img.shields.io/badge/SUMMARIZE-F2C811?style=flat-square" alt="SUMMARIZE"> <img src="https://img.shields.io/badge/Parameters-555?style=flat-square" alt="Parameters">
+
+**Objective:** Monitor compliance issues across domains, track SPOC and tester workloads, and surface overdue items.
+
+**Approach**
+
+- **Model:** star schema; a DAX-created bridge table removes many-to-many relationships.
+- **Features:** drill-through to an Issue Details page, parameter-driven axes.
+- **DAX:** `SUMMARIZE`, `DISTINCTCOUNT` and custom metrics.
+
+**Insights**
+
+- A few SPOCs carry most of the workload; two testers handle most CT requests.
+- AuthTrack, CoreOps and StratOps report the most issues.
+- Several issues are well past due, hinting at follow-up gaps.
+
+**Recommendations**
+
+- Rebalance SPOC and tester workload.
+- Add automated overdue alerts.
+- Add SLA timeline visuals and resolution-time detail.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/ae14ade2-23f8-42ff-839b-21da7ddd65de" alt="Compliance & Security Dashboard" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/c6ec209c-1f89-4504-ad06-42a7b411dced" alt="Compliance & Security Dashboard" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/016d7bb6-2e9b-4d90-9eed-1cb3fbf9c200" alt="Compliance & Security Dashboard" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>🚗 10 · Car Market Analysis</b></summary>
+
+<a id="uc10"></a>
+
+<img src="https://img.shields.io/badge/Automotive-F2C811?style=flat-square" alt="Automotive"> <img src="https://img.shields.io/badge/Import%20%28PostgreSQL%29-0078D4?style=flat-square" alt="Import (PostgreSQL)"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Box%20Plot-555?style=flat-square" alt="Box Plot"> <img src="https://img.shields.io/badge/Bubble%20Chart-555?style=flat-square" alt="Bubble Chart"> <img src="https://img.shields.io/badge/SUMX-F2C811?style=flat-square" alt="SUMX"> <img src="https://img.shields.io/badge/Power%20Query-F2C811?style=flat-square" alt="Power Query">
+
+**Objective:** Explore brands, models and configurations by price, sales and specs to guide product planning and inventory.
+
+**Approach**
+
+- **Source:** PostgreSQL; Power Query cleaning and standardisation of fuel, body and transmission; mapped variants to Base, Mid, Mid-Top, Top.
+- **Model:** star schema with bridge tables for many-to-many.
+- **DAX:** price, volume, fuel-mix and engine measures with `SUMX`, `CALCULATE`, `SWITCH`; parameter to toggle KPIs.
+- **Visuals:** external Box Plot (price by model/variant) and Bubble Chart (seating, fuel, engine cc).
+
+**Insights**
+
+- Petrol still leads, but hybrid and EV show early traction.
+- Manual gearboxes dominate entry variants; automatics gain in premium.
+- SUVs and hatchbacks sell most; box plots reveal pricing gaps within variants.
+
+**Recommendations**
+
+- Align marketing and production with mid-variant demand.
+- Expand hybrid/EV offerings.
+- Plan inventory by transmission, body type and fuel.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/b5a61669-3b33-4653-b627-abb880377f9c" alt="Car Market Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/ed46d7bf-fe47-4ca4-a421-04446ff069fd" alt="Car Market Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/94b7f8c4-9225-4724-8cff-802d72834ec9" alt="Car Market Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/8fee0d81-7a1e-472a-8e99-293ceba096b4" alt="Car Market Analysis" width="100%"></p>
+
+<p align="center"><img src="https://github.com/user-attachments/assets/96edfad7-038b-4f21-8e63-f9a680fcc7f3" alt="Car Market Analysis" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+<details>
+<summary><b>📈 11 · Retail Sales Performance (Composite Model)</b></summary>
+
+<a id="uc11"></a>
+
+<img src="https://img.shields.io/badge/Retail%20%26%20Supply%20Chain-F2C811?style=flat-square" alt="Retail &amp; Supply Chain"> <img src="https://img.shields.io/badge/Composite%20%28Import%20%2F%20DirectQuery%20%2F%20Dual%29-0078D4?style=flat-square" alt="Composite (Import / DirectQuery / Dual)"> <img src="https://img.shields.io/badge/Composite%20Model-0078D4?style=flat-square" alt="Composite Model"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Dual%20mode-555?style=flat-square" alt="Dual mode"> <img src="https://img.shields.io/badge/PREVIOUSQUARTER-F2C811?style=flat-square" alt="PREVIOUSQUARTER">
+
+**Objective:** Track retail sales by region, product and period so stakeholders can spot trends and assess targets.
+
+**Approach**
+
+- **Sources:** historical files combined from a folder; dimension tables from PostgreSQL via DirectQuery.
+- **Model:** snowflake schema around a Sales fact; date lookup built with `CALENDAR()`.
+- **DAX:** `CALCULATE`, `SUM`, `AVERAGE`, `PREVIOUSQUARTER`; icon indicators for growth or decline.
+
+**Insights**
+
+- Revenue and units sold have slipped in recent quarters.
+- A few products and sales reps drive a big share of revenue.
+- Monthly gross-profit % is volatile.
+
+**Recommendations**
+
+- Dig into the recent decline.
+- Replicate what top reps and products do.
+- Add region and category drill-downs.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/86a252b4-f2f5-4a97-a4f4-0368aaab143b" alt="Retail Sales Performance (Composite Model)" width="100%"></p>
+
+<p align="right"><a href="#demos">↑ back to gallery</a></p>
+
+</details>
+
+---
+
+<a id="credentials"></a>
+
+## 🎓 Credentials
+
+| | |
+|---|---|
+| 🏅 **Microsoft Certified: Power BI Data Analyst Associate (PL-300)** | Microsoft |
+| 🏅 **Power BI Job Simulation** | PwC Switzerland, via Forage |
+| 🎓 **B.Tech, Computer Science &amp; Engineering** | Accurate Institute of Management and Technology, Greater Noida · 2014–2018 |
+
+---
+
+## 📬 Let's Talk
+
+<div align="center">
+
+If you are hiring for a **Senior Power BI Developer** or **BI delivery** role and want someone who can own reporting from requirement to production, I would like to hear from you.
+
+<a href="mailto:anand_ashish96@outlook.com"><img src="https://img.shields.io/badge/Email-anand__ashish96%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
+<a href="https://www.linkedin.com/in/anandash15h/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://github.com/ash15h/Power-Bi-Dashboards/raw/main/Ashish_Anand_Power_BI_CV.pdf"><img src="https://img.shields.io/badge/Resume-Download%20PDF-F2C811?style=for-the-badge&logoColor=black" alt="Resume"></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f1f1f,100:F2C811&height=100&section=footer" width="100%" alt="footer">
+
 </div>
-
-<h3>Steps</h3>
-<ol>
-    <li>
-        <h4>Data Connection</h4>
-        <ul>
-            <li>Tables are connected via DirectQuery from an SQL Server database.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Data Modelling</h4>
-        <ul>
-            <li>Connected tables using a snowflake schema, with dimension tables linking to other dimension tables.</li>
-            <li>Established one-to-many, uni-directional relationships from dimension to fact tables.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Data Preparation</h4>
-        <ul>
-            <li>Adjusted headers.</li>
-            <li>Removed duplicate data.</li>
-            <li>Corrected column data types.</li>
-            <li>Eliminated unnecessary columns.</li>
-            <li>Removed rows with missing data.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Calculations/Features</h4>
-        <ul>
-            <li>Performed time-based calculations without using time intelligence functions.</li>
-            <li>Displayed up and down arrows with conditional formatting based on year-over-year performance.</li>
-            <li>Applied conditional formatting to show green or red colors in arrows based on year-over-year differences.</li>
-            <li>Implemented page navigation buttons for enhanced user interaction.</li>
-            <li>Used the Parameter feature to create slicers for switching between axis values.</li>
-            <li>Utilized DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, and <code>Format</code>.</li>
-            <li>Implemented Row-Level Security (RLS) to provide users with access to data specific to their country.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Calculating time based measures without using time intelligence functions.</li>
-    <li>Calculating running/cumulative sum.</li>
-    <li>Conditional formatting.</li>
-    <li>Using multi-card visuals to compare metrics.</li>
-    <li>Using kpi visual.</li>
-    <li>Calculating measures using DAX.</li>
-    <li>Implementing the Parameter feature.</li>
-    <li>Creating page navigation buttons.</li>
-    <li>Configuring Row-Level Security (RLS) for data access control.</li>
-</ul>
-
-<h3>Insights</h3>
-<ul>
-    <li><strong>Gross Profit:</strong> Surpassed the target by 34.59%, reaching €5.34M against a goal of €3.97M, indicating strong sales performance and effective cost management.</li>
-    <li><strong>Operational Profit:</strong> Slightly exceeded the target by 3.15%, achieving €1.52M against a goal of €1.48M, highlighting operational efficiencies with room for improvement.</li>
-    <li><strong>PBIT:</strong> Exceeded the target by 4.7%, reaching €1.59M against a goal of €1.52M, reflecting good management of operating expenses.</li>
-    <li><strong>Net Profit:</strong> Slightly below the target by 1.01%, reaching €1.29M against a goal of €1.30M, indicating overall effective financial management after accounting for all expenses.</li>
-    <li><strong>EBITDA:</strong> Exceeded the target by 11.42%, achieving €2.24M against a goal of €2.01M, demonstrating strong earnings before interest, taxes, depreciation, and amortization.</li>
-    <li><strong>Sales Trends:</strong> Total sales to date amounted to €171,086,642, showcasing robust sales performance contributing significantly to gross profit.</li>
-    <li><strong>Country-specific Performance:</strong> Financial losses were noted in Australia despite increasing sales revenue from 2018 to 2020. Operational and net profit goals were not met, highlighting specific issues that require attention to improve profitability in the region.</li>
-</ul>
-
-<h3>Recommendations</h3>
-<ul>
-    <li><strong>Enhance Operational Efficiency:</strong> Continue improving processes to boost operational profit and achieve net profit targets.</li>
-    <li><strong>Focus on Cost Management:</strong> Maintain strong cost control measures to ensure gross profit remains above targets.</li>
-    <li><strong>Monitor Trends:</strong> Regularly review monthly and yearly financial trends to quickly identify and address issues.</li>
-    <li><strong>Country-specific Strategies:</strong> Develop tailored strategies for each country, particularly to address financial losses in Australia.</li>
-    <li><strong>Increase Sales Initiatives:</strong> Implement targeted sales strategies to further enhance total sales and profitability.</li>
-</ul>
-
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
-<h1>USECASE 04 - Paris Olympics Analysis</h1>
-
-<h3>Objective:</h3> 
-To analyze and provide key insights on the Paris Olympics, focusing on aspects such as participating countries, events, athletes, historical performance, and key achievements.
-
-<h3>Report View:</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/4596b418-4e79-4d71-b00d-827188a31292" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/292757e3-df82-4851-9078-f9c7d505a894" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/dd56d3c4-6a68-4b3f-bea3-20927e646e0b" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/63e1c48d-f843-4be4-8352-2ade161359f2" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/7aacd41f-7e5a-45df-8552-5b1f2becd944" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Tables are connected via Import mode using an Excel file.</li>
-        </ul>
-    </li>
-    <li><strong>Data Modeling</strong>
-        <ul>
-            <li>Tables are connected using a snowflake schema, with dimension tables linked to other dimension tables.</li>
-        </ul>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-            <li>Gathered data on athletes, events, and medals from multiple sources to ensure accuracy.</li>
-            <li>Adjusted headers and corrected column data types.</li>
-            <li>Removed duplicate data and unnecessary columns.</li>
-            <li>Cleaned data to standardize country names, athlete details, and event categories.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>Grouped data by age groups, event categories, and medal types using Power BI’s "Group" feature.</li>
-            <li>Utilized various DAX functions such as <code>Calculate</code>, <code>Date</code>, <code>Format</code>, <code>DistinctCount</code>,etc.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Calculating measures using DAX.</li>
-    <li>Leveraged bookmarks to open and close the side drawer, ensuring data persistence while navigating using bookmarks.</li>
-    <li>Implemented page navigation using buttons to enhance user experience.</li>
-    <li>Syncing slicers across pages.</li>
-</ul>  
-
-<h3>Insights:</h3>
-<ul>
-  <li><strong>Participation:</strong> The Paris Olympics have seen increased participation from emerging countries, highlighting a broader global interest in the Games.</li>
-  <li><strong>Top-performing Nations:</strong> Certain countries continue to dominate in specific sports, showcasing long-standing strengths in areas like athletics and swimming.</li>
-  <li><strong>Purchasers:</strong> 1320 purchasers have bought electoral bonds, with Future Gaming and Hotel Services PR making the highest denominations</li>
-  <li><strong>Gender Representation:</strong> There is a balanced representation of male and female athletes, indicating significant strides in gender inclusivity over recent years.</li>
-  <li><strong>Youth Athletes:</strong> A substantial presence of young athletes points toward a generational shift in Olympic competitors.</li>
-  <li><strong>Popular Sports:</strong> Track and field events have seen the highest participation, emphasizing their global appeal.</li>
-</ul>
-
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
-<h1>USECASE 05 - Credit Card Analysis</h1>
-
-<h3>Objective</h3>
-<p>To evaluate the credit card usage patterns, loan distribution, customer demographics, customer feedback, and financial performance across various regions and customer segments. The goal is to identify key trends, opportunities for revenue enhancement, areas with potential risks, and strategies to optimize customer engagement, satisfaction, and profitability.</p>
-
-<h3>Report view</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/c6248c04-f1ba-48f6-a86f-7566b8c8efa7" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/9dd02996-aaf0-4e14-a7a0-ef27c3806c23" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/584be58d-d6b1-4316-9c3b-980476c935b4" style="width: 80%; height: auto; margin-bottom: 20px;">
-   <img src="https://github.com/user-attachments/assets/eb6a0dee-2f76-4e4f-b6da-f7d8cddc72cd" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/e709db34-a49f-4540-b843-84ebc8fa1c2e" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Tables are connected via DirectQuery from an SQL Server database.</li>
-        </ul>
-    </li>
-    <li><strong>Data Modelling</strong>
-        <ul>
-            <li>Connected tables using a snowflake schema, with dimension tables linking to other dimension tables.</li>
-            <li>Established one-to-many, uni-directional relationships from dimension to fact tables.</li>
-        </ul>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-            <li>Adjusted headers and corrected column data types.</li>
-            <li>Removed duplicate data and unnecessary columns.</li>
-            <li>Eliminated rows with missing data.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>Performed time-based calculations without using time intelligence functions.</li>
-            <li>Calculated same-period-last-year data without relying on time intelligence.</li>
-            <li>Implemented the Parameter feature to create slicers for switching between axis values.</li>
-            <li>Utilized various DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, <code>Format</code>, <code>CountRows</code>, <code>Filter</code>,<code>RankX</code> etc.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Calculating time-based measures without using time intelligence functions.</li>
-    <li>Implementing running/cumulative sum calculations.</li>
-    <li>Applying conditional formatting in visuals.</li>
-    <li>Comparing metrics using multi-card visuals.</li>
-    <li>Calculating measures using DAX.</li>
-    <li>Implementing the Parameter feature for dynamic visualizations.</li>
-    <li>Usinf RankX function to calculate Top N performers.</li>
-</ul>
-
-<h3>Insights</h3>
-<ol>
-    <li><strong>Customer Demographics</strong>
-        <ul>
-            <li>Female customers dominate the customer base, accounting for 58.4%, with male customers at 41.2%.</li>
-            <li>The most represented age group is "29-40 years" (25.75%), followed by "41-52 years" (20.25%).</li>
-            <li>Customers with an annual income greater than ₹15 LPA form the largest segment (28.26%).</li>
-        </ul>
-    </li>
-    <li><strong>Geographical Distribution</strong>
-        <ul>
-            <li>Uttar Pradesh (21.68%) and Karnataka (19.44%) have the highest concentrations of customers.</li>
-            <li>Haryana and Delhi are notable for high loan disbursements, particularly home loans (42.83%).</li>
-        </ul>
-    </li>
-    <li><strong>Loan Distribution</strong>
-        <ul>
-            <li>Home loans are the most common (63.75%), followed by car loans (24.06%) and personal loans (22.49%).</li>
-            <li>Customers with multiple loans, such as home and car loans, represent a growing segment.</li>
-        </ul>
-    </li>
-    <li><strong>Credit Card Usage</strong>
-        <ul>
-            <li>Total transactions amounted to ₹2.70 billion, with an average spend of ₹1.09M per card.</li>
-            <li>Groceries and shopping are the top categories by transaction amount.</li>
-            <li>Platinum and Gold cards are the most preferred, each accounting for around 25% of total card users.</li>
-        </ul>
-    </li>
-    <li><strong>Customer Feedback</strong>
-        <ul>
-            <li>A total of 4,432 feedback entries were recorded, with an average satisfaction rating of 3.5 out of 5.</li>
-            <li>Complaints dominate the feedback (59.57%), followed by suggestions (25%) and praise (15.43%).</li>
-            <li>Most ratings fall in the 4-star category (31.23%).</li>
-        </ul>
-    </li>
-    <li><strong>Financial Performance</strong>
-        <ul>
-            <li>Revenue increased by ₹82.29M compared to the previous year.</li>
-            <li>Merchant fees saw a significant rise of ₹49.22M.</li>
-            <li>The defaulter rate slightly increased from 49.10% to 49.67%, indicating a potential risk.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Recommendations</h3>
-<ol>
-    <li><strong>Targeted Marketing</strong>
-        <ul>
-            <li>Focus marketing campaigns on the "29-40 years" age group and customers earning more than ₹15 LPA.</li>
-            <li>Tailor credit card offers and loan products to match customer preferences in groceries and shopping.</li>
-        </ul>
-    </li>
-    <li><strong>Regional Strategy</strong>
-        <ul>
-            <li>Enhance customer services and financial product offerings in Uttar Pradesh and Karnataka to capitalize on their large customer base.</li>
-            <li>Conduct targeted campaigns in Haryana and Delhi for promoting home and car loans.</li>
-        </ul>
-    </li>
-    <li><strong>Product Optimization</strong>
-        <ul>
-            <li>Develop bundled offers for multiple loans (e.g., home and car loans) to encourage cross-selling.</li>
-            <li>Introduce loyalty programs for Platinum and Gold card users to boost retention and spending.</li>
-        </ul>
-    </li>
-    <li><strong>Customer Feedback Management</strong>
-        <ul>
-            <li>Prioritize resolving complaints efficiently to improve the satisfaction rating.</li>
-            <li>Encourage more positive feedback through incentives for high ratings and testimonials.</li>
-        </ul>
-    </li>
-    <li><strong>Risk Mitigation</strong>
-        <ul>
-            <li>Monitor the rising defaulter rate closely and implement preemptive measures for at-risk customers.</li>
-            <li>Analyze revenue components to sustain the positive growth trend and explore diversification in merchant fees and interest income.</li>
-        </ul>
-    </li>
-    <li><strong>Customer Engagement</strong>
-        <ul>
-            <li>Use insights from transaction data to personalize customer offers and reward programs.</li>
-            <li>Increase feedback collection frequency and improve the overall rating by focusing on quick resolution of issues.</li>
-        </ul>
-    </li>
-</ol>
-
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 06 - Indian Cricket Captains and Players Analysis</h1>
-
-<h3>Objective</h3>
-<p>To meticulously evaluate the performances of Indian cricket captains and players in Test and ODI formats, focusing on their contributions to the team's success over different periods. The analysis aims to identify patterns, strengths, and areas of improvement to inform future strategies.</p>
-
-<h3>Report view</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/dc2fd6ae-bf0b-4fb1-bed5-9189f62f6377" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/2f21c8e5-758a-48c8-bfca-cb76ac8db6b7" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/4afe9635-b89f-4a67-8f49-0f57d022227d" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Tables are connected via Import mode from a csv file.</li>
-        </ul>
-    </li>
-    <li><strong>Data Modelling</strong>
-        <ul>
-            <li>Connected tables using a snowflake schema, with dimension tables linking to other dimension tables.</li>
-        </ul>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-            <li>Removed duplicate data and unnecessary columns.</li>
-            <li>Eliminated rows with missing data.</li>
-            <li>Reviewed historical match data and cleaned it by removing duplicates and handling missing values.</li>
-            <li>Constructed a normalized table for captains to reduce dimensionality and facilitate detailed analysis in Power BI.</li>
-            <li>Standardized player names across all datasets to ensure consistency.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>Applied conditional formatting to gradient colors in visuals</li>
-            <li>Used Filters to filter Top N data.</li>
-            <li>Implemented page navigation buttons for better user interaction.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Using filters</li>
-    <li>Applying conditional formatting in visuals.</li>
-    <li>Calculating measures using DAX.</li>
-    <li>Implementing page navigation buttons.</li>
-</ul>
-
-<h3>Insights</h3>
-<ul>
-  <li><strong>Captains' Performance Analysis:</strong></li>
-  <ul>
-    <li><strong>Kapil Dev's Captaincy:</strong> Led India in 131 Test matches (1982-1986) and 225 ODIs (1982-1992). Achieved a 30.53% win rate in Tests and 52.45% in ODIs, showcasing a higher success rate in the shorter format. Kapil’s leadership coincided with the emergence of a more aggressive and balanced Indian team, especially in ODIs where his all-round skills were pivotal.</li>
-    <li><strong>MS Dhoni's Impact:</strong> Played 347 ODIs and transformed the Indian team into a world-class unit, particularly noted for his calm leadership under pressure, leading to notable victories such as the 2007 T20 World Cup and 2011 ODI World Cup.</li>
-    <li><strong>Sourav Ganguly's Legacy:</strong> With 334 ODI matches, Ganguly was instrumental in rebuilding the Indian team post the match-fixing scandal, fostering a culture of aggression and self-belief that laid the groundwork for future successes.</li>
-  </ul>
-  <li><strong>Top Performers in Test Cricket:</strong></li>
-  <ul>
-    <li><strong>Sachin Tendulkar's Consistency:</strong> Played 200 Test matches, amassing 15,921 runs with an average of 53.78, solidifying his position as one of the greatest batsmen in cricket history. His ability to perform across all conditions and against all opponents made him the backbone of India’s batting for two decades.</li>
-    <li><strong>Anil Kumble's Dominance with the Ball:</strong> With 619 wickets in 132 matches, Kumble was the most successful Indian bowler in Tests, known for his relentless accuracy and ability to extract bounce even on flat pitches.</li>
-    <li><strong>Emerging Patterns of Success:</strong> The 2000s saw a surge in debutants who later became key players, indicating a successful phase of talent identification and development.</li>
-  </ul>
-  <li><strong>Top Performers in ODI Cricket:</strong></li>
-  <ul>
-    <li><strong>Sachin Tendulkar's Unparalleled Legacy:</strong> Accumulated 18,426 runs in 463 ODIs, with a batting average of 44.83, setting numerous records including the first double century in ODI cricket. Tendulkar’s adaptability and longevity set a benchmark for modern cricketers.</li>
-    <li><strong>Virat Kohli's Modern Mastery:</strong> With 12,169 runs in ODIs at an average of 59.07, Kohli exemplifies consistency and has been a pivotal figure in India’s batting lineup, particularly in run chases.</li>
-    <li><strong>All-Round Contributions:</strong> Players like Kapil Dev and Ravindra Jadeja have excelled as all-rounders, contributing significantly with both bat and ball. Their versatility has often given India a crucial edge in matches.</li>
-  </ul>
-  <li><strong>Patterns in Player Development:</strong></li>
-  <ul>
-    <li><strong>Increased Specialization in Roles:</strong> Recent trends indicate a focus on specialization, with bowlers like Jasprit Bumrah and batsmen like Rohit Sharma emerging as key players in their respective domains.</li>
-    <li><strong>Shift Towards Fitness and Athleticism:</strong> Modern players like Virat Kohli and Ravindra Jadeja exemplify the shift towards higher fitness standards, leading to improved fielding and overall team agility.</li>
-  </ul>
-</ul>
-
-<h3>Recommendations</h3>
-<ul>
-  <li>Develop Future Leaders: Implement leadership programs based on the strengths of captains like MS Dhoni and Sourav Ganguly, focusing on mental toughness and team unity.</li>
-  <li>Cultivate All-Rounders: Prioritize the development of versatile players who can contribute with both bat and ball, inspired by legends like Kapil Dev and Ravindra Jadeja.</li>
-  <li>Use Data Analytics: Leverage advanced analytics to identify and nurture emerging talent, focusing on early signs of excellence in domestic and international cricket.</li>
-  <li>Prioritize Fitness: Invest in fitness and conditioning programs to maintain high performance levels, taking cues from the fitness regimes of players like Virat Kohli.</li>
-  <li>Promote Consistency: Encourage players to develop consistent performances across formats, inspired by the careers of Sachin Tendulkar and Rahul Dravid.</li>
-</ul>
-
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
-<h1>USECASE 07 - Store Sales Analysis Dashboard</h1>
- 
-<h3>Objective</h3>
-This dashboard aims to provide a comprehensive analysis of store sales performance across different countries, product categories, and time periods. It focuses on identifying key trends, high-performing products, and areas for improvement to optimize sales strategies and enhance overall business performance.
-
-<h3>Report view</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/34c3ad19-c9c8-49b8-8bd9-d1b2010d7e41" style="width: 80%; height: auto; margin-bottom: 20px;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Imported tables from a CSV file using Import mode.</li>
-        </ul>
-    </li>
-    <li><strong>Data Modelling</strong>
-        <ul>
-            <li>Connected tables using a Star Schema with one fact table and multiple dimension tables.</li>
-            <li>Established one-to-many, unidirectional relationships from dimension tables to the fact table.</li>
-        </ul>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-            <li>Removed duplicate entries and unnecessary columns.</li>
-            <li>Eliminated rows with missing data to ensure accuracy.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>Applied conditional formatting to gradient colors in a gauge visual, highlighting the red and green sections of the axis.</li>
-            <li>Calculated total sales over time using time intelligence functions.</li>
-            <li>Dynamically displayed the Top N products using a slicer and rank function.</li>
-            <li>Calculated running totals.</li>
-            <li>Utilized a calendar dimension table for time-based calculations.</li>
-            <li>Employed DAX functions such as <code>SUM</code>, <code>RANK</code>, <code>SAMEPERIODLASTYEAR</code>, <code>EXCEPT</code>, and <code>CALCULATE</code>.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Effectively using filters to refine data.</li>
-    <li>Applying conditional formatting in visuals to enhance readability.</li>
-    <li>Calculating measures using DAX for advanced data analysis.</li>
-</ul>
-
-<h3>Insights</h3>
-<ul>
-    <li>Geography: France and the UK show significant sales figures, but France underperforms in goal achievement, indicating potential for improvement in sales strategies.</li>
-    <li>Product Categories: Electronics dominate the sales, with TVs and Gaming Laptops being the top sellers, suggesting a strong consumer preference for these items.</li>
-    <li>Time Period: Sales data reveals a peak in Q3 2020 and a notable decline in early 2024, indicating seasonal trends and possibly the impact of external factors on sales.</li>
-    <li>Sales Performance: Highest sales were recorded on 13-09-2020 with $11,078.14, highlighting the impact of specific events or promotions on sales.</li>
-    <li>Top Products: Top-selling products include TVs, Gaming Laptops, and Washing Machines, showing a preference for high-value electronics and essential appliances.</li>
-    <li>Overall Performance: Despite achieving a lifetime sales total of $1,512,172.14, the goal achievement of -12.39% suggests room for improvement in reaching sales targets.</li>
-</ul>
-
-<h3>Recommendations</h3>
-<ul>
-    <li>Enhance sales strategies in France to meet targets.</li>
-    <li>Offer promotions for popular electronics.</li>
-    <li>Replicate successful Q3 2020 strategies.</li>
-    <li>Run targeted campaigns during low sales periods.</li>
-    <li>Focus on high-value products to boost revenue.</li>
-    <li>Adjust sales targets to align with market trends.</li>
-</ul>
-    <hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 08 - IPL Performance Analysis</h1>
-
-<h3>Objective</h3>
-<p>The objective of the IPL Dashboard is to provide a comprehensive analysis of team and player performances across various IPL seasons. It focuses on key metrics such as runs, wickets, and match outcomes. The dashboard is designed to help identify patterns, top performers, and areas of improvement for teams and players.</p>
-
-<h3>Report view</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/265a8cce-ffb6-43ce-8a0a-b4b28ec7330c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/9d68a0f8-2dc5-4d3c-865b-181c6998ad2c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/093ef66a-6529-49bf-923c-160c31ebee53" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/18dc63a3-fb0d-4c2c-b018-5289ebb832f8" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/eb937a50-f9ab-408b-b20a-91890b8524e2" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/f5878a22-658a-4e17-9cf8-4e8d7432abb6" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Tables are connected using Import mode from a CSV file.</li>
-        </ul>
-    </li>
-    <li><strong>Data Modeling</strong>
-        <ul>
-            <li>Tables are connected using a snowflake schema, with dimension tables linked to other dimension tables.</li>
-        </ul>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-            <li>Removed duplicate data.</li>
-            <li>Removed unnecessary columns.</li>
-            <li>Eliminated rows with missing data.</li>
-            <li>Reviewed historical match data and cleaned it by removing duplicates and handling missing values.</li>
-            <li>Constructed a normalized table to reduce cardinality and facilitate detailed analysis in Power BI.</li>
-            <li>Replaced inconsistent values in columns across tables.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>Used the “Group” feature in Power BI to create groups for over ranges.</li>
-            <li>Filtered data in visuals to obtain the Top N players for the selected category.</li>
-            <li>Defined measures for conditionally formatting column's color in visual.</li>
-            <li>Implemented page navigation buttons for enhanced user interaction.</li>
-            <li>DAX functions like <code>IsBlank</code>, <code>RankX</code>, <code>CountRows</code>, <code>SelectedValue</code>, <code>Switch</code>, and <code>Count</code> were utilized.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Connecting data using Import mode in Power BI.</li>
-    <li>Applying field value for conditional formatting.</li>
-    <li>Calculating measures using DAX.</li>
-    <li>Grouping data effectively.</li>
-    <li>Implementing page navigation in reports.</li>
-</ul>
-
-<h3>Insights</h3>
-<ul>
-    <li><strong>Top Teams:</strong> CSK, MI, and KKR consistently dominate in terms of playoff appearances and winning percentages, highlighting their strong performance across seasons.</li>
-    <li><strong>Batting Performance:</strong> 
-        <ul>
-            <li>Virat Kohli and Shikhar Dhawan are among the top run-scorers, showcasing their consistency across different seasons.</li>
-            <li>MS Dhoni excels in the death overs, establishing himself as one of the most reliable finishers in IPL history.</li>
-            <li>Chris Gayle and Rohit Sharma are among the top six-hitters, indicating their aggressive batting styles.</li>
-        </ul>
-    </li>
-    <li><strong>Bowling Performance:</strong> 
-        <ul>
-            <li>YS Chahal and DJ Bravo are leading wicket-takers, especially in crucial overs, making them essential to their teams' success.</li>
-            <li>Bhuvneshwar Kumar and Sandeep Sharma excel in the powerplay, demonstrating their ability to provide early breakthroughs.</li>
-        </ul>
-    </li>
-    <li><strong>Venue Analysis:</strong> 
-        <ul>
-            <li>M. Chinnaswamy Stadium and Wankhede Stadium are favorable venues for batsmen, with players like Virat Kohli and AB de Villiers scoring heavily here.</li>
-            <li>MA Chidambaram Stadium is a fortress for CSK, reflecting their home advantage.</li>
-        </ul>
-    </li>
-    <li><strong>Seasonal Patterns:</strong> 
-        <ul>
-            <li>Teams like GT and LSG have shown remarkable consistency in their early years, with high winning percentages and strong performances in key matches.</li>
-            <li>Recent seasons have seen a rise in the importance of all-rounders, with players like Ravindra Jadeja excelling in both batting and bowling departments.</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>Recommendations</h3>
-<ul>
-    <li><strong>Focus on Consistency:</strong> Teams should prioritize consistent performers like Virat Kohli and MS Dhoni, who can anchor the innings and provide stability under pressure.</li>
-    <li><strong>Strengthen Death Over Strategies:</strong> Investing in bowlers like DJ Bravo and Lasith Malinga, who excel in death overs, could significantly improve match outcomes, especially in tight situations.</li>
-    <li><strong>Leverage Home Advantage:</strong> Teams should develop strategies tailored to their home grounds, similar to CSK's dominance at MA Chidambaram Stadium, to maximize their chances of success.</li>
-    <li><strong>Develop Young Talent:</strong> Emerging teams like GT and LSG should focus on nurturing young talent to maintain their early momentum and build a strong foundation for the future.</li>
-    <li><strong>Adapt to Venue Conditions:</strong> Players and teams should continuously adapt their strategies based on venue-specific data, ensuring optimal performance across different stadiums.</li>
-</ul>
-
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 09 - Compliance & Security Dashboard</h1>
-
-<h3>Objective</h3>
-<p>To monitor and analyze security & compliance issues across multiple domains, track ownership through SPOCs and testers, and provide visibility into issue status, due dates, and workloads. The goal is to improve operational transparency, prioritize risks, and ensure timely resolution of compliance tasks.</p>
-
-<h3>Report View</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/ae14ade2-23f8-42ff-839b-21da7ddd65de" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/c6ec209c-1f89-4504-ad06-42a7b411dced" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/016d7bb6-2e9b-4d90-9eed-1cb3fbf9c200" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-  <li>
-    <h4>Data Connection</h4>
-    <ul>
-      <li>Tables are connected using Import mode from a CSV file.</li>
-      <li>Implemented a Star Schema for efficient modeling and relationships.</li>
-      <li>Created a Bridge Table using DAX to eliminate many-to-many relationships.</li>
-    </ul>
-  </li>
-  <li>
-    <h4>Data Preparation</h4>
-    <ul>
-      <li>Adjusted headers and corrected column data types.</li>
-      <li>Removed duplicate records and unnecessary columns.</li>
-      <li>Introduced a Bridge Table to enable clean relational mapping.</li>
-    </ul>
-  </li>
-  <li>
-    <h4>Calculations and Features</h4>
-    <ul>
-      <li>Used Drill Through functionality to navigate to detailed Issue Details page.</li>
-      <li>Implemented the Parameter feature to dynamically switch axis values.</li>
-      <li>Used <code>Summarize</code>, <code>DistinctCount</code> and various DAX functions to compute custom metrics.</li>
-    </ul>
-  </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-  <li>Designing and modeling data using Star Schema.</li>
-  <li>Using Bridge Tables to manage complex relationships.</li>
-  <li>Implementing Drill Through and Parameter features in Power BI.</li>
-  <li>Advanced use of DAX for summarization and calculation.</li>
-</ul>
-
-<h3>Insights and Findings</h3>
-<ul>
-  <li><strong>SPOC Activity:</strong> Angela, Robin, and Cassey are the most active SPOCs, indicating a potential need for task redistribution.</li>
-  <li><strong>Tester Workload:</strong> Fiona and Bob handle the most CT requests — optimization opportunities may exist here.</li>
-  <li><strong>Domain-wise Issue Volume:</strong> AuthTrack, CoreOps, and StratOps consistently report more issues, which may indicate higher vulnerability or reporting maturity.</li>
-  <li><strong>Overdue Issues:</strong> Multiple tasks are past due, some significantly, pointing to process bottlenecks or follow-up gaps.</li>
-</ul>
-
-<h3>Recommendations</h3>
-<ul>
-  <li><strong>Balance SPOC Responsibilities:</strong> Evaluate and distribute workload more evenly across SPOCs.</li>
-  <li><strong>Monitor Tester Capacity:</strong> Track and manage tester workload to ensure efficiency.</li>
-  <li><strong>Prioritize High-Issue Domains:</strong> Conduct root-cause analysis for frequently reported domains.</li>
-  <li><strong>Follow-up for Overdue Issues:</strong> Set up automated alerts or reminders for past-due items.</li>
-  <li><strong>Enhance Drill-through Pages:</strong> Enrich detail views with resolution time, test status, and SLA indicators.</li>
-  <li><strong>Track SLAs Visually:</strong> Introduce timeline visuals to monitor adherence to delivery expectations.</li>
-</ul>
-
-<hr style="border: 1px solid #fff; margin: 20px 0;">
-
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 10 - Car Market Analysis Dashboard</h1>
-
-<h3>Objective</h3>
-<p>To analyze car market performance across brands, models, and configurations using sales, pricing, and specification data. This dashboard empowers business users to explore vehicle trends, identify top-performing segments, and make data-driven decisions in product planning, inventory management, and marketing strategies.</p>
-
-<h3>Report View</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/b5a61669-3b33-4653-b627-abb880377f9c" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/ed46d7bf-fe47-4ca4-a421-04446ff069fd" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/94b7f8c4-9225-4724-8cff-802d72834ec9" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/8fee0d81-7a1e-472a-8e99-293ceba096b4" style="width: 80%; height: auto; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/96edfad7-038b-4f21-8e63-f9a680fcc7f3" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li>
-        <h4>Data Connection</h4>
-        <ul>
-            <li>Connected to PostgreSQL database using Import mode.</li>
-            <li>Implemented a Star Schema model with dimension and fact tables.</li>
-            <li>Used Bridge Tables to manage many-to-many relationships.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Data Preparation</h4>
-        <ul>
-            <li>Cleaned and transformed data using Power Query.</li>
-            <li>Removed duplicate rows and unnecessary columns.</li>
-            <li>Standardized categories like fuel type, body type, and transmission.</li>
-            <li>Mapped car variants such as Base, Mid, Mid-Top, and Top.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>Calculations and Features</h4>
-        <ul>
-            <li>Created DAX measures for price, sales volume, fuel type distribution, and engine capacity.</li>
-            <li>Used the Parameter feature to toggle between KPIs such as price, engine cc, and transmission type.</li>
-            <li>Implemented Conditional Formatting for dynamic color scaling based on performance metrics.</li>
-        </ul>
-    </li>
-    <li>
-        <h4>External Visuals</h4>
-        <ul>
-            <li>Used Box Plot to visualize price distribution by model and variant.</li>
-            <li>Used Bubble Chart to analyze model-wise impact based on seating, fuel type, and engine cc.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Connecting PostgreSQL data using Import mode in Power BI.</li>
-    <li>Modeling relational data with Star Schema and Bridge Tables.</li>
-    <li>Using external visuals like Box Plot and Bubble Chart effectively.</li>
-    <li>Creating custom KPIs with DAX functions like <code>SUMX</code>, <code>CALCULATE</code>, and <code>SWITCH</code>.</li>
-    <li>Implementing advanced Power BI features such as Parameter and Conditional Formatting.</li>
-</ul>
-
-<h3>Insights and Findings</h3>
-<ul>
-    <li><strong>Brand Dominance:</strong> Certain brands dominate the mid and top segments, indicating strong customer loyalty and perceived value.</li>
-    <li><strong>Fuel Preference:</strong> Petrol variants are still the most popular, but hybrid and electric models show early traction.</li>
-    <li><strong>Transmission:</strong> Manual transmissions dominate entry-level segments; automatic options gain traction in premium variants.</li>
-    <li><strong>Body Type Popularity:</strong> SUVs and Hatchbacks are the most sold body types, indicating a focus on utility and space.</li>
-    <li><strong>Price Spread:</strong> Box plots reveal price volatility across similar variant types, helping identify pricing gaps.</li>
-</ul>
-
-<h3>Recommendations</h3>
-<ul>
-    <li><strong>Mid Variant Focus:</strong> High demand in the mid variant category calls for marketing and production alignment.</li>
-    <li><strong>EV Market Entry:</strong> Increase hybrid and electric vehicle offerings to stay ahead in a transitioning market.</li>
-    <li><strong>Inventory Planning:</strong> Align inventory with trends in transmission, body type, and fuel category.</li>
-    <li><strong>Parameter Expansion:</strong> Add more toggle fields for comparative analysis across performance, mileage, or resale value.</li>
-    <li><strong>Improve Visual Navigation:</strong> Enhance bubble chart interactivity and add tooltips for deeper insights.</li>
-</ul>
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-
-<!-- <h1>USECASE 10 - Bank Loan Analysis</h1>
-
-<h3>Objective</h3> To analyze customer demographics and loan data to identify trends and provide actionable insights for improving loan products and marketing strategies.
-
-<h3>Report view</h3>
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/cea26c03-2708-4287-bfe1-f6e81cdf2359" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Tables are connected via Import mode using an Excel file.</li>
-        </ul>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-            <li>Adjusted headers and corrected column data types.</li>
-            <li>Removed duplicate data and unnecessary columns.</li>
-            <li>Eliminated rows with missing data.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>Implemented the Parameter feature to create slicers for switching between axis values.</li>
-            <li>Utilized various DAX functions such as <code>Average</code>, <code>Calculate</code>, <code>Date</code>, <code>Month</code>, <code>Day</code>, <code>Format</code>, <code>CountRows</code>, <code>Filter</code>, etc.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Calculating measures using DAX.</li>
-    <li>Implementing the Parameter feature for dynamic visualizations.</li>
-</ul>
-
-<h3>Insights</h3>
-<ul>
-<li>Age Groups:
-  <ul>
-    <li><strong>Observation:</strong> 31-40 age group has the most housing loans; 19-30 age group prefers other loans</li>
-    <li><strong>Implication:</strong> Target marketing for younger customers with specific loan products</li>
-  </ul>
-</li>
-<li>Job Categories:
-  <ul>
-    <li><strong>Observation:</strong> Blue-collar and self-employed have the most housing loans; students and unemployed have the least</li>
-    <li><strong>Implication:</strong> Customize loans for blue-collar and self-employed individuals</li>
-  </ul>
-</li>
-<li>Marital Status:
-  <ul>
-    <li><strong>Observation:</strong> Married individuals take the most loans</li>
-    <li><strong>Implication:</strong> Develop family-focused loan products</li>
-  </ul>
-</li>
-<li>Monthly Distribution:
-  <ul>
-    <li><strong>Observation:</strong> May has the highest, December the lowest loan disbursements</li>
-    <li><strong>Implication:</strong> Plan strategic marketing for peak months</li>
-  </ul>
-</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-<li><strong>Target Younger Demographics:</strong> Create loans for 19-30 age group inclined towards other loans</li>
-<li><strong>Customize for Blue-collar and Self-employed:</strong> Offer loan products tailored to their needs</li>
-<li><strong>Family-focused Loan Products:</strong> Introduce and market family-oriented loans</li>
-<li><strong>Seasonal Loan Campaigns:</strong> Plan marketing campaigns during peak loan months (e.g., May)</li>
-<li><strong>Support for High-risk Jobs:</strong> Provide financial advice for customers in high-risk jobs to help manage loans better</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;"> -->
-<!------------------------------------------------------------------ End -------------------------------------------------------------------------->
-<h1>USECASE 11 - Bank Loan Analysis</h1>
-
-<h3>Objective</h3> To analyze retail sales performance by tracking key metrics across regions, products, and time periods, enabling stakeholders to identify trends, assess targets, and make data-driven decisions.
-
-<h3>Report view</h3>
-
-<div style="width: 100%; text-align: center; margin-bottom: 20px;">
-  <img src="https://github.com/user-attachments/assets/86a252b4-f2f5-4a97-a4f4-0368aaab143b" style="width: 80%; height: auto;">
-</div>
-
-<h3>Steps</h3>
-<ol>
-    <li><strong>Data Connection</strong>
-        <ul>
-            <li>Source Integration: Historical data files from a local folder were imported and combined to create a unified dataset whereas Dimension table were fetched from PostgreSQL database.</li>
-        </ul>
-    </li>
-    <li><strong>Data Modelling</strong>
-        <ul>
-            <li>Schema: Organized in a Snowflake schema with a central Fact Sales table linked to dimension tables for date, country, product, and sales representatives.</li>
-          <li>Connections: Utilized Import mode for sales data, with real-time updates via DirectQuery for dimension tables in PostgreSQL.</li>
-    </li>
-    <li><strong>Data Preparation</strong>
-        <ul>
-           <li>Data Cleaning: Standardized headers, removed duplicates, and formatted data consistently.</li>
-          <li>Transformation: Created new columns for date using "Column by Example" for better formatting</li>
-      <li>Time Support: Added a date lookup table for time-based calculations.</li>
-        </ul>
-    </li>
-    <li><strong>Calculations/Features</strong>
-        <ul>
-            <li>DAX Functions: Used CALCULATE, AVERAGE, and SUM for metrics, and time functions like PREVIOUSQUARTER() for period comparisons.</li>
-            <li>Date Calculations: Employed CALENDAR() to create a date lookup table for consistency in date-based analysis.</li>
-          <li>Icon Indicators: Used icons to display growth or decline in average revenue and profit, giving quick visual cues on daily trends.</li>
-        </ul>
-    </li>
-</ol>
-
-<h3>Skills Acquired</h3>
-<ul>
-    <li>Advanced DAX functions for KPI calculations and time intelligence.</li>
-    <li>Proficiency in data cleaning, Snowflake schema modeling, and applying Import, Dual, and DirectQuery modes.</li>
-</ul>
-
-<h3>Insights</h3>
-<ul>
-<li>Revenue & Units Sold: Declines noted in recent quarters, possibly indicating seasonal or emerging challenges.</li>
-<li>Top Performers: Specific products and sales reps, notably "El Bob" and "Jan Novotny," significantly contribute to revenue.</li>
-<li>Profit Volatility: Monthly Gross Profit Percent shows fluctuations, suggesting areas for deeper analysis.</li>
-</ul>
-
-<h3>Recommendations:</h3>
-<ul>
-<li>Investigate declining metrics to identify underlying issues.</li>
-<li>Apply successful strategies from high-performing products and reps to improve other areas.</li>
-<li>Further analyze Gross Profit Percent fluctuations to manage profit stability.</li>
-<li>Add filters or drill-downs for more granular analysis by region and product category.</li>
-</ul>
-<hr style="border: 1px solid #fff; margin: 20px 0;">
