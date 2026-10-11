@@ -6,7 +6,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=F2C811&center=true&vCenter=true&width=800&lines=7%2B+years+delivering+Power+BI+in+Insurance%2C+Banking%2C+Retail+%26+Energy;From+requirements+to+production+support%2C+end+to+end;Semantic+models+%C2%B7+DAX+%C2%B7+RLS+%C2%B7+Refresh+automation" alt="Typing intro"></a>
 
 <br>
-<a href="https://github.com/ash15h/Power-Bi-Dashboards/blob/main/Ashish_Anand_Power_BI_Resume.pdf"><img src="https://img.shields.io/badge/Resume-Download%20PDF-F2C811?style=for-the-badge&logo=readme&logoColor=black" alt="Resume"></a>
+<a href="https://github.com/ash15h/Power-Bi-Dashboards/raw/main/Ashish_Anand_Power_BI_Resume.pdf"><img src="https://img.shields.io/badge/Resume-Download%20PDF-F2C811?style=for-the-badge&logo=readme&logoColor=black" alt="Resume"></a>
 <a href="mailto:anand_ashish96@outlook.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
 <a href="https://www.linkedin.com/in/anandash15h/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <img src="https://img.shields.io/badge/Microsoft%20Certified-PL--300-107C10?style=for-the-badge&logo=microsoft&logoColor=white" alt="PL-300">
@@ -688,7 +688,7 @@ If you are hiring for a **Senior Power BI Developer** or **BI delivery** role an
 
 <a href="mailto:anand_ashish96@outlook.com"><img src="https://img.shields.io/badge/Email-anand__ashish96%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
 <a href="https://www.linkedin.com/in/anandash15h/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://github.com/ash15h/Power-Bi-Dashboards/blob/main/Ashish_Anand_Power_BI_Resume.pdf"><img src="https://img.shields.io/badge/Resume-Download%20PDF-F2C811?style=for-the-badge&logoColor=black" alt="Resume"></a>
+<a href="https://github.com/ash15h/Power-Bi-Dashboards/raw/main/Ashish_Anand_Power_BI_Resume.pdf"><img src="https://img.shields.io/badge/Resume-Download%20PDF-F2C811?style=for-the-badge&logoColor=black" alt="Resume"></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f1f1f,100:F2C811&height=100&section=footer" width="100%" alt="footer">
 
